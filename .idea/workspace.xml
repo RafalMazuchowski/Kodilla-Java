@@ -2,12 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a245913f-c98d-4a5c-80fb-23f011574553" name="Default Changelist" comment="An indispensable forum user (7.2)">
-      <change afterPath="$PROJECT_DIR$/kodilla-stream/src/main/java/com/kodilla/stream/book/Book.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kodilla-stream/src/main/java/com/kodilla/stream/book/BookDirectory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kodilla-stream/src/main/java/com/kodilla/stream/forumuser/Forum.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kodilla-stream/src/main/java/com/kodilla/stream/forumuser/ForumUser.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kodilla-stream/src/main/java/com/kodilla/stream/forumuser/StreamMain.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kodilla-stream/src/main/java/com/kodilla/stream/person/People.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kodilla-exception/build.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kodilla-exception/src/main/java/com/kodilla/exception/io/FileReader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kodilla-exception/src/main/java/com/kodilla/exception/main/ExceptionModuleRunner.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kodilla-exception/src/main/java/com/kodilla/exception/test/FirstChallenge.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kodilla-exception/src/main/resources/file/names.txt" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/kodilla-testing/src/main/java/com/kodilla/testing/forum/statistics/Statistics.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/kodilla-testing/src/main/java/com/kodilla/testing/forum/statistics/StatisticsCounter.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/kodilla-testing/src/main/java/com/kodilla/testing/weather/stub/Temperatures.java" afterDir="false" />
@@ -22,9 +21,13 @@
       <change beforePath="$PROJECT_DIR$/.gradle/6.0.1/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.0.1/fileHashes/fileHashes.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/6.0.1/javaCompile/classAnalysis.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.0.1/javaCompile/classAnalysis.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/6.0.1/javaCompile/javaCompile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.0.1/javaCompile/javaCompile.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/6.0.1/javaCompile/taskHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.0.1/javaCompile/taskHistory.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/kodilla-stream/src/main/java/com/kodilla/stream/StreamMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/kodilla-stream/src/main/java/com/kodilla/stream/StreamMain.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/settings.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/settings.gradle" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -72,18 +75,47 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/kodilla-testing/src/main/java/com/kodilla/testing/weather/mock" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="terminal" />
+    <property name="settings.editor.selected.configurable" value="vcs.Git" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Programista\IdeaProjects\kodilla-course\kodilla-exception\src\main\resources\file" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\Programista\IdeaProjects\kodilla-course\kodilla-testing\src\main\java\com\kodilla\testing\weather\mock" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.StreamMain (2)">
+  <component name="RunManager" selected="Application.FirstChallenge">
+    <configuration name="ExceptionModuleRunner" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.kodilla.exception.main.ExceptionModuleRunner" />
+      <module name="kodilla-course.kodilla-exception.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.kodilla.exception.main.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="FirstChallenge" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.kodilla.exception.test.FirstChallenge" />
+      <module name="kodilla-course.kodilla-exception.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.kodilla.exception.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="StreamMain (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.kodilla.stream.beautifier.StreamMain" />
       <module name="kodilla-course.kodilla-stream.main" />
@@ -123,46 +155,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ShapeCollectorTestSuite" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="--tests &quot;com.kodilla.testing.shape.ShapeCollectorTestSuite&quot;" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value=":kodilla-testing:cleanTest" />
-            <option value=":kodilla-testing:test" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
-      <method v="2" />
-    </configuration>
-    <configuration name="ShapeCollectorTestSuite.testRemoveFigureWhichDoesNotExist" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="--tests &quot;com.kodilla.testing.shape.ShapeCollectorTestSuite.testRemoveFigureWhichDoesNotExist&quot;" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value=":kodilla-testing:cleanTest" />
-            <option value=":kodilla-testing:test" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
-      <method v="2" />
-    </configuration>
     <configuration name="KodillaCourseApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="kodilla-course.main" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.kodilla.KodillaCourseApplication" />
@@ -172,11 +164,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.FirstChallenge" />
+        <item itemvalue="Application.ExceptionModuleRunner" />
         <item itemvalue="Application.StreamMain (2)" />
         <item itemvalue="Application.StreamMain (1)" />
         <item itemvalue="Application.StreamMain" />
-        <item itemvalue="Gradle.ShapeCollectorTestSuite" />
-        <item itemvalue="Gradle.ShapeCollectorTestSuite.testRemoveFigureWhichDoesNotExist" />
       </list>
     </recent_temporary>
   </component>
@@ -211,7 +203,10 @@
       <workItem from="1580039787702" duration="24869000" />
       <workItem from="1580122635084" duration="5764000" />
       <workItem from="1580171241988" duration="2652000" />
-      <workItem from="1580226325954" duration="5668000" />
+      <workItem from="1580226325954" duration="8003000" />
+      <workItem from="1580308500084" duration="1725000" />
+      <workItem from="1580319873684" duration="495000" />
+      <workItem from="1580320486623" duration="2745000" />
     </task>
     <task id="LOCAL-00001" summary="6.1. Utworzenie modułu kodilla-testing">
       <created>1579565349217</created>
@@ -255,7 +250,14 @@
       <option name="project" value="LOCAL" />
       <updated>1580084265814</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="The functional walk through the forum users list (7.3)">
+      <created>1580241446758</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1580241446758</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -269,13 +271,14 @@
     <MESSAGE value="We collect figures (and test it!) (6.4)" />
     <MESSAGE value="Text enhancer (7.1)" />
     <MESSAGE value="An indispensable forum user (7.2)" />
-    <option name="LAST_COMMIT_MESSAGE" value="An indispensable forum user (7.2)" />
+    <MESSAGE value="The functional walk through the forum users list (7.3)" />
+    <option name="LAST_COMMIT_MESSAGE" value="The functional walk through the forum users list (7.3)" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="1641" y="23" key="#Project_Structure" timestamp="1579966032523">
+    <state x="1641" y="23" key="#Project_Structure" timestamp="1580246316845">
       <screen x="1366" y="0" width="1366" height="728" />
     </state>
-    <state x="1641" y="23" key="#Project_Structure/0.0.1366.728/1366.0.1366.728@1366.0.1366.728" timestamp="1579966032523" />
+    <state x="1641" y="23" key="#Project_Structure/0.0.1366.728/1366.0.1366.728@1366.0.1366.728" timestamp="1580246316845" />
     <state x="1779" y="120" key="#com.intellij.codeInsight.editorActions.RestoreReferencesDialog" timestamp="1579985800922">
       <screen x="1366" y="0" width="1366" height="728" />
     </state>
@@ -292,38 +295,51 @@
       <screen x="1366" y="0" width="1366" height="728" />
     </state>
     <state x="1779" y="112" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1366.728/1366.0.1366.728@1366.0.1366.728" timestamp="1579712238605" />
-    <state x="1544" y="0" key="CommitChangelistDialog2" timestamp="1580084260511">
+    <state x="1544" y="0" key="CommitChangelistDialog2" timestamp="1580241439076">
       <screen x="1366" y="0" width="1366" height="728" />
     </state>
-    <state x="1544" y="0" key="CommitChangelistDialog2/0.0.1366.728/1366.0.1366.728@1366.0.1366.728" timestamp="1580084260511" />
+    <state x="1544" y="0" key="CommitChangelistDialog2/0.0.1366.728/1366.0.1366.728@1366.0.1366.728" timestamp="1580241439076" />
     <state x="1458" y="92" width="1182" height="544" key="DiffContextDialog" timestamp="1579982620916">
       <screen x="1366" y="0" width="1366" height="728" />
     </state>
     <state x="1458" y="92" width="1182" height="544" key="DiffContextDialog/0.0.1366.728/1366.0.1366.728@1366.0.1366.728" timestamp="1579982620916" />
-    <state width="1323" height="192" key="GridCell.Tab.0.bottom" timestamp="1580241182682">
+    <state x="461" y="120" key="FileChooserDialogImpl" timestamp="1580320243382">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="461" y="120" key="FileChooserDialogImpl/0.0.1366.728/1366.0.1366.728@0.0.1366.728" timestamp="1580320243382" />
+    <state width="1323" height="192" key="GridCell.Tab.0.bottom" timestamp="1580334920514">
       <screen x="1366" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="192" key="GridCell.Tab.0.bottom/0.0.1366.728/1366.0.1366.728@1366.0.1366.728" timestamp="1580241182682" />
-    <state width="1323" height="192" key="GridCell.Tab.0.center" timestamp="1580241182681">
+    <state width="1286" height="163" key="GridCell.Tab.0.bottom/0.0.1366.728/1366.0.1366.728@0.0.1366.728" timestamp="1580320401625" />
+    <state width="1323" height="192" key="GridCell.Tab.0.bottom/0.0.1366.728/1366.0.1366.728@1366.0.1366.728" timestamp="1580334920514" />
+    <state width="1323" height="192" key="GridCell.Tab.0.center" timestamp="1580334920513">
       <screen x="1366" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="192" key="GridCell.Tab.0.center/0.0.1366.728/1366.0.1366.728@1366.0.1366.728" timestamp="1580241182681" />
-    <state width="1323" height="192" key="GridCell.Tab.0.left" timestamp="1580241182681">
+    <state width="1286" height="163" key="GridCell.Tab.0.center/0.0.1366.728/1366.0.1366.728@0.0.1366.728" timestamp="1580320401625" />
+    <state width="1323" height="192" key="GridCell.Tab.0.center/0.0.1366.728/1366.0.1366.728@1366.0.1366.728" timestamp="1580334920513" />
+    <state width="1323" height="192" key="GridCell.Tab.0.left" timestamp="1580334920513">
       <screen x="1366" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="192" key="GridCell.Tab.0.left/0.0.1366.728/1366.0.1366.728@1366.0.1366.728" timestamp="1580241182681" />
-    <state width="1323" height="192" key="GridCell.Tab.0.right" timestamp="1580241182682">
+    <state width="1286" height="163" key="GridCell.Tab.0.left/0.0.1366.728/1366.0.1366.728@0.0.1366.728" timestamp="1580320401624" />
+    <state width="1323" height="192" key="GridCell.Tab.0.left/0.0.1366.728/1366.0.1366.728@1366.0.1366.728" timestamp="1580334920513" />
+    <state width="1323" height="192" key="GridCell.Tab.0.right" timestamp="1580334920514">
       <screen x="1366" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="192" key="GridCell.Tab.0.right/0.0.1366.728/1366.0.1366.728@1366.0.1366.728" timestamp="1580241182682" />
-    <state x="1550" y="7" key="SettingsEditor" timestamp="1579564253305">
+    <state width="1286" height="163" key="GridCell.Tab.0.right/0.0.1366.728/1366.0.1366.728@0.0.1366.728" timestamp="1580320401625" />
+    <state width="1323" height="192" key="GridCell.Tab.0.right/0.0.1366.728/1366.0.1366.728@1366.0.1366.728" timestamp="1580334920514" />
+    <state x="184" y="7" key="SettingsEditor" timestamp="1580320249562">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="184" y="7" key="SettingsEditor/0.0.1366.728/1366.0.1366.728@0.0.1366.728" timestamp="1580320249562" />
+    <state x="1550" y="7" key="SettingsEditor/0.0.1366.728/1366.0.1366.728@1366.0.1366.728" timestamp="1580317636418" />
+    <state x="1641" y="98" key="Vcs.Push.Dialog.v2" timestamp="1580241454216">
       <screen x="1366" y="0" width="1366" height="728" />
     </state>
-    <state x="1550" y="7" key="SettingsEditor/0.0.1366.728/1366.0.1366.728@1366.0.1366.728" timestamp="1579564253305" />
-    <state x="1641" y="98" key="Vcs.Push.Dialog.v2" timestamp="1580084270801">
-      <screen x="1366" y="0" width="1366" height="728" />
+    <state x="1641" y="98" key="Vcs.Push.Dialog.v2/0.0.1366.728/1366.0.1366.728@1366.0.1366.728" timestamp="1580241454216" />
+    <state x="391" y="193" key="com.intellij.ide.util.TipDialog" timestamp="1580319890584">
+      <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="1641" y="98" key="Vcs.Push.Dialog.v2/0.0.1366.728/1366.0.1366.728@1366.0.1366.728" timestamp="1580084270801" />
+    <state x="391" y="193" key="com.intellij.ide.util.TipDialog/0.0.1366.728/1366.0.1366.728@0.0.1366.728" timestamp="1580319890584" />
     <state x="1858" y="282" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1579994745058">
       <screen x="1366" y="0" width="1366" height="728" />
     </state>
@@ -336,21 +352,21 @@
       <screen x="1366" y="0" width="1366" height="728" />
     </state>
     <state x="1366" y="0" width="737" height="728" key="find.popup/0.0.1366.728/1366.0.1366.728@1366.0.1366.728" timestamp="1579807772869" />
-    <state x="1444" y="0" key="new project wizard" timestamp="1580054345170">
+    <state x="1444" y="0" key="new project wizard" timestamp="1580246230135">
       <screen x="1366" y="0" width="1366" height="728" />
     </state>
-    <state x="1444" y="0" key="new project wizard/0.0.1366.728/1366.0.1366.728@1366.0.1366.728" timestamp="1580054345170" />
+    <state x="1444" y="0" key="new project wizard/0.0.1366.728/1366.0.1366.728@1366.0.1366.728" timestamp="1580246230135" />
     <state x="1791" y="0" key="refactoring.ChangeSignatureDialog" timestamp="1580239351136">
       <screen x="1366" y="0" width="1366" height="728" />
     </state>
     <state x="1791" y="0" key="refactoring.ChangeSignatureDialog/0.0.1366.728/1366.0.1366.728@1366.0.1366.728" timestamp="1580239351136" />
-    <state x="1705" y="162" key="run.anything.popup" timestamp="1580238809295">
+    <state x="1705" y="162" key="run.anything.popup" timestamp="1580319508696">
       <screen x="1366" y="0" width="1366" height="728" />
     </state>
-    <state x="1705" y="162" key="run.anything.popup/0.0.1366.728/1366.0.1366.728@1366.0.1366.728" timestamp="1580238809295" />
-    <state x="1712" y="49" width="672" height="678" key="search.everywhere.popup" timestamp="1579957576095">
+    <state x="1705" y="162" key="run.anything.popup/0.0.1366.728/1366.0.1366.728@1366.0.1366.728" timestamp="1580319508696" />
+    <state x="1712" y="49" width="672" height="678" key="search.everywhere.popup" timestamp="1580317632455">
       <screen x="1366" y="0" width="1366" height="728" />
     </state>
-    <state x="1712" y="49" width="672" height="678" key="search.everywhere.popup/0.0.1366.728/1366.0.1366.728@1366.0.1366.728" timestamp="1579957576095" />
+    <state x="1712" y="49" width="672" height="678" key="search.everywhere.popup/0.0.1366.728/1366.0.1366.728@1366.0.1366.728" timestamp="1580317632455" />
   </component>
 </project>
