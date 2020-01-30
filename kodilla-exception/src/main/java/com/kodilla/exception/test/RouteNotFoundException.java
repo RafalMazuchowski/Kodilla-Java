@@ -1,6 +1,6 @@
 package com.kodilla.exception.test;
 
-public class RouteNotFoundException extends Exception {
+public class RouteNotFoundException extends IndexOutOfBoundsException {
 
     public RouteNotFoundException(String message) throws RouteNotFoundException {
         super(message);

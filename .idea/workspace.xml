@@ -2,17 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a245913f-c98d-4a5c-80fb-23f011574553" name="Default Changelist" comment="An indispensable forum user (7.2)">
-      <change afterPath="$PROJECT_DIR$/kodilla-exception/src/main/java/com/kodilla/exception/index/IndexExceptionRunner.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kodilla-exception/src/main/java/com/kodilla/exception/index/VideoCollector.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kodilla-exception/src/main/java/com/kodilla/exception/nullpointer/MessageNotSentException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kodilla-exception/src/main/java/com/kodilla/exception/nullpointer/MessageSender.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kodilla-exception/src/main/java/com/kodilla/exception/nullpointer/NullPointerExceptionRunner.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kodilla-exception/src/main/java/com/kodilla/exception/nullpointer/User.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kodilla-exception/src/main/java/com/kodilla/exception/test/AirportsDatabase.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kodilla-exception/src/main/java/com/kodilla/exception/test/Flight.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kodilla-exception/src/main/java/com/kodilla/exception/test/FlightApp.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kodilla-exception/src/main/java/com/kodilla/exception/test/FlightSearcher.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kodilla-exception/src/main/java/com/kodilla/exception/test/RouteNotFoundException.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/kodilla-testing/src/main/java/com/kodilla/testing/forum/statistics/Statistics.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/kodilla-testing/src/main/java/com/kodilla/testing/forum/statistics/StatisticsCounter.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/kodilla-testing/src/main/java/com/kodilla/testing/weather/stub/Temperatures.java" afterDir="false" />
@@ -21,14 +10,8 @@
       <change afterPath="$PROJECT_DIR$/kodilla-testing/src/test/java/com/kodilla/testing/weather/mock/WeatherForecastTestSuite.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/kodilla-testing/src/test/java/com/kodilla/testing/weather/stub/TemperaturesStub.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/kodilla-testing/src/test/java/com/kodilla/testing/weather/stub/WeatherForecastTestSuite.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/6.0.1/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.0.1/executionHistory/executionHistory.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/6.0.1/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.0.1/executionHistory/executionHistory.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/6.0.1/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.0.1/fileHashes/fileHashes.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/6.0.1/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.0.1/fileHashes/fileHashes.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/6.0.1/javaCompile/classAnalysis.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.0.1/javaCompile/classAnalysis.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/6.0.1/javaCompile/javaCompile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.0.1/javaCompile/javaCompile.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/kodilla-exception/src/main/java/com/kodilla/exception/test/RouteNotFoundException.java" beforeDir="false" afterPath="$PROJECT_DIR$/kodilla-exception/src/main/java/com/kodilla/exception/test/RouteNotFoundException.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -208,7 +191,7 @@
       <workItem from="1580308500084" duration="1725000" />
       <workItem from="1580319873684" duration="495000" />
       <workItem from="1580320486623" duration="3771000" />
-      <workItem from="1580381043292" duration="20287000" />
+      <workItem from="1580381043292" duration="20477000" />
     </task>
     <task id="LOCAL-00001" summary="6.1. Utworzenie modułu kodilla-testing">
       <created>1579565349217</created>
@@ -273,7 +256,14 @@
       <option name="project" value="LOCAL" />
       <updated>1580397362567</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="Exception knowledge (8.4)">
+      <created>1580422193578</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1580422193578</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -290,7 +280,8 @@
     <MESSAGE value="The functional walk through the forum users list (7.3)" />
     <MESSAGE value="Try! catch! finally! (8.2)" />
     <MESSAGE value="An exception handling (8.3)" />
-    <option name="LAST_COMMIT_MESSAGE" value="An exception handling (8.3)" />
+    <MESSAGE value="Exception knowledge (8.4)" />
+    <option name="LAST_COMMIT_MESSAGE" value="Exception knowledge (8.4)" />
   </component>
   <component name="WindowStateProjectService">
     <state x="1641" y="23" key="#Project_Structure" timestamp="1580246316845">
@@ -313,10 +304,10 @@
       <screen x="1366" y="0" width="1366" height="728" />
     </state>
     <state x="1779" y="112" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1366.728/1366.0.1366.728@1366.0.1366.728" timestamp="1579712238605" />
-    <state x="1544" y="0" key="CommitChangelistDialog2" timestamp="1580397358810">
+    <state x="1544" y="0" key="CommitChangelistDialog2" timestamp="1580422275022">
       <screen x="1366" y="0" width="1366" height="728" />
     </state>
-    <state x="1544" y="0" key="CommitChangelistDialog2/0.0.1366.728/1366.0.1366.728@1366.0.1366.728" timestamp="1580397358810" />
+    <state x="1544" y="0" key="CommitChangelistDialog2/0.0.1366.728/1366.0.1366.728@1366.0.1366.728" timestamp="1580422275022" />
     <state x="1458" y="92" width="1182" height="544" key="DiffContextDialog" timestamp="1579982620916">
       <screen x="1366" y="0" width="1366" height="728" />
     </state>
@@ -350,10 +341,10 @@
     </state>
     <state x="184" y="7" key="SettingsEditor/0.0.1366.728/1366.0.1366.728@0.0.1366.728" timestamp="1580320249562" />
     <state x="1550" y="7" key="SettingsEditor/0.0.1366.728/1366.0.1366.728@1366.0.1366.728" timestamp="1580335447684" />
-    <state x="1641" y="98" key="Vcs.Push.Dialog.v2" timestamp="1580397364998">
+    <state x="1641" y="98" key="Vcs.Push.Dialog.v2" timestamp="1580422204950">
       <screen x="1366" y="0" width="1366" height="728" />
     </state>
-    <state x="1641" y="98" key="Vcs.Push.Dialog.v2/0.0.1366.728/1366.0.1366.728@1366.0.1366.728" timestamp="1580397364997" />
+    <state x="1641" y="98" key="Vcs.Push.Dialog.v2/0.0.1366.728/1366.0.1366.728@1366.0.1366.728" timestamp="1580422204950" />
     <state x="391" y="193" key="com.intellij.ide.util.TipDialog" timestamp="1580319890584">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
