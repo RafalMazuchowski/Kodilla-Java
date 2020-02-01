@@ -2,21 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a245913f-c98d-4a5c-80fb-23f011574553" name="Default Changelist" comment="An indispensable forum user (7.2)">
-      <change afterPath="$PROJECT_DIR$/kodilla-stream/src/main/java/com/kodilla/stream/invoice/simple/SimpleInvoice.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kodilla-stream/src/main/java/com/kodilla/stream/invoice/simple/SimpleItem.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kodilla-stream/src/main/java/com/kodilla/stream/invoice/simple/SimpleProduct.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kodilla-stream/src/main/java/com/kodilla/stream/sand/Africa.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kodilla-stream/src/main/java/com/kodilla/stream/sand/Asia.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kodilla-stream/src/main/java/com/kodilla/stream/sand/Europe.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kodilla-stream/src/main/java/com/kodilla/stream/sand/SandStorage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kodilla-stream/src/main/java/com/kodilla/stream/world/Continent.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kodilla-stream/src/main/java/com/kodilla/stream/world/Country.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kodilla-stream/src/main/java/com/kodilla/stream/world/World.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kodilla-stream/src/test/java/com/kodilla/stream/forum/ForumUser.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kodilla-stream/src/test/java/com/kodilla/stream/forum/ForumUserTestSuite.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kodilla-stream/src/test/java/com/kodilla/stream/invoice/simple/SimpleInvoiceTestSuite.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kodilla-stream/src/test/java/com/kodilla/stream/sand/SandStorageTestSuite.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kodilla-stream/src/test/java/com/kodilla/stream/world/WorldTestSuite.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/kodilla-testing/src/main/java/com/kodilla/testing/forum/statistics/Statistics.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/kodilla-testing/src/main/java/com/kodilla/testing/forum/statistics/StatisticsCounter.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/kodilla-testing/src/main/java/com/kodilla/testing/weather/stub/Temperatures.java" afterDir="false" />
@@ -35,8 +20,10 @@
       <change beforePath="$PROJECT_DIR$/.gradle/6.0.1/javaCompile/javaCompile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.0.1/javaCompile/javaCompile.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/6.0.1/javaCompile/taskHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.0.1/javaCompile/taskHistory.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/kodilla-stream/src/main/java/com/kodilla/stream/world/Continent.java" beforeDir="false" afterPath="$PROJECT_DIR$/kodilla-stream/src/main/java/com/kodilla/stream/world/Continent.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/kodilla-stream/src/main/java/com/kodilla/stream/world/World.java" beforeDir="false" afterPath="$PROJECT_DIR$/kodilla-stream/src/main/java/com/kodilla/stream/world/World.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/kodilla-stream/src/test/java/com/kodilla/stream/world/WorldTestSuite.java" beforeDir="false" afterPath="$PROJECT_DIR$/kodilla-stream/src/test/java/com/kodilla/stream/world/WorldTestSuite.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -180,7 +167,7 @@
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
         <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="--tests &quot;com.kodilla.stream.world.WorldTestSuite&quot;" />
+        <option name="scriptParameters" value="--tests &quot;com.kodilla.stream.world.WorldTestSuite&quot; --stacktrace" />
         <option name="taskDescriptions">
           <list />
         </option>
@@ -248,7 +235,8 @@
       <workItem from="1580319873684" duration="495000" />
       <workItem from="1580320486623" duration="3771000" />
       <workItem from="1580381043292" duration="21241000" />
-      <workItem from="1580563521262" duration="18645000" />
+      <workItem from="1580563521262" duration="23440000" />
+      <workItem from="1580597827516" duration="1552000" />
     </task>
     <task id="LOCAL-00001" summary="6.1. Utworzenie modułu kodilla-testing">
       <created>1579565349217</created>
@@ -327,7 +315,14 @@
       <option name="project" value="LOCAL" />
       <updated>1580422318815</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="Calculate the number of people in the world (7.4)">
+      <created>1580592918139</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1580592918139</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -345,7 +340,8 @@
     <MESSAGE value="Try! catch! finally! (8.2)" />
     <MESSAGE value="An exception handling (8.3)" />
     <MESSAGE value="Exception knowledge (8.4)" />
-    <option name="LAST_COMMIT_MESSAGE" value="Exception knowledge (8.4)" />
+    <MESSAGE value="Calculate the number of people in the world (7.4)" />
+    <option name="LAST_COMMIT_MESSAGE" value="Calculate the number of people in the world (7.4)" />
   </component>
   <component name="WindowStateProjectService">
     <state x="1641" y="23" key="#Project_Structure" timestamp="1580567571679">
@@ -368,10 +364,10 @@
       <screen x="1366" y="0" width="1366" height="728" />
     </state>
     <state x="1779" y="112" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1366.728/1366.0.1366.728@1366.0.1366.728" timestamp="1580585242012" />
-    <state x="1544" y="0" key="CommitChangelistDialog2" timestamp="1580422316365">
+    <state x="1544" y="0" key="CommitChangelistDialog2" timestamp="1580592909702">
       <screen x="1366" y="0" width="1366" height="728" />
     </state>
-    <state x="1544" y="0" key="CommitChangelistDialog2/0.0.1366.728/1366.0.1366.728@1366.0.1366.728" timestamp="1580422316365" />
+    <state x="1544" y="0" key="CommitChangelistDialog2/0.0.1366.728/1366.0.1366.728@1366.0.1366.728" timestamp="1580592909702" />
     <state x="1458" y="92" width="1182" height="544" key="DiffContextDialog" timestamp="1580422379270">
       <screen x="1366" y="0" width="1366" height="728" />
     </state>
@@ -380,43 +376,59 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="461" y="120" key="FileChooserDialogImpl/0.0.1366.728/1366.0.1366.728@0.0.1366.728" timestamp="1580320243382" />
-    <state width="1323" height="192" key="GridCell.Tab.0.bottom" timestamp="1580592789285">
+    <state width="1323" height="192" key="GridCell.Tab.0.bottom" timestamp="1580599819983">
       <screen x="1366" y="0" width="1366" height="728" />
     </state>
     <state width="1286" height="163" key="GridCell.Tab.0.bottom/0.0.1366.728/1366.0.1366.728@0.0.1366.728" timestamp="1580320401625" />
-    <state width="1323" height="192" key="GridCell.Tab.0.bottom/0.0.1366.728/1366.0.1366.728@1366.0.1366.728" timestamp="1580592789285" />
-    <state width="1323" height="192" key="GridCell.Tab.0.center" timestamp="1580592789285">
+    <state width="1323" height="192" key="GridCell.Tab.0.bottom/0.0.1366.728/1366.0.1366.728@1366.0.1366.728" timestamp="1580599819983" />
+    <state width="1323" height="192" key="GridCell.Tab.0.center" timestamp="1580599819982">
       <screen x="1366" y="0" width="1366" height="728" />
     </state>
     <state width="1286" height="163" key="GridCell.Tab.0.center/0.0.1366.728/1366.0.1366.728@0.0.1366.728" timestamp="1580320401625" />
-    <state width="1323" height="192" key="GridCell.Tab.0.center/0.0.1366.728/1366.0.1366.728@1366.0.1366.728" timestamp="1580592789285" />
-    <state width="1323" height="192" key="GridCell.Tab.0.left" timestamp="1580592789285">
+    <state width="1323" height="192" key="GridCell.Tab.0.center/0.0.1366.728/1366.0.1366.728@1366.0.1366.728" timestamp="1580599819982" />
+    <state width="1323" height="192" key="GridCell.Tab.0.left" timestamp="1580599819982">
       <screen x="1366" y="0" width="1366" height="728" />
     </state>
     <state width="1286" height="163" key="GridCell.Tab.0.left/0.0.1366.728/1366.0.1366.728@0.0.1366.728" timestamp="1580320401624" />
-    <state width="1323" height="192" key="GridCell.Tab.0.left/0.0.1366.728/1366.0.1366.728@1366.0.1366.728" timestamp="1580592789285" />
-    <state width="1323" height="192" key="GridCell.Tab.0.right" timestamp="1580592789285">
+    <state width="1323" height="192" key="GridCell.Tab.0.left/0.0.1366.728/1366.0.1366.728@1366.0.1366.728" timestamp="1580599819982" />
+    <state width="1323" height="192" key="GridCell.Tab.0.right" timestamp="1580599819983">
       <screen x="1366" y="0" width="1366" height="728" />
     </state>
     <state width="1286" height="163" key="GridCell.Tab.0.right/0.0.1366.728/1366.0.1366.728@0.0.1366.728" timestamp="1580320401625" />
-    <state width="1323" height="192" key="GridCell.Tab.0.right/0.0.1366.728/1366.0.1366.728@1366.0.1366.728" timestamp="1580592789285" />
+    <state width="1323" height="192" key="GridCell.Tab.0.right/0.0.1366.728/1366.0.1366.728@1366.0.1366.728" timestamp="1580599819983" />
+    <state width="1323" height="223" key="GridCell.Tab.1.bottom" timestamp="1580597616898">
+      <screen x="1366" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="223" key="GridCell.Tab.1.bottom/0.0.1366.728/1366.0.1366.728@1366.0.1366.728" timestamp="1580597616898" />
+    <state width="1323" height="223" key="GridCell.Tab.1.center" timestamp="1580597616898">
+      <screen x="1366" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="223" key="GridCell.Tab.1.center/0.0.1366.728/1366.0.1366.728@1366.0.1366.728" timestamp="1580597616898" />
+    <state width="1323" height="223" key="GridCell.Tab.1.left" timestamp="1580597616898">
+      <screen x="1366" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="223" key="GridCell.Tab.1.left/0.0.1366.728/1366.0.1366.728@1366.0.1366.728" timestamp="1580597616898" />
+    <state width="1323" height="223" key="GridCell.Tab.1.right" timestamp="1580597616898">
+      <screen x="1366" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="223" key="GridCell.Tab.1.right/0.0.1366.728/1366.0.1366.728@1366.0.1366.728" timestamp="1580597616898" />
     <state x="1550" y="7" key="SettingsEditor" timestamp="1580335447684">
       <screen x="1366" y="0" width="1366" height="728" />
     </state>
     <state x="184" y="7" key="SettingsEditor/0.0.1366.728/1366.0.1366.728@0.0.1366.728" timestamp="1580320249562" />
     <state x="1550" y="7" key="SettingsEditor/0.0.1366.728/1366.0.1366.728@1366.0.1366.728" timestamp="1580335447684" />
-    <state x="1641" y="98" key="Vcs.Push.Dialog.v2" timestamp="1580422384176">
+    <state x="1641" y="98" key="Vcs.Push.Dialog.v2" timestamp="1580592925091">
       <screen x="1366" y="0" width="1366" height="728" />
     </state>
-    <state x="1641" y="98" key="Vcs.Push.Dialog.v2/0.0.1366.728/1366.0.1366.728@1366.0.1366.728" timestamp="1580422384176" />
+    <state x="1641" y="98" key="Vcs.Push.Dialog.v2/0.0.1366.728/1366.0.1366.728@1366.0.1366.728" timestamp="1580592925091" />
     <state x="391" y="193" key="com.intellij.ide.util.TipDialog" timestamp="1580319890584">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="391" y="193" key="com.intellij.ide.util.TipDialog/0.0.1366.728/1366.0.1366.728@0.0.1366.728" timestamp="1580319890584" />
-    <state x="1858" y="282" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1580592808843">
+    <state x="1858" y="282" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1580599843422">
       <screen x="1366" y="0" width="1366" height="728" />
     </state>
-    <state x="1858" y="282" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1366.728/1366.0.1366.728@1366.0.1366.728" timestamp="1580592808843" />
+    <state x="1858" y="282" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1366.728/1366.0.1366.728@1366.0.1366.728" timestamp="1580599843422" />
     <state x="1639" y="55" width="1000" height="493" key="dock-window-1" timestamp="1580581590704">
       <screen x="1366" y="0" width="1366" height="728" />
     </state>
@@ -425,6 +437,10 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="42" y="0" width="788" height="713" key="dock-window-2/0.0.1366.728/1366.0.1366.728@1366.0.1366.728" timestamp="1580588007429" />
+    <state x="0" y="0" width="1339" height="713" maximized="true" key="dock-window-3" timestamp="1580594293081">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="0" y="0" width="1339" height="713" maximized="true" key="dock-window-3/0.0.1366.728/1366.0.1366.728@1366.0.1366.728" timestamp="1580594293081" />
     <state x="1366" y="0" width="737" height="728" key="find.popup" timestamp="1580589866039">
       <screen x="1366" y="0" width="1366" height="728" />
     </state>

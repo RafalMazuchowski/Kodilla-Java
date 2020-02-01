@@ -17,13 +17,13 @@ public class WorldTestSuite {
         countriesEU.add(new Country("German", new BigDecimal("82273584")));
         countriesEU.add(new Country("France", new BigDecimal("67893953")));
         List<Country> countriesAsia = new ArrayList<>();
-        countriesEU.add(new Country("China", new BigDecimal("1396819852")));
-        countriesEU.add(new Country("Cyprus", new BigDecimal("1207789")));
-        countriesEU.add(new Country("India", new BigDecimal("1384445123")));
+        countriesAsia.add(new Country("China", new BigDecimal("1396819852")));
+        countriesAsia.add(new Country("Cyprus", new BigDecimal("1207789")));
+        countriesAsia.add(new Country("India", new BigDecimal("1384445123")));
         List<Country> countriesNA = new ArrayList<>();
-        countriesEU.add(new Country("Canada", new BigDecimal("37585214")));
-        countriesEU.add(new Country("USA", new BigDecimal("332982164")));
-        countriesEU.add(new Country("Mexico", new BigDecimal("134002734")));
+        countriesNA.add(new Country("Canada", new BigDecimal("37585214")));
+        countriesNA.add(new Country("USA", new BigDecimal("332982164")));
+        countriesNA.add(new Country("Mexico", new BigDecimal("134002734")));
 
         List<Continent> continents = new ArrayList<>();
         continents.add(new Continent("Europe", countriesEU));
@@ -32,11 +32,11 @@ public class WorldTestSuite {
 
         List<World> world = new ArrayList<>();
         world.add(new World("Earth", continents));
+        System.out.println(world.get(0));
 
         //When
-        BigDecimal humanity = world.stream()
-                .map(World::getPeopleQuantity)
-                .reduce(BigDecimal.ZERO, (sum, current) -> sum = sum.add(current));
+        BigDecimal humanity = new BigDecimal(String.valueOf(world.get(0).getPeopleQuantity()));
+        System.out.println("SIZE: " + humanity);
 
         //Then
         BigDecimal expectedPeople = new BigDecimal("3474937925"); //3.47 B
