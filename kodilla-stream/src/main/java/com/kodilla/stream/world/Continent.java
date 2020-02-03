@@ -1,6 +1,5 @@
 package com.kodilla.stream.world;
 
-import java.math.BigDecimal;
 import java.util.List;
 
 public final class Continent {
@@ -16,14 +15,6 @@ public final class Continent {
     public String getContinentName() {
         return continentName;
     }
-/*
-    public BigDecimal getPeopleQuantity() {
-        BigDecimal peopleQuantity = BigDecimal.ZERO;
-        for(Country country : countries){
-            peopleQuantity = peopleQuantity.add(country.getPeopleQuantity());
-        }
-        return peopleQuantity;
-    }*/
 
     public List<Country> getCountries() {
         for (Country country : countries){
