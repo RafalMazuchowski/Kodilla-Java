@@ -1,29 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a245913f-c98d-4a5c-80fb-23f011574553" name="Default Changelist" comment="An indispensable forum user (7.2)">
-      <change afterPath="$PROJECT_DIR$/kodilla-testing/src/main/java/com/kodilla/testing/forum/statistics/Statistics.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kodilla-testing/src/main/java/com/kodilla/testing/forum/statistics/StatisticsCounter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kodilla-testing/src/main/java/com/kodilla/testing/weather/stub/Temperatures.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kodilla-testing/src/main/java/com/kodilla/testing/weather/stub/WeatherForecast.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kodilla-testing/src/test/java/com/kodilla/testing/forum/statistics/StatisticCounterTestSuite.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kodilla-testing/src/test/java/com/kodilla/testing/weather/mock/WeatherForecastTestSuite.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kodilla-testing/src/test/java/com/kodilla/testing/weather/stub/TemperaturesStub.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kodilla-testing/src/test/java/com/kodilla/testing/weather/stub/WeatherForecastTestSuite.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/6.0.1/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.0.1/executionHistory/executionHistory.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/6.0.1/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.0.1/executionHistory/executionHistory.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/6.0.1/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.0.1/fileHashes/fileHashes.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/6.0.1/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.0.1/fileHashes/fileHashes.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/6.0.1/fileHashes/resourceHashesCache.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.0.1/fileHashes/resourceHashesCache.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/6.0.1/javaCompile/classAnalysis.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.0.1/javaCompile/classAnalysis.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/6.0.1/javaCompile/jarAnalysis.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.0.1/javaCompile/jarAnalysis.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/6.0.1/javaCompile/javaCompile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.0.1/javaCompile/javaCompile.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/6.0.1/javaCompile/taskHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.0.1/javaCompile/taskHistory.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
+    <list default="true" id="a245913f-c98d-4a5c-80fb-23f011574553" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/kodilla-stream/src/main/java/com/kodilla/stream/world/Continent.java" beforeDir="false" afterPath="$PROJECT_DIR$/kodilla-stream/src/main/java/com/kodilla/stream/world/Continent.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/kodilla-stream/src/main/java/com/kodilla/stream/world/World.java" beforeDir="false" afterPath="$PROJECT_DIR$/kodilla-stream/src/main/java/com/kodilla/stream/world/World.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/kodilla-stream/src/test/java/com/kodilla/stream/world/WorldTestSuite.java" beforeDir="false" afterPath="$PROJECT_DIR$/kodilla-stream/src/test/java/com/kodilla/stream/world/WorldTestSuite.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -48,8 +27,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="Interface" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -89,25 +68,32 @@
     </key>
   </component>
   <component name="RunManager" selected="Gradle.WorldTestSuite">
-    <configuration name="FlightApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.kodilla.exception.test.FlightApp" />
-      <module name="kodilla-course.kodilla-exception.main" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.kodilla.exception.test.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ForumUserTestSuite" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="ArrayOperationsTestSuite" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
         <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="--tests &quot;com.kodilla.stream.forum.ForumUserTestSuite&quot;" />
+        <option name="scriptParameters" value="--tests &quot;com.kodilla.stream.array.ArrayOperationsTestSuite&quot;" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":kodilla-stream:cleanTest" />
+            <option value=":kodilla-stream:test" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="BookTestSuite" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="--tests &quot;com.kodilla.stream.book.BookTestSuite&quot;" />
         <option name="taskDescriptions">
           <list />
         </option>
@@ -142,12 +128,12 @@
       <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="SimpleInvoiceTestSuite" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="WorldTestSuite" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
         <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="--tests &quot;com.kodilla.stream.invoice.simple.SimpleInvoiceTestSuite&quot;" />
+        <option name="scriptParameters" value="--tests &quot;com.kodilla.stream.world.WorldTestSuite&quot;" />
         <option name="taskDescriptions">
           <list />
         </option>
@@ -162,12 +148,12 @@
       <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="WorldTestSuite" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="WorldTestSuite.testGetPeopleQuantity" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
         <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="--tests &quot;com.kodilla.stream.world.WorldTestSuite&quot; --stacktrace" />
+        <option name="scriptParameters" value="--tests &quot;com.kodilla.stream.world.WorldTestSuite.testGetPeopleQuantity&quot;" />
         <option name="taskDescriptions">
           <list />
         </option>
@@ -192,10 +178,10 @@
     <recent_temporary>
       <list>
         <item itemvalue="Gradle.WorldTestSuite" />
+        <item itemvalue="Gradle.WorldTestSuite.testGetPeopleQuantity" />
+        <item itemvalue="Gradle.ArrayOperationsTestSuite" />
+        <item itemvalue="Gradle.BookTestSuite" />
         <item itemvalue="Gradle.SandStorageTestSuite" />
-        <item itemvalue="Gradle.SimpleInvoiceTestSuite" />
-        <item itemvalue="Gradle.ForumUserTestSuite" />
-        <item itemvalue="Application.FlightApp" />
       </list>
     </recent_temporary>
   </component>
@@ -236,7 +222,11 @@
       <workItem from="1580320486623" duration="3771000" />
       <workItem from="1580381043292" duration="21241000" />
       <workItem from="1580563521262" duration="23440000" />
-      <workItem from="1580597827516" duration="1552000" />
+      <workItem from="1580597827516" duration="1877000" />
+      <workItem from="1580600608971" duration="3567000" />
+      <workItem from="1580635635441" duration="5938000" />
+      <workItem from="1580683982304" duration="140000" />
+      <workItem from="1580721768577" duration="6182000" />
     </task>
     <task id="LOCAL-00001" summary="6.1. Utworzenie modułu kodilla-testing">
       <created>1579565349217</created>
@@ -322,7 +312,35 @@
       <option name="project" value="LOCAL" />
       <updated>1580592918139</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="Calculate the number of people in the world (7.4) - add flatMap">
+      <created>1580599920680</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1580599920680</updated>
+    </task>
+    <task id="LOCAL-00014" summary="Calculate the number of people in the world (7.4) - deleted List&lt;World&gt;">
+      <created>1580725454587</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1580725454588</updated>
+    </task>
+    <task id="LOCAL-00015" summary="Calculate the number of people in the world (7.4) - finall 2.0">
+      <created>1580727783559</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1580727783559</updated>
+    </task>
+    <task id="LOCAL-00016" summary="Calculate the number of people in the world (7.4) - finall 2.0">
+      <created>1580727820370</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1580727820370</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -341,7 +359,10 @@
     <MESSAGE value="An exception handling (8.3)" />
     <MESSAGE value="Exception knowledge (8.4)" />
     <MESSAGE value="Calculate the number of people in the world (7.4)" />
-    <option name="LAST_COMMIT_MESSAGE" value="Calculate the number of people in the world (7.4)" />
+    <MESSAGE value="Calculate the number of people in the world (7.4) - add flatMap" />
+    <MESSAGE value="Calculate the number of people in the world (7.4) - deleted List&lt;World&gt;" />
+    <MESSAGE value="Calculate the number of people in the world (7.4) - finall 2.0" />
+    <option name="LAST_COMMIT_MESSAGE" value="Calculate the number of people in the world (7.4) - finall 2.0" />
   </component>
   <component name="WindowStateProjectService">
     <state x="1641" y="23" key="#Project_Structure" timestamp="1580567571679">
@@ -352,10 +373,10 @@
       <screen x="1366" y="0" width="1366" height="728" />
     </state>
     <state x="1779" y="120" key="#com.intellij.codeInsight.editorActions.RestoreReferencesDialog/0.0.1366.728/1366.0.1366.728@1366.0.1366.728" timestamp="1579985800922" />
-    <state x="1854" y="81" key="#com.intellij.ide.util.MemberChooser" timestamp="1580591119035">
+    <state x="1854" y="81" key="#com.intellij.ide.util.MemberChooser" timestamp="1580602874186">
       <screen x="1366" y="0" width="1366" height="728" />
     </state>
-    <state x="1854" y="81" key="#com.intellij.ide.util.MemberChooser/0.0.1366.728/1366.0.1366.728@1366.0.1366.728" timestamp="1580591119035" />
+    <state x="1854" y="81" key="#com.intellij.ide.util.MemberChooser/0.0.1366.728/1366.0.1366.728@1366.0.1366.728" timestamp="1580602874186" />
     <state x="1803" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1580419018135">
       <screen x="1366" y="0" width="1366" height="728" />
     </state>
@@ -364,63 +385,67 @@
       <screen x="1366" y="0" width="1366" height="728" />
     </state>
     <state x="1779" y="112" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1366.728/1366.0.1366.728@1366.0.1366.728" timestamp="1580585242012" />
-    <state x="1544" y="0" key="CommitChangelistDialog2" timestamp="1580592909702">
+    <state x="1544" y="0" key="CommitChangelistDialog2" timestamp="1580728017049">
       <screen x="1366" y="0" width="1366" height="728" />
     </state>
-    <state x="1544" y="0" key="CommitChangelistDialog2/0.0.1366.728/1366.0.1366.728@1366.0.1366.728" timestamp="1580592909702" />
-    <state x="1458" y="92" width="1182" height="544" key="DiffContextDialog" timestamp="1580422379270">
+    <state x="1544" y="0" key="CommitChangelistDialog2/0.0.1366.728/1366.0.1366.728@1366.0.1366.728" timestamp="1580728017049" />
+    <state x="1458" y="92" width="1182" height="544" key="DiffContextDialog" timestamp="1580727889518">
       <screen x="1366" y="0" width="1366" height="728" />
     </state>
-    <state x="1458" y="92" width="1182" height="544" key="DiffContextDialog/0.0.1366.728/1366.0.1366.728@1366.0.1366.728" timestamp="1580422379270" />
+    <state x="1458" y="92" width="1182" height="544" key="DiffContextDialog/0.0.1366.728/1366.0.1366.728@1366.0.1366.728" timestamp="1580727889518" />
     <state x="461" y="120" key="FileChooserDialogImpl" timestamp="1580320243382">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="461" y="120" key="FileChooserDialogImpl/0.0.1366.728/1366.0.1366.728@0.0.1366.728" timestamp="1580320243382" />
-    <state width="1323" height="192" key="GridCell.Tab.0.bottom" timestamp="1580599819983">
+    <state width="1323" height="192" key="GridCell.Tab.0.bottom" timestamp="1580727964668">
       <screen x="1366" y="0" width="1366" height="728" />
     </state>
     <state width="1286" height="163" key="GridCell.Tab.0.bottom/0.0.1366.728/1366.0.1366.728@0.0.1366.728" timestamp="1580320401625" />
-    <state width="1323" height="192" key="GridCell.Tab.0.bottom/0.0.1366.728/1366.0.1366.728@1366.0.1366.728" timestamp="1580599819983" />
-    <state width="1323" height="192" key="GridCell.Tab.0.center" timestamp="1580599819982">
+    <state width="1323" height="192" key="GridCell.Tab.0.bottom/0.0.1366.728/1366.0.1366.728@1366.0.1366.728" timestamp="1580727964668" />
+    <state width="1323" height="192" key="GridCell.Tab.0.center" timestamp="1580727964667">
       <screen x="1366" y="0" width="1366" height="728" />
     </state>
     <state width="1286" height="163" key="GridCell.Tab.0.center/0.0.1366.728/1366.0.1366.728@0.0.1366.728" timestamp="1580320401625" />
-    <state width="1323" height="192" key="GridCell.Tab.0.center/0.0.1366.728/1366.0.1366.728@1366.0.1366.728" timestamp="1580599819982" />
-    <state width="1323" height="192" key="GridCell.Tab.0.left" timestamp="1580599819982">
+    <state width="1323" height="192" key="GridCell.Tab.0.center/0.0.1366.728/1366.0.1366.728@1366.0.1366.728" timestamp="1580727964667" />
+    <state width="1323" height="192" key="GridCell.Tab.0.left" timestamp="1580727964667">
       <screen x="1366" y="0" width="1366" height="728" />
     </state>
     <state width="1286" height="163" key="GridCell.Tab.0.left/0.0.1366.728/1366.0.1366.728@0.0.1366.728" timestamp="1580320401624" />
-    <state width="1323" height="192" key="GridCell.Tab.0.left/0.0.1366.728/1366.0.1366.728@1366.0.1366.728" timestamp="1580599819982" />
-    <state width="1323" height="192" key="GridCell.Tab.0.right" timestamp="1580599819983">
+    <state width="1323" height="192" key="GridCell.Tab.0.left/0.0.1366.728/1366.0.1366.728@1366.0.1366.728" timestamp="1580727964667" />
+    <state width="1323" height="192" key="GridCell.Tab.0.right" timestamp="1580727964668">
       <screen x="1366" y="0" width="1366" height="728" />
     </state>
     <state width="1286" height="163" key="GridCell.Tab.0.right/0.0.1366.728/1366.0.1366.728@0.0.1366.728" timestamp="1580320401625" />
-    <state width="1323" height="192" key="GridCell.Tab.0.right/0.0.1366.728/1366.0.1366.728@1366.0.1366.728" timestamp="1580599819983" />
-    <state width="1323" height="223" key="GridCell.Tab.1.bottom" timestamp="1580597616898">
+    <state width="1323" height="192" key="GridCell.Tab.0.right/0.0.1366.728/1366.0.1366.728@1366.0.1366.728" timestamp="1580727964668" />
+    <state width="1323" height="223" key="GridCell.Tab.1.bottom" timestamp="1580726672342">
       <screen x="1366" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="223" key="GridCell.Tab.1.bottom/0.0.1366.728/1366.0.1366.728@1366.0.1366.728" timestamp="1580597616898" />
-    <state width="1323" height="223" key="GridCell.Tab.1.center" timestamp="1580597616898">
+    <state width="1323" height="223" key="GridCell.Tab.1.bottom/0.0.1366.728/1366.0.1366.728@1366.0.1366.728" timestamp="1580726672342" />
+    <state width="1323" height="223" key="GridCell.Tab.1.center" timestamp="1580726672342">
       <screen x="1366" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="223" key="GridCell.Tab.1.center/0.0.1366.728/1366.0.1366.728@1366.0.1366.728" timestamp="1580597616898" />
-    <state width="1323" height="223" key="GridCell.Tab.1.left" timestamp="1580597616898">
+    <state width="1323" height="223" key="GridCell.Tab.1.center/0.0.1366.728/1366.0.1366.728@1366.0.1366.728" timestamp="1580726672342" />
+    <state width="1323" height="223" key="GridCell.Tab.1.left" timestamp="1580726672342">
       <screen x="1366" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="223" key="GridCell.Tab.1.left/0.0.1366.728/1366.0.1366.728@1366.0.1366.728" timestamp="1580597616898" />
-    <state width="1323" height="223" key="GridCell.Tab.1.right" timestamp="1580597616898">
+    <state width="1323" height="223" key="GridCell.Tab.1.left/0.0.1366.728/1366.0.1366.728@1366.0.1366.728" timestamp="1580726672342" />
+    <state width="1323" height="223" key="GridCell.Tab.1.right" timestamp="1580726672342">
       <screen x="1366" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="223" key="GridCell.Tab.1.right/0.0.1366.728/1366.0.1366.728@1366.0.1366.728" timestamp="1580597616898" />
+    <state width="1323" height="223" key="GridCell.Tab.1.right/0.0.1366.728/1366.0.1366.728@1366.0.1366.728" timestamp="1580726672342" />
+    <state x="1701" y="76" key="RollbackChangesDialog" timestamp="1580728009025">
+      <screen x="1366" y="0" width="1366" height="728" />
+    </state>
+    <state x="1701" y="76" key="RollbackChangesDialog/0.0.1366.728/1366.0.1366.728@1366.0.1366.728" timestamp="1580728009025" />
     <state x="1550" y="7" key="SettingsEditor" timestamp="1580335447684">
       <screen x="1366" y="0" width="1366" height="728" />
     </state>
     <state x="184" y="7" key="SettingsEditor/0.0.1366.728/1366.0.1366.728@0.0.1366.728" timestamp="1580320249562" />
     <state x="1550" y="7" key="SettingsEditor/0.0.1366.728/1366.0.1366.728@1366.0.1366.728" timestamp="1580335447684" />
-    <state x="1641" y="98" key="Vcs.Push.Dialog.v2" timestamp="1580592925091">
+    <state x="1676" y="180" key="Vcs.Push.Dialog.v2" timestamp="1580727961989">
       <screen x="1366" y="0" width="1366" height="728" />
     </state>
-    <state x="1641" y="98" key="Vcs.Push.Dialog.v2/0.0.1366.728/1366.0.1366.728@1366.0.1366.728" timestamp="1580592925091" />
+    <state x="1676" y="180" key="Vcs.Push.Dialog.v2/0.0.1366.728/1366.0.1366.728@1366.0.1366.728" timestamp="1580727961989" />
     <state x="391" y="193" key="com.intellij.ide.util.TipDialog" timestamp="1580319890584">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -429,6 +454,10 @@
       <screen x="1366" y="0" width="1366" height="728" />
     </state>
     <state x="1858" y="282" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1366.728/1366.0.1366.728@1366.0.1366.728" timestamp="1580599843422" />
+    <state x="1610" y="101" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2" timestamp="1580724695710">
+      <screen x="1366" y="0" width="1366" height="728" />
+    </state>
+    <state x="1610" y="101" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2/0.0.1366.728/1366.0.1366.728@1366.0.1366.728" timestamp="1580724695710" />
     <state x="1639" y="55" width="1000" height="493" key="dock-window-1" timestamp="1580581590704">
       <screen x="1366" y="0" width="1366" height="728" />
     </state>

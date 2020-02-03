@@ -30,16 +30,15 @@ public class WorldTestSuite {
         continents.add(new Continent("Asia", countriesAsia));
         continents.add(new Continent("North America", countriesNA));
 
-        List<World> world = new ArrayList<>();
-        world.add(new World("Earth", continents));
-        System.out.println(world.get(0));
+        World world = new World("Earth", continents);
 
         //When
-        BigDecimal humanity = new BigDecimal(String.valueOf(world.get(0).getPeopleQuantity()));
+        BigDecimal humanity = world.getPeopleQuantity();
         System.out.println("SIZE: " + humanity);
 
         //Then
         BigDecimal expectedPeople = new BigDecimal("3474937925"); //3.47 B
+        System.out.println("Then: " + expectedPeople + " " + humanity);
         Assert.assertEquals(expectedPeople, humanity);
 
     }
