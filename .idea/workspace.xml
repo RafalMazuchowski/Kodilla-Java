@@ -2,15 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a245913f-c98d-4a5c-80fb-23f011574553" name="Default Changelist" comment="Calculate the number of people in the world (7.4) - finall 2.0">
-      <change afterPath="$PROJECT_DIR$/kodilla-stream/src/main/java/com/kodilla/stream/array/ArrayOperations.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kodilla-stream/src/main/java/com/kodilla/stream/array/OperationsExecutor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kodilla-stream/src/main/java/com/kodilla/stream/portfolio/Board.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kodilla-stream/src/main/java/com/kodilla/stream/portfolio/Task.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kodilla-stream/src/main/java/com/kodilla/stream/portfolio/TaskList.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kodilla-stream/src/main/java/com/kodilla/stream/portfolio/User.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kodilla-stream/src/test/java/com/kodilla/stream/array/ArrayOperationsTestSuite.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kodilla-stream/src/test/java/com/kodilla/stream/book/BookTestSuite.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kodilla-stream/src/test/java/com/kodilla/stream/portfolio/BoardTestSuite.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/kodilla-testing/src/main/java/com/kodilla/testing/forum/statistics/Statistics.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/kodilla-testing/src/main/java/com/kodilla/testing/forum/statistics/StatisticsCounter.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/kodilla-testing/src/main/java/com/kodilla/testing/weather/stub/Temperatures.java" afterDir="false" />
@@ -19,6 +10,7 @@
       <change afterPath="$PROJECT_DIR$/kodilla-testing/src/test/java/com/kodilla/testing/weather/mock/WeatherForecastTestSuite.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/kodilla-testing/src/test/java/com/kodilla/testing/weather/stub/TemperaturesStub.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/kodilla-testing/src/test/java/com/kodilla/testing/weather/stub/WeatherForecastTestSuite.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/6.0.1/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.0.1/executionHistory/executionHistory.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/6.0.1/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.0.1/executionHistory/executionHistory.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/6.0.1/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.0.1/fileHashes/fileHashes.bin" afterDir="false" />
@@ -88,26 +80,27 @@
       <recent name="C:\Users\Programista\IdeaProjects\kodilla-course\kodilla-testing\src\main\java\com\kodilla\testing\weather\mock" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.kodilla.testing.forum.statistics" />
       <recent name="com.kodilla.stream.sand" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\Programista\IdeaProjects\kodilla-course\kodilla-exception\src\main\resources\file" />
     </key>
   </component>
-  <component name="RunManager" selected="Gradle.BoardTestSuite.testAddTaskListAverageWorkingOnTask">
-    <configuration name="ArrayOperationsTestSuite.testGetAverage" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+  <component name="RunManager" selected="Gradle.StatisticCounterTestSuite">
+    <configuration name="StatisticCounterTestSuite" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
         <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="--tests &quot;com.kodilla.stream.array.ArrayOperationsTestSuite.testGetAverage&quot;" />
+        <option name="scriptParameters" value="--tests &quot;com.kodilla.testing.forum.statistics.StatisticCounterTestSuite&quot;" />
         <option name="taskDescriptions">
           <list />
         </option>
         <option name="taskNames">
           <list>
-            <option value=":kodilla-stream:cleanTest" />
-            <option value=":kodilla-stream:test" />
+            <option value=":kodilla-testing:cleanTest" />
+            <option value=":kodilla-testing:test" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -115,19 +108,19 @@
       <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="BoardTestSuite" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="StatisticCounterTestSuite.testLessCommentsThanPosts" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
         <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="--tests &quot;com.kodilla.stream.portfolio.BoardTestSuite&quot;" />
+        <option name="scriptParameters" value="--tests &quot;com.kodilla.testing.forum.statistics.StatisticCounterTestSuite.testLessCommentsThanPosts&quot;" />
         <option name="taskDescriptions">
           <list />
         </option>
         <option name="taskNames">
           <list>
-            <option value=":kodilla-stream:cleanTest" />
-            <option value=":kodilla-stream:test" />
+            <option value=":kodilla-testing:cleanTest" />
+            <option value=":kodilla-testing:test" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -135,19 +128,19 @@
       <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="BoardTestSuite.testAddTaskListAverageWorkingOnTask" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="StatisticCounterTestSuite.testMoreCommentsThanPosts" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
         <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="--tests &quot;com.kodilla.stream.portfolio.BoardTestSuite.testAddTaskListAverageWorkingOnTask&quot;" />
+        <option name="scriptParameters" value="--tests &quot;com.kodilla.testing.forum.statistics.StatisticCounterTestSuite.testMoreCommentsThanPosts&quot;" />
         <option name="taskDescriptions">
           <list />
         </option>
         <option name="taskNames">
           <list>
-            <option value=":kodilla-stream:cleanTest" />
-            <option value=":kodilla-stream:test" />
+            <option value=":kodilla-testing:cleanTest" />
+            <option value=":kodilla-testing:test" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -155,19 +148,19 @@
       <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="WorldTestSuite" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="StatisticCounterTestSuite.testUsers" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
         <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="--tests &quot;com.kodilla.stream.world.WorldTestSuite&quot;" />
+        <option name="scriptParameters" value="--tests &quot;com.kodilla.testing.forum.statistics.StatisticCounterTestSuite.testUsers&quot;" />
         <option name="taskDescriptions">
           <list />
         </option>
         <option name="taskNames">
           <list>
-            <option value=":kodilla-stream:cleanTest" />
-            <option value=":kodilla-stream:test" />
+            <option value=":kodilla-testing:cleanTest" />
+            <option value=":kodilla-testing:test" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -175,19 +168,19 @@
       <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="WorldTestSuite.testGetPeopleQuantity" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="StatisticCounterTestSuite.testZeroUsers" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
         <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="--tests &quot;com.kodilla.stream.world.WorldTestSuite.testGetPeopleQuantity&quot;" />
+        <option name="scriptParameters" value="--tests &quot;com.kodilla.testing.forum.statistics.StatisticCounterTestSuite.testZeroUsers&quot;" />
         <option name="taskDescriptions">
           <list />
         </option>
         <option name="taskNames">
           <list>
-            <option value=":kodilla-stream:cleanTest" />
-            <option value=":kodilla-stream:test" />
+            <option value=":kodilla-testing:cleanTest" />
+            <option value=":kodilla-testing:test" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -204,11 +197,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Gradle.BoardTestSuite.testAddTaskListAverageWorkingOnTask" />
-        <item itemvalue="Gradle.BoardTestSuite" />
-        <item itemvalue="Gradle.ArrayOperationsTestSuite.testGetAverage" />
-        <item itemvalue="Gradle.WorldTestSuite" />
-        <item itemvalue="Gradle.WorldTestSuite.testGetPeopleQuantity" />
+        <item itemvalue="Gradle.StatisticCounterTestSuite" />
+        <item itemvalue="Gradle.StatisticCounterTestSuite.testUsers" />
+        <item itemvalue="Gradle.StatisticCounterTestSuite.testZeroUsers" />
+        <item itemvalue="Gradle.StatisticCounterTestSuite.testLessCommentsThanPosts" />
+        <item itemvalue="Gradle.StatisticCounterTestSuite.testMoreCommentsThanPosts" />
       </list>
     </recent_temporary>
   </component>
@@ -256,7 +249,10 @@
       <workItem from="1580721768577" duration="9058000" />
       <workItem from="1580767780953" duration="2269000" />
       <workItem from="1580895446879" duration="6230000" />
-      <workItem from="1580939791499" duration="11079000" />
+      <workItem from="1580939791499" duration="12098000" />
+      <workItem from="1581033453029" duration="5654000" />
+      <workItem from="1581070067534" duration="3060000" />
+      <workItem from="1581241064148" duration="10380000" />
     </task>
     <task id="LOCAL-00001" summary="6.1. Utworzenie modułu kodilla-testing">
       <created>1579565349217</created>
@@ -377,7 +373,21 @@
       <option name="project" value="LOCAL" />
       <updated>1580728201851</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="Task: the average number of days for completing tasks (7.6)">
+      <created>1580987070534</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1580987070534</updated>
+    </task>
+    <task id="LOCAL-00019" summary="Calculate the total, functionally (7.5)">
+      <created>1581039042705</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1581039042705</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -399,7 +409,9 @@
     <MESSAGE value="Calculate the number of people in the world (7.4) - add flatMap" />
     <MESSAGE value="Calculate the number of people in the world (7.4) - deleted List&lt;World&gt;" />
     <MESSAGE value="Calculate the number of people in the world (7.4) - finall 2.0" />
-    <option name="LAST_COMMIT_MESSAGE" value="Calculate the number of people in the world (7.4) - finall 2.0" />
+    <MESSAGE value="Task: the average number of days for completing tasks (7.6)" />
+    <MESSAGE value="Calculate the total, functionally (7.5)" />
+    <option name="LAST_COMMIT_MESSAGE" value="Calculate the total, functionally (7.5)" />
   </component>
   <component name="WindowStateProjectService">
     <state x="1641" y="23" key="#Project_Structure" timestamp="1580567571679">
@@ -410,14 +422,14 @@
       <screen x="1366" y="0" width="1366" height="728" />
     </state>
     <state x="1779" y="120" key="#com.intellij.codeInsight.editorActions.RestoreReferencesDialog/0.0.1366.728/1366.0.1366.728@1366.0.1366.728" timestamp="1579985800922" />
-    <state x="1854" y="81" key="#com.intellij.ide.util.MemberChooser" timestamp="1580898783797">
+    <state x="1474" y="77" key="#com.intellij.ide.util.MemberChooser" timestamp="1581255066713">
       <screen x="1366" y="0" width="1366" height="728" />
     </state>
-    <state x="1854" y="81" key="#com.intellij.ide.util.MemberChooser/0.0.1366.728/1366.0.1366.728@1366.0.1366.728" timestamp="1580898783797" />
-    <state x="1803" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1580419018135">
+    <state x="1474" y="77" key="#com.intellij.ide.util.MemberChooser/0.0.1366.728/1366.0.1366.728@1366.0.1366.728" timestamp="1581255066713" />
+    <state x="1803" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1581253876006">
       <screen x="1366" y="0" width="1366" height="728" />
     </state>
-    <state x="1803" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1366.728/1366.0.1366.728@1366.0.1366.728" timestamp="1580419018135" />
+    <state x="1803" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1366.728/1366.0.1366.728@1366.0.1366.728" timestamp="1581253876006" />
     <state x="1779" y="112" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1580585242012">
       <screen x="1366" y="0" width="1366" height="728" />
     </state>
@@ -426,10 +438,10 @@
       <screen x="1366" y="0" width="1366" height="728" />
     </state>
     <state x="1779" y="112" key="#com.intellij.refactoring.typeMigration.ui.FailedConversionsDialog/0.0.1366.728/1366.0.1366.728@1366.0.1366.728" timestamp="1580729923419" />
-    <state x="1544" y="0" key="CommitChangelistDialog2" timestamp="1580986939339">
+    <state x="1555" y="0" key="CommitChangelistDialog2" timestamp="1581071653010">
       <screen x="1366" y="0" width="1366" height="728" />
     </state>
-    <state x="1544" y="0" key="CommitChangelistDialog2/0.0.1366.728/1366.0.1366.728@1366.0.1366.728" timestamp="1580986939339" />
+    <state x="1555" y="0" key="CommitChangelistDialog2/0.0.1366.728/1366.0.1366.728@1366.0.1366.728" timestamp="1581071653010" />
     <state x="1458" y="92" width="1182" height="544" key="DiffContextDialog" timestamp="1580727889518">
       <screen x="1366" y="0" width="1366" height="728" />
     </state>
@@ -438,42 +450,42 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="461" y="120" key="FileChooserDialogImpl/0.0.1366.728/1366.0.1366.728@0.0.1366.728" timestamp="1580320243382" />
-    <state width="1323" height="192" key="GridCell.Tab.0.bottom" timestamp="1580986859640">
+    <state width="1323" height="192" key="GridCell.Tab.0.bottom" timestamp="1581258470080">
       <screen x="1366" y="0" width="1366" height="728" />
     </state>
     <state width="1286" height="163" key="GridCell.Tab.0.bottom/0.0.1366.728/1366.0.1366.728@0.0.1366.728" timestamp="1580320401625" />
-    <state width="1323" height="192" key="GridCell.Tab.0.bottom/0.0.1366.728/1366.0.1366.728@1366.0.1366.728" timestamp="1580986859640" />
-    <state width="1323" height="192" key="GridCell.Tab.0.center" timestamp="1580986859640">
+    <state width="1323" height="192" key="GridCell.Tab.0.bottom/0.0.1366.728/1366.0.1366.728@1366.0.1366.728" timestamp="1581258470080" />
+    <state width="1323" height="192" key="GridCell.Tab.0.center" timestamp="1581258470079">
       <screen x="1366" y="0" width="1366" height="728" />
     </state>
     <state width="1286" height="163" key="GridCell.Tab.0.center/0.0.1366.728/1366.0.1366.728@0.0.1366.728" timestamp="1580320401625" />
-    <state width="1323" height="192" key="GridCell.Tab.0.center/0.0.1366.728/1366.0.1366.728@1366.0.1366.728" timestamp="1580986859640" />
-    <state width="1323" height="192" key="GridCell.Tab.0.left" timestamp="1580986859640">
+    <state width="1323" height="192" key="GridCell.Tab.0.center/0.0.1366.728/1366.0.1366.728@1366.0.1366.728" timestamp="1581258470079" />
+    <state width="1323" height="192" key="GridCell.Tab.0.left" timestamp="1581258470079">
       <screen x="1366" y="0" width="1366" height="728" />
     </state>
     <state width="1286" height="163" key="GridCell.Tab.0.left/0.0.1366.728/1366.0.1366.728@0.0.1366.728" timestamp="1580320401624" />
-    <state width="1323" height="192" key="GridCell.Tab.0.left/0.0.1366.728/1366.0.1366.728@1366.0.1366.728" timestamp="1580986859640" />
-    <state width="1323" height="192" key="GridCell.Tab.0.right" timestamp="1580986859640">
+    <state width="1323" height="192" key="GridCell.Tab.0.left/0.0.1366.728/1366.0.1366.728@1366.0.1366.728" timestamp="1581258470079" />
+    <state width="1323" height="192" key="GridCell.Tab.0.right" timestamp="1581258470080">
       <screen x="1366" y="0" width="1366" height="728" />
     </state>
     <state width="1286" height="163" key="GridCell.Tab.0.right/0.0.1366.728/1366.0.1366.728@0.0.1366.728" timestamp="1580320401625" />
-    <state width="1323" height="192" key="GridCell.Tab.0.right/0.0.1366.728/1366.0.1366.728@1366.0.1366.728" timestamp="1580986859640" />
-    <state width="1323" height="223" key="GridCell.Tab.1.bottom" timestamp="1580726672342">
+    <state width="1323" height="192" key="GridCell.Tab.0.right/0.0.1366.728/1366.0.1366.728@1366.0.1366.728" timestamp="1581258470080" />
+    <state width="1323" height="223" key="GridCell.Tab.1.bottom" timestamp="1581039151174">
       <screen x="1366" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="223" key="GridCell.Tab.1.bottom/0.0.1366.728/1366.0.1366.728@1366.0.1366.728" timestamp="1580726672342" />
-    <state width="1323" height="223" key="GridCell.Tab.1.center" timestamp="1580726672342">
+    <state width="1323" height="223" key="GridCell.Tab.1.bottom/0.0.1366.728/1366.0.1366.728@1366.0.1366.728" timestamp="1581039151174" />
+    <state width="1323" height="223" key="GridCell.Tab.1.center" timestamp="1581039151174">
       <screen x="1366" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="223" key="GridCell.Tab.1.center/0.0.1366.728/1366.0.1366.728@1366.0.1366.728" timestamp="1580726672342" />
-    <state width="1323" height="223" key="GridCell.Tab.1.left" timestamp="1580726672342">
+    <state width="1323" height="223" key="GridCell.Tab.1.center/0.0.1366.728/1366.0.1366.728@1366.0.1366.728" timestamp="1581039151174" />
+    <state width="1323" height="223" key="GridCell.Tab.1.left" timestamp="1581039151173">
       <screen x="1366" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="223" key="GridCell.Tab.1.left/0.0.1366.728/1366.0.1366.728@1366.0.1366.728" timestamp="1580726672342" />
-    <state width="1323" height="223" key="GridCell.Tab.1.right" timestamp="1580726672342">
+    <state width="1323" height="223" key="GridCell.Tab.1.left/0.0.1366.728/1366.0.1366.728@1366.0.1366.728" timestamp="1581039151173" />
+    <state width="1323" height="223" key="GridCell.Tab.1.right" timestamp="1581039151174">
       <screen x="1366" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="223" key="GridCell.Tab.1.right/0.0.1366.728/1366.0.1366.728@1366.0.1366.728" timestamp="1580726672342" />
+    <state width="1323" height="223" key="GridCell.Tab.1.right/0.0.1366.728/1366.0.1366.728@1366.0.1366.728" timestamp="1581039151174" />
     <state x="1495" y="61" key="MergeDialog" timestamp="1580728275022">
       <screen x="1366" y="0" width="1366" height="728" />
     </state>
@@ -491,10 +503,10 @@
     </state>
     <state x="184" y="7" key="SettingsEditor/0.0.1366.728/1366.0.1366.728@0.0.1366.728" timestamp="1580320249562" />
     <state x="1550" y="7" key="SettingsEditor/0.0.1366.728/1366.0.1366.728@1366.0.1366.728" timestamp="1580335447684" />
-    <state x="1676" y="180" key="Vcs.Push.Dialog.v2" timestamp="1580728333490">
+    <state x="1676" y="180" key="Vcs.Push.Dialog.v2" timestamp="1581039046671">
       <screen x="1366" y="0" width="1366" height="728" />
     </state>
-    <state x="1676" y="180" key="Vcs.Push.Dialog.v2/0.0.1366.728/1366.0.1366.728@1366.0.1366.728" timestamp="1580728333490" />
+    <state x="1676" y="180" key="Vcs.Push.Dialog.v2/0.0.1366.728/1366.0.1366.728@1366.0.1366.728" timestamp="1581039046671" />
     <state x="391" y="193" key="com.intellij.ide.util.TipDialog" timestamp="1580319890584">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -503,6 +515,10 @@
       <screen x="1366" y="0" width="1366" height="728" />
     </state>
     <state x="1858" y="282" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1366.728/1366.0.1366.728@1366.0.1366.728" timestamp="1580599843422" />
+    <state x="1820" y="68" key="com.intellij.testIntegration.createTest.CreateTestDialog" timestamp="1581035546672">
+      <screen x="1366" y="0" width="1366" height="728" />
+    </state>
+    <state x="1820" y="68" key="com.intellij.testIntegration.createTest.CreateTestDialog/0.0.1366.728/1366.0.1366.728@1366.0.1366.728" timestamp="1581035546672" />
     <state x="1610" y="101" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2" timestamp="1580724695710">
       <screen x="1366" y="0" width="1366" height="728" />
     </state>
@@ -519,10 +535,10 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="0" y="0" width="1339" height="713" maximized="true" key="dock-window-3/0.0.1366.728/1366.0.1366.728@1366.0.1366.728" timestamp="1580594293081" />
-    <state x="1366" y="0" width="737" height="728" key="find.popup" timestamp="1580589866039">
+    <state x="1366" y="0" width="737" height="728" key="find.popup" timestamp="1581070918693">
       <screen x="1366" y="0" width="1366" height="728" />
     </state>
-    <state x="1366" y="0" width="737" height="728" key="find.popup/0.0.1366.728/1366.0.1366.728@1366.0.1366.728" timestamp="1580589866039" />
+    <state x="1366" y="0" width="737" height="728" key="find.popup/0.0.1366.728/1366.0.1366.728@1366.0.1366.728" timestamp="1581070918693" />
     <state x="1444" y="0" key="new project wizard" timestamp="1580246230135">
       <screen x="1366" y="0" width="1366" height="728" />
     </state>
@@ -539,5 +555,8 @@
       <screen x="1366" y="0" width="1366" height="728" />
     </state>
     <state x="1712" y="49" width="672" height="678" key="search.everywhere.popup/0.0.1366.728/1366.0.1366.728@1366.0.1366.728" timestamp="1580317632455" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/kodilla_course$ArrayOperationsTestSuite_testGetAverage.ic" NAME="ArrayOperationsTestSuite.testGetAverage Coverage Results" MODIFIED="1581037268270" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
   </component>
 </project>

@@ -16,8 +16,12 @@ build/
 .springBeans
 .sts4-cache
 
+# User-specific stuff
+.idea/**/workspace.xml
+
 ### IntelliJ IDEA ###
 .idea
+!**/idea/**
 *.iws
 *.iml
 *.ipr
