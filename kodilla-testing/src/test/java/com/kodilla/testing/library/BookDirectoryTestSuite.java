@@ -6,7 +6,6 @@ import java.util.ArrayList;
 import java.util.List;
 
 import static org.junit.Assert.assertEquals;
-import static org.junit.Assert.assertTrue;
 import static org.mockito.BDDMockito.given;
 import static org.mockito.Matchers.anyString;
 import static org.mockito.Mockito.*;
@@ -132,6 +131,6 @@ public class BookDirectoryTestSuite {
         List<Book> theListOfBooks = bookLibrary.listBooksInHandsOf(libraryUser);
 
         // Then
-        assertEquals(1, theListOfBooks.size());
+        assertEquals(5, theListOfBooks.size());
     }
 }
