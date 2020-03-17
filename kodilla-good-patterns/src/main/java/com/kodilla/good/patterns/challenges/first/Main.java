@@ -1,4 +1,4 @@
-package com.kodilla.good.patterns.challenges;
+package com.kodilla.good.patterns.challenges.first;
 
 import java.util.Collection;
 import java.util.stream.Collectors;
