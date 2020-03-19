@@ -5,8 +5,6 @@ import com.kodilla.good.patterns.challenges.second.realization.input.Price;
 import com.kodilla.good.patterns.challenges.second.realization.input.Product;
 import com.kodilla.good.patterns.challenges.second.realization.input.User;
 
-import java.time.LocalDateTime;
-
 public class OrderRequestRetriever {
 
     public OrderRequest retrieve() {
