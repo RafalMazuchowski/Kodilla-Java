@@ -6,35 +6,36 @@
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a245913f-c98d-4a5c-80fb-23f011574553" name="Default Changelist" comment="Functional iteration by title (13.1)">
-      <change afterPath="$PROJECT_DIR$/kodilla-good-patterns/src/main/java/com/kodilla/good/patterns/challenges/fourth/Application.java" afterDir="false" />
+    <list default="true" id="a245913f-c98d-4a5c-80fb-23f011574553" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/kodilla-spring-intro/build.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kodilla-spring-intro/src/main/java/com/kodilla/spring/intro/SpringIntroRunner.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kodilla-spring-intro/src/main/java/com/kodilla/spring/intro/shape/Circle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kodilla-spring-intro/src/main/java/com/kodilla/spring/intro/shape/Drawer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kodilla-spring-intro/src/main/java/com/kodilla/spring/intro/shape/Figure.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kodilla-spring-intro/src/main/java/com/kodilla/spring/intro/shape/Shape.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kodilla-spring-intro/src/main/java/com/kodilla/spring/intro/shape/Triangle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kodilla-spring-intro/src/test/java/com/kodilla/spring/intro/shape/DrawerTestSuite.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kodilla-spring/build.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kodilla-spring/src/main/java/com/kodilla/spring/SpringRunner.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kodilla-spring/src/main/java/com/kodilla/spring/com/kodilla/spring/forum/ForumUser.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kodilla-spring/src/main/java/com/kodilla/spring/shape/Circle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kodilla-spring/src/main/java/com/kodilla/spring/shape/Shape.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kodilla-spring/src/main/java/com/kodilla/spring/shape/Triangle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kodilla-spring/src/test/java/com/kodilla/spring/SpringRunnerTestSuite.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kodilla-spring/src/test/java/com/kodilla/spring/forum/ForumUserTestSuite.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/6.0.1/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.0.1/executionHistory/executionHistory.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/6.0.1/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.0.1/executionHistory/executionHistory.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/6.0.1/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.0.1/fileHashes/fileHashes.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/6.0.1/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.0.1/fileHashes/fileHashes.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/6.0.1/fileHashes/resourceHashesCache.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.0.1/fileHashes/resourceHashesCache.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/6.0.1/javaCompile/classAnalysis.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.0.1/javaCompile/classAnalysis.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/6.0.1/javaCompile/jarAnalysis.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.0.1/javaCompile/jarAnalysis.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/6.0.1/javaCompile/javaCompile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.0.1/javaCompile/javaCompile.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/6.0.1/javaCompile/taskHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.0.1/javaCompile/taskHistory.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/kodilla/FirstClass.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/kodilla/KodillaCourseApplication.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/test/com/kodilla/KodillaCourseApplicationTests.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/libs/kodilla-course-0.0.1-SNAPSHOT.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/classes/com.kodilla.KodillaCourseApplicationTests.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/css/base-style.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/css/style.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/js/report.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/packages/com.kodilla.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/resources/main/application.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/test-results/test/TEST-com.kodilla.KodillaCourseApplicationTests.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/test-results/test/binary/output.bin" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/test-results/test/binary/output.bin.idx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/test-results/test/binary/results.bin" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/tmp/bootJar/MANIFEST.MF" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/settings.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/settings.gradle" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -117,7 +118,7 @@
       <recent name="com.kodilla" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Application">
+  <component name="RunManager" selected="Gradle.ForumUserTestSuite">
     <configuration name="Application" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.kodilla.good.patterns.challenges.second.realization.Application" />
       <module name="kodilla-course.kodilla-good-patterns.main" />
@@ -131,45 +132,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Blackjack" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.kodilla.Blackjack" />
-      <module name="kodilla-course.kodilla-projekt.main" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.kodilla.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.kodilla.good.patterns.challenges.first.Main" />
-      <module name="kodilla-course.kodilla-good-patterns.main" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.kodilla.good.patterns.challenges.first.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="BookDirectoryTestSuite" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="DrawerTestSuite" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
         <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="--tests &quot;com.kodilla.testing.library.BookDirectoryTestSuite&quot;" />
+        <option name="scriptParameters" value="--tests &quot;com.kodilla.spring.intro.shape.DrawerTestSuite&quot;" />
         <option name="taskDescriptions">
           <list />
         </option>
         <option name="taskNames">
           <list>
-            <option value=":kodilla-testing:cleanTest" />
-            <option value=":kodilla-testing:test" />
+            <option value=":kodilla-spring-intro:cleanTest" />
+            <option value=":kodilla-spring-intro:test" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -177,19 +152,59 @@
       <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="BookDirectoryTestSuite.listBooksInHandsOf5Books" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="ForumUserTestSuite" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
         <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="--tests &quot;com.kodilla.testing.library.BookDirectoryTestSuite.listBooksInHandsOf5Books&quot;" />
+        <option name="scriptParameters" value="--tests &quot;com.kodilla.spring.forum.ForumUserTestSuite&quot;" />
         <option name="taskDescriptions">
           <list />
         </option>
         <option name="taskNames">
           <list>
-            <option value=":kodilla-testing:cleanTest" />
-            <option value=":kodilla-testing:test" />
+            <option value=":kodilla-spring:cleanTest" />
+            <option value=":kodilla-spring:test" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="ForumUserTestSuite.testGetUsername" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="--tests &quot;com.kodilla.spring.forum.ForumUserTestSuite.testGetUsername&quot;" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":kodilla-spring:cleanTest" />
+            <option value=":kodilla-spring:test" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="SpringRunnerTestSuite" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="--tests &quot;com.kodilla.spring.SpringRunnerTestSuite&quot;" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":kodilla-spring:cleanTest" />
+            <option value=":kodilla-spring:test" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -212,22 +227,30 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="SpringRunner" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="kodilla-course.kodilla-spring.main" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.kodilla.spring.SpringRunner" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <list>
-      <item itemvalue="Application.Blackjack" />
-      <item itemvalue="Application.Main" />
       <item itemvalue="Application.Application" />
-      <item itemvalue="Gradle.BookDirectoryTestSuite" />
-      <item itemvalue="Gradle.BookDirectoryTestSuite.listBooksInHandsOf5Books" />
       <item itemvalue="JAR Application.GameJar" />
       <item itemvalue="Spring Boot.KodillaCourseApplication" />
+      <item itemvalue="Gradle.DrawerTestSuite" />
+      <item itemvalue="Spring Boot.SpringRunner" />
+      <item itemvalue="Gradle.SpringRunnerTestSuite" />
+      <item itemvalue="Gradle.ForumUserTestSuite.testGetUsername" />
+      <item itemvalue="Gradle.ForumUserTestSuite" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Gradle.ForumUserTestSuite" />
+        <item itemvalue="Gradle.ForumUserTestSuite.testGetUsername" />
+        <item itemvalue="Gradle.SpringRunnerTestSuite" />
+        <item itemvalue="Gradle.DrawerTestSuite" />
         <item itemvalue="Application.Application" />
-        <item itemvalue="Application.Main" />
-        <item itemvalue="Application.Blackjack" />
-        <item itemvalue="Gradle.BookDirectoryTestSuite" />
-        <item itemvalue="Gradle.BookDirectoryTestSuite.listBooksInHandsOf5Books" />
       </list>
     </recent_temporary>
   </component>
@@ -291,7 +314,7 @@
       <workItem from="1582103744909" duration="620000" />
       <workItem from="1582104461486" duration="18000" />
       <workItem from="1584400499677" duration="23818000" />
-      <workItem from="1584621066599" duration="7351000" />
+      <workItem from="1584621066599" duration="16346000" />
     </task>
     <task id="LOCAL-00001" summary="6.1. Utworzenie modułu kodilla-testing">
       <created>1579565349217</created>
@@ -482,7 +505,14 @@
       <option name="project" value="LOCAL" />
       <updated>1584647283847</updated>
     </task>
-    <option name="localTasksCounter" value="28" />
+    <task id="LOCAL-00028" summary="Flights (13.5)">
+      <created>1584647395681</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1584647395681</updated>
+    </task>
+    <option name="localTasksCounter" value="29" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -490,7 +520,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="6.1. Utworzenie modułu kodilla-testing" />
     <MESSAGE value="first unit test" />
     <MESSAGE value="Test of a class choosing even numbers from the collection (6.3)" />
     <MESSAGE value="We collect figures (and test it!) (6.4)" />
@@ -515,7 +544,8 @@
     <MESSAGE value="Functional iteration by title (13.1)" />
     <MESSAGE value="SOLID + DRY (13.2)" />
     <MESSAGE value="Food2Door (13.4)" />
-    <option name="LAST_COMMIT_MESSAGE" value="Food2Door (13.4)" />
+    <MESSAGE value="Flights (13.5)" />
+    <option name="LAST_COMMIT_MESSAGE" value="Flights (13.5)" />
   </component>
   <component name="WindowStateProjectService">
     <state x="1829" y="170" key="#BuildArtifactsBeforeRunChooser" timestamp="1581627322321">
@@ -526,6 +556,10 @@
       <screen x="1366" y="0" width="1366" height="728" />
     </state>
     <state x="1768" y="13" key="#GameJar/0.0.1366.728/1366.0.1366.728@1366.0.1366.728" timestamp="1581627343798" />
+    <state x="1641" y="23" key="#Inspections" timestamp="1584656088655">
+      <screen x="1366" y="0" width="1366" height="728" />
+    </state>
+    <state x="1641" y="23" key="#Inspections/0.0.1366.728/1366.0.1366.728@1366.0.1366.728" timestamp="1584656088654" />
     <state x="1641" y="23" key="#Notifications" timestamp="1584447789421">
       <screen x="1366" y="0" width="1366" height="728" />
     </state>
@@ -550,14 +584,18 @@
       <screen x="1366" y="0" width="1366" height="728" />
     </state>
     <state x="1828" y="69" key="#com.intellij.ide.macro.MacrosDialog/0.0.1366.728/1366.0.1366.728@1366.0.1366.728" timestamp="1581627306433" />
-    <state x="1474" y="77" key="#com.intellij.ide.util.MemberChooser" timestamp="1584647189121">
+    <state x="1474" y="77" key="#com.intellij.ide.util.MemberChooser" timestamp="1584657381992">
       <screen x="1366" y="0" width="1366" height="728" />
     </state>
-    <state x="1474" y="77" key="#com.intellij.ide.util.MemberChooser/0.0.1366.728/1366.0.1366.728@1366.0.1366.728" timestamp="1584647189121" />
+    <state x="1474" y="77" key="#com.intellij.ide.util.MemberChooser/0.0.1366.728/1366.0.1366.728@1366.0.1366.728" timestamp="1584657381992" />
     <state x="1800" y="149" key="#com.intellij.ide.util.TreeClassChooserDialog" timestamp="1581628463697">
       <screen x="1366" y="0" width="1366" height="728" />
     </state>
     <state x="1800" y="149" key="#com.intellij.ide.util.TreeClassChooserDialog/0.0.1366.728/1366.0.1366.728@1366.0.1366.728" timestamp="1581628463697" />
+    <state x="1679" y="54" key="#com.intellij.ide.util.frameworkSupport.AddFrameworkSupportDialog" timestamp="1584653356149">
+      <screen x="1366" y="0" width="1366" height="728" />
+    </state>
+    <state x="1679" y="54" key="#com.intellij.ide.util.frameworkSupport.AddFrameworkSupportDialog/0.0.1366.728/1366.0.1366.728@1366.0.1366.728" timestamp="1584653356149" />
     <state x="1695" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1584647100256">
       <screen x="1366" y="0" width="1366" height="728" />
     </state>
@@ -566,43 +604,43 @@
       <screen x="1366" y="0" width="1366" height="728" />
     </state>
     <state x="1779" y="112" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1366.728/1366.0.1366.728@1366.0.1366.728" timestamp="1582020087455" />
-    <state x="1779" y="112" key="#com.intellij.refactoring.typeMigration.ui.FailedConversionsDialog" timestamp="1580729923419">
+    <state x="1779" y="112" key="#com.intellij.refactoring.typeMigration.ui.FailedConversionsDialog" timestamp="1584657092952">
       <screen x="1366" y="0" width="1366" height="728" />
     </state>
-    <state x="1779" y="112" key="#com.intellij.refactoring.typeMigration.ui.FailedConversionsDialog/0.0.1366.728/1366.0.1366.728@1366.0.1366.728" timestamp="1580729923419" />
-    <state x="1648" y="0" key="CommitChangelistDialog2" timestamp="1584647277237">
+    <state x="1779" y="112" key="#com.intellij.refactoring.typeMigration.ui.FailedConversionsDialog/0.0.1366.728/1366.0.1366.728@1366.0.1366.728" timestamp="1584657092952" />
+    <state x="1648" y="0" key="CommitChangelistDialog2" timestamp="1584647390791">
       <screen x="1366" y="0" width="1366" height="728" />
     </state>
-    <state x="1648" y="0" key="CommitChangelistDialog2/0.0.1366.728/1366.0.1366.728@1366.0.1366.728" timestamp="1584647277237" />
+    <state x="1648" y="0" key="CommitChangelistDialog2/0.0.1366.728/1366.0.1366.728@1366.0.1366.728" timestamp="1584647390791" />
     <state x="1458" y="92" width="1182" height="544" key="DiffContextDialog" timestamp="1580727889518">
       <screen x="1366" y="0" width="1366" height="728" />
     </state>
     <state x="1458" y="92" width="1182" height="544" key="DiffContextDialog/0.0.1366.728/1366.0.1366.728@1366.0.1366.728" timestamp="1580727889518" />
-    <state x="461" y="120" key="FileChooserDialogImpl" timestamp="1581926144401">
-      <screen x="0" y="0" width="1366" height="728" />
+    <state x="2155" y="135" key="FileChooserDialogImpl" timestamp="1584653512066">
+      <screen x="1366" y="0" width="1366" height="728" />
     </state>
     <state x="461" y="120" key="FileChooserDialogImpl/0.0.1366.728/1366.0.1366.728@0.0.1366.728" timestamp="1581926144401" />
-    <state x="2155" y="135" key="FileChooserDialogImpl/0.0.1366.728/1366.0.1366.728@1366.0.1366.728" timestamp="1581628482470" />
-    <state width="1323" height="186" key="GridCell.Tab.0.bottom" timestamp="1584483405339">
+    <state x="2155" y="135" key="FileChooserDialogImpl/0.0.1366.728/1366.0.1366.728@1366.0.1366.728" timestamp="1584653512066" />
+    <state width="1323" height="171" key="GridCell.Tab.0.bottom" timestamp="1584657636320">
       <screen x="1366" y="0" width="1366" height="728" />
     </state>
     <state width="1286" height="163" key="GridCell.Tab.0.bottom/0.0.1366.728/1366.0.1366.728@0.0.1366.728" timestamp="1580320401625" />
-    <state width="1323" height="186" key="GridCell.Tab.0.bottom/0.0.1366.728/1366.0.1366.728@1366.0.1366.728" timestamp="1584483405339" />
-    <state width="1323" height="186" key="GridCell.Tab.0.center" timestamp="1584483405339">
+    <state width="1323" height="171" key="GridCell.Tab.0.bottom/0.0.1366.728/1366.0.1366.728@1366.0.1366.728" timestamp="1584657636320" />
+    <state width="1323" height="171" key="GridCell.Tab.0.center" timestamp="1584657636320">
       <screen x="1366" y="0" width="1366" height="728" />
     </state>
     <state width="1286" height="163" key="GridCell.Tab.0.center/0.0.1366.728/1366.0.1366.728@0.0.1366.728" timestamp="1580320401625" />
-    <state width="1323" height="186" key="GridCell.Tab.0.center/0.0.1366.728/1366.0.1366.728@1366.0.1366.728" timestamp="1584483405339" />
-    <state width="1323" height="186" key="GridCell.Tab.0.left" timestamp="1584483405339">
+    <state width="1323" height="171" key="GridCell.Tab.0.center/0.0.1366.728/1366.0.1366.728@1366.0.1366.728" timestamp="1584657636320" />
+    <state width="1323" height="171" key="GridCell.Tab.0.left" timestamp="1584657636320">
       <screen x="1366" y="0" width="1366" height="728" />
     </state>
     <state width="1286" height="163" key="GridCell.Tab.0.left/0.0.1366.728/1366.0.1366.728@0.0.1366.728" timestamp="1580320401624" />
-    <state width="1323" height="186" key="GridCell.Tab.0.left/0.0.1366.728/1366.0.1366.728@1366.0.1366.728" timestamp="1584483405339" />
-    <state width="1323" height="186" key="GridCell.Tab.0.right" timestamp="1584483405339">
+    <state width="1323" height="171" key="GridCell.Tab.0.left/0.0.1366.728/1366.0.1366.728@1366.0.1366.728" timestamp="1584657636320" />
+    <state width="1323" height="171" key="GridCell.Tab.0.right" timestamp="1584657636320">
       <screen x="1366" y="0" width="1366" height="728" />
     </state>
     <state width="1286" height="163" key="GridCell.Tab.0.right/0.0.1366.728/1366.0.1366.728@0.0.1366.728" timestamp="1580320401625" />
-    <state width="1323" height="186" key="GridCell.Tab.0.right/0.0.1366.728/1366.0.1366.728@1366.0.1366.728" timestamp="1584483405339" />
+    <state width="1323" height="171" key="GridCell.Tab.0.right/0.0.1366.728/1366.0.1366.728@1366.0.1366.728" timestamp="1584657636320" />
     <state width="1323" height="223" key="GridCell.Tab.1.bottom" timestamp="1584451812169">
       <screen x="1366" y="0" width="1366" height="728" />
     </state>
@@ -636,10 +674,10 @@
     </state>
     <state x="184" y="7" key="SettingsEditor/0.0.1366.728/1366.0.1366.728@0.0.1366.728" timestamp="1580320249562" />
     <state x="1526" y="0" key="SettingsEditor/0.0.1366.728/1366.0.1366.728@1366.0.1366.728" timestamp="1581628511733" />
-    <state x="1676" y="180" key="Vcs.Push.Dialog.v2" timestamp="1584467620862">
+    <state x="1676" y="180" key="Vcs.Push.Dialog.v2" timestamp="1584647400435">
       <screen x="1366" y="0" width="1366" height="728" />
     </state>
-    <state x="1676" y="180" key="Vcs.Push.Dialog.v2/0.0.1366.728/1366.0.1366.728@1366.0.1366.728" timestamp="1584467620862" />
+    <state x="1676" y="180" key="Vcs.Push.Dialog.v2/0.0.1366.728/1366.0.1366.728@1366.0.1366.728" timestamp="1584647400435" />
     <state x="1865" y="143" key="chooseDestDirectoryDialog" timestamp="1582016181384">
       <screen x="1366" y="0" width="1366" height="728" />
     </state>
@@ -680,19 +718,19 @@
       <screen x="1366" y="0" width="1366" height="728" />
     </state>
     <state x="1366" y="0" width="737" height="728" key="find.popup/0.0.1366.728/1366.0.1366.728@1366.0.1366.728" timestamp="1581070918693" />
-    <state x="1497" y="0" key="new project wizard" timestamp="1584400704115">
+    <state x="1394" y="0" key="new project wizard" timestamp="1584653880048">
       <screen x="1366" y="0" width="1366" height="728" />
     </state>
     <state x="1497" y="0" key="new project wizard/0.0.1366.728/1366.0.1366.728@0.0.1366.728" timestamp="1581936964732" />
-    <state x="1497" y="0" key="new project wizard/0.0.1366.728/1366.0.1366.728@1366.0.1366.728" timestamp="1584400704115" />
+    <state x="1394" y="0" key="new project wizard/0.0.1366.728/1366.0.1366.728@1366.0.1366.728" timestamp="1584653880048" />
     <state x="1737" y="211" width="707" height="305" key="org.intellij.images.editor.actions.BackgroundImageDialog" timestamp="1582024354785">
       <screen x="1366" y="0" width="1366" height="728" />
     </state>
     <state x="1737" y="211" width="707" height="305" key="org.intellij.images.editor.actions.BackgroundImageDialog/0.0.1366.728/1366.0.1366.728@1366.0.1366.728" timestamp="1582024354785" />
-    <state x="1791" y="0" key="refactoring.ChangeSignatureDialog" timestamp="1580239351136">
+    <state x="1791" y="0" key="refactoring.ChangeSignatureDialog" timestamp="1584650495639">
       <screen x="1366" y="0" width="1366" height="728" />
     </state>
-    <state x="1791" y="0" key="refactoring.ChangeSignatureDialog/0.0.1366.728/1366.0.1366.728@1366.0.1366.728" timestamp="1580239351136" />
+    <state x="1791" y="0" key="refactoring.ChangeSignatureDialog/0.0.1366.728/1366.0.1366.728@1366.0.1366.728" timestamp="1584650495639" />
     <state x="1705" y="162" key="run.anything.popup" timestamp="1580586071830">
       <screen x="1366" y="0" width="1366" height="728" />
     </state>
