@@ -6,17 +6,36 @@
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a245913f-c98d-4a5c-80fb-23f011574553" name="Default Changelist" comment="Expanding the BookLibrary class (6.6) number mistake repaired">
+    <list default="true" id="a245913f-c98d-4a5c-80fb-23f011574553" name="Default Changelist" comment="Functional iteration by title (13.1)">
+      <change afterPath="$PROJECT_DIR$/kodilla-good-patterns/src/main/java/com/kodilla/good/patterns/challenges/fourth/Application.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/6.0.1/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.0.1/executionHistory/executionHistory.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/6.0.1/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.0.1/executionHistory/executionHistory.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/6.0.1/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.0.1/fileHashes/fileHashes.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/6.0.1/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.0.1/fileHashes/fileHashes.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/6.0.1/javaCompile/classAnalysis.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.0.1/javaCompile/classAnalysis.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/6.0.1/javaCompile/jarAnalysis.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.0.1/javaCompile/jarAnalysis.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/6.0.1/javaCompile/javaCompile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.0.1/javaCompile/javaCompile.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/6.0.1/javaCompile/taskHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.0.1/javaCompile/taskHistory.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/kodilla-testing/src/test/java/com/kodilla/testing/library/BookDirectoryTestSuite.java" beforeDir="false" afterPath="$PROJECT_DIR$/kodilla-testing/src/test/java/com/kodilla/testing/library/BookDirectoryTestSuite.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/kodilla/FirstClass.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/kodilla/KodillaCourseApplication.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/test/com/kodilla/KodillaCourseApplicationTests.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/libs/kodilla-course-0.0.1-SNAPSHOT.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/classes/com.kodilla.KodillaCourseApplicationTests.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/css/base-style.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/css/style.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/js/report.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/packages/com.kodilla.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/resources/main/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/test-results/test/TEST-com.kodilla.KodillaCourseApplicationTests.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/test-results/test/binary/output.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/test-results/test/binary/output.bin.idx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/test-results/test/binary/results.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/tmp/bootJar/MANIFEST.MF" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/settings.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/settings.gradle" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -41,6 +60,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Enum" />
+        <option value="FxmlFile" />
         <option value="Interface" />
         <option value="Class" />
       </list>
@@ -64,31 +85,45 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_directory_selection" value="$PROJECT_DIR$/kodilla-projekt/src/main/java" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/kodilla-good-patterns/src/main/java/com/kodilla/good/patterns/challenges/third" />
     <property name="project.structure.last.edited" value="Artifacts" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.javacompiler" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Java\kodilla-course\kodilla-projekt\src\main" />
+      <recent name="C:\Java\kodilla-course\kodilla-projekt" />
+      <recent name="C:\Users\Programista\IdeaProjects\kodilla-course\kodilla-projekt\src\main\resources\images" />
+      <recent name="C:\Users\Programista\IdeaProjects\kodilla-course\kodilla-exception\src\main\resources\file" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Java\kodilla-course\kodilla-good-patterns\src\main\java\com\kodilla\good\patterns\challenges\third" />
       <recent name="C:\Users\Programista\IdeaProjects\kodilla-course\kodilla-testing\src\main\java\com\kodilla\testing\weather\mock" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.kodilla.good.patterns.challenges.third" />
+      <recent name="com.kodilla.good.patterns.challenges.second" />
+      <recent name="com.kodilla.good.patterns.challenges" />
       <recent name="com.kodilla.testing.forum.statistics" />
       <recent name="com.kodilla.stream.sand" />
     </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\Programista\IdeaProjects\kodilla-course\kodilla-exception\src\main\resources\file" />
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="com.kodilla.good.patterns.challenges.second" />
+      <recent name="com.kodilla.good.patterns.exercises.rent" />
+      <recent name="com.kodilla.good.patterns.exercises" />
+      <recent name="com.kodilla" />
     </key>
   </component>
-  <component name="RunManager" selected="Gradle.BookDirectoryTestSuite">
-    <configuration name="Pane" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.kodilla.rps.Pane" />
-      <module name="kodilla-course.kodilla-rps.main" />
+  <component name="RunManager" selected="Application.Application">
+    <configuration name="Application" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.kodilla.good.patterns.challenges.second.realization.Application" />
+      <module name="kodilla-course.kodilla-good-patterns.main" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.kodilla.rps.*" />
+          <option name="PATTERN" value="com.kodilla.good.patterns.challenges.second.realization.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -96,18 +131,29 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RpslsRunner" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.kodilla.rps.RpslsRunner" />
-      <module name="kodilla-course.kodilla-rps.main" />
+    <configuration name="Blackjack" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.kodilla.Blackjack" />
+      <module name="kodilla-course.kodilla-projekt.main" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.kodilla.rps.*" />
+          <option name="PATTERN" value="com.kodilla.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
       <method v="2">
         <option name="Make" enabled="true" />
-        <option name="BuildArtifacts" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.kodilla.good.patterns.challenges.first.Main" />
+      <module name="kodilla-course.kodilla-good-patterns.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.kodilla.good.patterns.challenges.first.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
@@ -117,26 +163,6 @@
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
         <option name="externalSystemIdString" value="GRADLE" />
         <option name="scriptParameters" value="--tests &quot;com.kodilla.testing.library.BookDirectoryTestSuite&quot;" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value=":kodilla-testing:cleanTest" />
-            <option value=":kodilla-testing:test" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
-      <method v="2" />
-    </configuration>
-    <configuration name="BookDirectoryTestSuite.listBooksInHandsOf0Books" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="--tests &quot;com.kodilla.testing.library.BookDirectoryTestSuite.listBooksInHandsOf0Books&quot;" />
         <option name="taskDescriptions">
           <list />
         </option>
@@ -187,21 +213,21 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.Pane" />
-      <item itemvalue="Application.RpslsRunner" />
+      <item itemvalue="Application.Blackjack" />
+      <item itemvalue="Application.Main" />
+      <item itemvalue="Application.Application" />
       <item itemvalue="Gradle.BookDirectoryTestSuite" />
-      <item itemvalue="Gradle.BookDirectoryTestSuite.listBooksInHandsOf0Books" />
+      <item itemvalue="Gradle.BookDirectoryTestSuite.listBooksInHandsOf5Books" />
       <item itemvalue="JAR Application.GameJar" />
       <item itemvalue="Spring Boot.KodillaCourseApplication" />
-      <item itemvalue="Gradle.BookDirectoryTestSuite.listBooksInHandsOf5Books" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Application" />
+        <item itemvalue="Application.Main" />
+        <item itemvalue="Application.Blackjack" />
         <item itemvalue="Gradle.BookDirectoryTestSuite" />
         <item itemvalue="Gradle.BookDirectoryTestSuite.listBooksInHandsOf5Books" />
-        <item itemvalue="Application.RpslsRunner" />
-        <item itemvalue="Application.Pane" />
-        <item itemvalue="Gradle.BookDirectoryTestSuite.listBooksInHandsOf0Books" />
       </list>
     </recent_temporary>
   </component>
@@ -255,7 +281,17 @@
       <workItem from="1581241064148" duration="14489000" />
       <workItem from="1581346680114" duration="4381000" />
       <workItem from="1581439800558" duration="19459000" />
-      <workItem from="1581604641824" duration="13487000" />
+      <workItem from="1581604641824" duration="13539000" />
+      <workItem from="1581855958798" duration="2564000" />
+      <workItem from="1581925280067" duration="613000" />
+      <workItem from="1581936922749" duration="1049000" />
+      <workItem from="1582013301419" duration="5863000" />
+      <workItem from="1582022148131" duration="2685000" />
+      <workItem from="1582025140863" duration="705000" />
+      <workItem from="1582103744909" duration="620000" />
+      <workItem from="1582104461486" duration="18000" />
+      <workItem from="1584400499677" duration="23818000" />
+      <workItem from="1584621066599" duration="7351000" />
     </task>
     <task id="LOCAL-00001" summary="6.1. Utworzenie modułu kodilla-testing">
       <created>1579565349217</created>
@@ -411,7 +447,42 @@
       <option name="project" value="LOCAL" />
       <updated>1581617802552</updated>
     </task>
-    <option name="localTasksCounter" value="23" />
+    <task id="LOCAL-00023" summary="Expanding the BookLibrary class (6.6) number mistake repaired">
+      <created>1581631221898</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1581631221898</updated>
+    </task>
+    <task id="LOCAL-00024" summary="Materials from the course preparing to start the project (9 - 12)">
+      <created>1584447648126</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1584447648126</updated>
+    </task>
+    <task id="LOCAL-00025" summary="Functional iteration by title (13.1)">
+      <created>1584452458013</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1584452458014</updated>
+    </task>
+    <task id="LOCAL-00026" summary="SOLID + DRY (13.2)">
+      <created>1584467618814</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1584467618814</updated>
+    </task>
+    <task id="LOCAL-00027" summary="Food2Door (13.4)">
+      <created>1584647283847</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1584647283847</updated>
+    </task>
+    <option name="localTasksCounter" value="28" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -438,7 +509,13 @@
     <MESSAGE value="Mocking the discussion forum (6.5)" />
     <MESSAGE value="Expanding the BookLibrary class (6.6)" />
     <MESSAGE value="ROCK-PAPER-SCISSORS-LIZARD-SPOCK (7.7) ver. 1.0" />
-    <option name="LAST_COMMIT_MESSAGE" value="ROCK-PAPER-SCISSORS-LIZARD-SPOCK (7.7) ver. 1.0" />
+    <MESSAGE value="Expanding the BookLibrary class (6.6) number mistake repaired" />
+    <MESSAGE value="Materials from the course preparing to start the project" />
+    <MESSAGE value="Materials from the course preparing to start the project (9 - 12)" />
+    <MESSAGE value="Functional iteration by title (13.1)" />
+    <MESSAGE value="SOLID + DRY (13.2)" />
+    <MESSAGE value="Food2Door (13.4)" />
+    <option name="LAST_COMMIT_MESSAGE" value="Food2Door (13.4)" />
   </component>
   <component name="WindowStateProjectService">
     <state x="1829" y="170" key="#BuildArtifactsBeforeRunChooser" timestamp="1581627322321">
@@ -449,6 +526,10 @@
       <screen x="1366" y="0" width="1366" height="728" />
     </state>
     <state x="1768" y="13" key="#GameJar/0.0.1366.728/1366.0.1366.728@1366.0.1366.728" timestamp="1581627343798" />
+    <state x="1641" y="23" key="#Notifications" timestamp="1584447789421">
+      <screen x="1366" y="0" width="1366" height="728" />
+    </state>
+    <state x="1641" y="23" key="#Notifications/0.0.1366.728/1366.0.1366.728@1366.0.1366.728" timestamp="1584447789421" />
     <state x="1641" y="23" key="#Project_Structure" timestamp="1581531198702">
       <screen x="1366" y="0" width="1366" height="728" />
     </state>
@@ -469,75 +550,75 @@
       <screen x="1366" y="0" width="1366" height="728" />
     </state>
     <state x="1828" y="69" key="#com.intellij.ide.macro.MacrosDialog/0.0.1366.728/1366.0.1366.728@1366.0.1366.728" timestamp="1581627306433" />
-    <state x="1474" y="77" key="#com.intellij.ide.util.MemberChooser" timestamp="1581546025617">
+    <state x="1474" y="77" key="#com.intellij.ide.util.MemberChooser" timestamp="1584647189121">
       <screen x="1366" y="0" width="1366" height="728" />
     </state>
-    <state x="1474" y="77" key="#com.intellij.ide.util.MemberChooser/0.0.1366.728/1366.0.1366.728@1366.0.1366.728" timestamp="1581546025617" />
+    <state x="1474" y="77" key="#com.intellij.ide.util.MemberChooser/0.0.1366.728/1366.0.1366.728@1366.0.1366.728" timestamp="1584647189121" />
     <state x="1800" y="149" key="#com.intellij.ide.util.TreeClassChooserDialog" timestamp="1581628463697">
       <screen x="1366" y="0" width="1366" height="728" />
     </state>
     <state x="1800" y="149" key="#com.intellij.ide.util.TreeClassChooserDialog/0.0.1366.728/1366.0.1366.728@1366.0.1366.728" timestamp="1581628463697" />
-    <state x="1803" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1581546425733">
+    <state x="1695" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1584647100256">
       <screen x="1366" y="0" width="1366" height="728" />
     </state>
-    <state x="1803" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1366.728/1366.0.1366.728@1366.0.1366.728" timestamp="1581546425733" />
-    <state x="1779" y="112" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1580585242012">
+    <state x="1695" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1366.728/1366.0.1366.728@1366.0.1366.728" timestamp="1584647100256" />
+    <state x="1779" y="112" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1582020087455">
       <screen x="1366" y="0" width="1366" height="728" />
     </state>
-    <state x="1779" y="112" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1366.728/1366.0.1366.728@1366.0.1366.728" timestamp="1580585242012" />
+    <state x="1779" y="112" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1366.728/1366.0.1366.728@1366.0.1366.728" timestamp="1582020087455" />
     <state x="1779" y="112" key="#com.intellij.refactoring.typeMigration.ui.FailedConversionsDialog" timestamp="1580729923419">
       <screen x="1366" y="0" width="1366" height="728" />
     </state>
     <state x="1779" y="112" key="#com.intellij.refactoring.typeMigration.ui.FailedConversionsDialog/0.0.1366.728/1366.0.1366.728@1366.0.1366.728" timestamp="1580729923419" />
-    <state x="1561" y="0" key="CommitChangelistDialog2" timestamp="1581631197770">
+    <state x="1648" y="0" key="CommitChangelistDialog2" timestamp="1584647277237">
       <screen x="1366" y="0" width="1366" height="728" />
     </state>
-    <state x="1561" y="0" key="CommitChangelistDialog2/0.0.1366.728/1366.0.1366.728@1366.0.1366.728" timestamp="1581631197770" />
+    <state x="1648" y="0" key="CommitChangelistDialog2/0.0.1366.728/1366.0.1366.728@1366.0.1366.728" timestamp="1584647277237" />
     <state x="1458" y="92" width="1182" height="544" key="DiffContextDialog" timestamp="1580727889518">
       <screen x="1366" y="0" width="1366" height="728" />
     </state>
     <state x="1458" y="92" width="1182" height="544" key="DiffContextDialog/0.0.1366.728/1366.0.1366.728@1366.0.1366.728" timestamp="1580727889518" />
-    <state x="2155" y="135" key="FileChooserDialogImpl" timestamp="1581628482470">
-      <screen x="1366" y="0" width="1366" height="728" />
+    <state x="461" y="120" key="FileChooserDialogImpl" timestamp="1581926144401">
+      <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="461" y="120" key="FileChooserDialogImpl/0.0.1366.728/1366.0.1366.728@0.0.1366.728" timestamp="1580320243382" />
+    <state x="461" y="120" key="FileChooserDialogImpl/0.0.1366.728/1366.0.1366.728@0.0.1366.728" timestamp="1581926144401" />
     <state x="2155" y="135" key="FileChooserDialogImpl/0.0.1366.728/1366.0.1366.728@1366.0.1366.728" timestamp="1581628482470" />
-    <state width="1323" height="193" key="GridCell.Tab.0.bottom" timestamp="1581631095696">
+    <state width="1323" height="186" key="GridCell.Tab.0.bottom" timestamp="1584483405339">
       <screen x="1366" y="0" width="1366" height="728" />
     </state>
     <state width="1286" height="163" key="GridCell.Tab.0.bottom/0.0.1366.728/1366.0.1366.728@0.0.1366.728" timestamp="1580320401625" />
-    <state width="1323" height="193" key="GridCell.Tab.0.bottom/0.0.1366.728/1366.0.1366.728@1366.0.1366.728" timestamp="1581631095696" />
-    <state width="1323" height="193" key="GridCell.Tab.0.center" timestamp="1581631095696">
+    <state width="1323" height="186" key="GridCell.Tab.0.bottom/0.0.1366.728/1366.0.1366.728@1366.0.1366.728" timestamp="1584483405339" />
+    <state width="1323" height="186" key="GridCell.Tab.0.center" timestamp="1584483405339">
       <screen x="1366" y="0" width="1366" height="728" />
     </state>
     <state width="1286" height="163" key="GridCell.Tab.0.center/0.0.1366.728/1366.0.1366.728@0.0.1366.728" timestamp="1580320401625" />
-    <state width="1323" height="193" key="GridCell.Tab.0.center/0.0.1366.728/1366.0.1366.728@1366.0.1366.728" timestamp="1581631095695" />
-    <state width="1323" height="193" key="GridCell.Tab.0.left" timestamp="1581631095695">
+    <state width="1323" height="186" key="GridCell.Tab.0.center/0.0.1366.728/1366.0.1366.728@1366.0.1366.728" timestamp="1584483405339" />
+    <state width="1323" height="186" key="GridCell.Tab.0.left" timestamp="1584483405339">
       <screen x="1366" y="0" width="1366" height="728" />
     </state>
     <state width="1286" height="163" key="GridCell.Tab.0.left/0.0.1366.728/1366.0.1366.728@0.0.1366.728" timestamp="1580320401624" />
-    <state width="1323" height="193" key="GridCell.Tab.0.left/0.0.1366.728/1366.0.1366.728@1366.0.1366.728" timestamp="1581631095695" />
-    <state width="1323" height="193" key="GridCell.Tab.0.right" timestamp="1581631095696">
+    <state width="1323" height="186" key="GridCell.Tab.0.left/0.0.1366.728/1366.0.1366.728@1366.0.1366.728" timestamp="1584483405339" />
+    <state width="1323" height="186" key="GridCell.Tab.0.right" timestamp="1584483405339">
       <screen x="1366" y="0" width="1366" height="728" />
     </state>
     <state width="1286" height="163" key="GridCell.Tab.0.right/0.0.1366.728/1366.0.1366.728@0.0.1366.728" timestamp="1580320401625" />
-    <state width="1323" height="193" key="GridCell.Tab.0.right/0.0.1366.728/1366.0.1366.728@1366.0.1366.728" timestamp="1581631095696" />
-    <state width="1323" height="223" key="GridCell.Tab.1.bottom" timestamp="1581039151174">
+    <state width="1323" height="186" key="GridCell.Tab.0.right/0.0.1366.728/1366.0.1366.728@1366.0.1366.728" timestamp="1584483405339" />
+    <state width="1323" height="223" key="GridCell.Tab.1.bottom" timestamp="1584451812169">
       <screen x="1366" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="223" key="GridCell.Tab.1.bottom/0.0.1366.728/1366.0.1366.728@1366.0.1366.728" timestamp="1581039151174" />
-    <state width="1323" height="223" key="GridCell.Tab.1.center" timestamp="1581039151174">
+    <state width="1323" height="223" key="GridCell.Tab.1.bottom/0.0.1366.728/1366.0.1366.728@1366.0.1366.728" timestamp="1584451812169" />
+    <state width="1323" height="223" key="GridCell.Tab.1.center" timestamp="1584451812169">
       <screen x="1366" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="223" key="GridCell.Tab.1.center/0.0.1366.728/1366.0.1366.728@1366.0.1366.728" timestamp="1581039151174" />
-    <state width="1323" height="223" key="GridCell.Tab.1.left" timestamp="1581039151173">
+    <state width="1323" height="223" key="GridCell.Tab.1.center/0.0.1366.728/1366.0.1366.728@1366.0.1366.728" timestamp="1584451812169" />
+    <state width="1323" height="223" key="GridCell.Tab.1.left" timestamp="1584451812169">
       <screen x="1366" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="223" key="GridCell.Tab.1.left/0.0.1366.728/1366.0.1366.728@1366.0.1366.728" timestamp="1581039151173" />
-    <state width="1323" height="223" key="GridCell.Tab.1.right" timestamp="1581039151174">
+    <state width="1323" height="223" key="GridCell.Tab.1.left/0.0.1366.728/1366.0.1366.728@1366.0.1366.728" timestamp="1584451812169" />
+    <state width="1323" height="223" key="GridCell.Tab.1.right" timestamp="1584451812169">
       <screen x="1366" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="223" key="GridCell.Tab.1.right/0.0.1366.728/1366.0.1366.728@1366.0.1366.728" timestamp="1581039151174" />
+    <state width="1323" height="223" key="GridCell.Tab.1.right/0.0.1366.728/1366.0.1366.728@1366.0.1366.728" timestamp="1584451812169" />
     <state x="1495" y="61" key="MergeDialog" timestamp="1580728275022">
       <screen x="1366" y="0" width="1366" height="728" />
     </state>
@@ -555,10 +636,14 @@
     </state>
     <state x="184" y="7" key="SettingsEditor/0.0.1366.728/1366.0.1366.728@0.0.1366.728" timestamp="1580320249562" />
     <state x="1526" y="0" key="SettingsEditor/0.0.1366.728/1366.0.1366.728@1366.0.1366.728" timestamp="1581628511733" />
-    <state x="1676" y="180" key="Vcs.Push.Dialog.v2" timestamp="1581617808307">
+    <state x="1676" y="180" key="Vcs.Push.Dialog.v2" timestamp="1584467620862">
       <screen x="1366" y="0" width="1366" height="728" />
     </state>
-    <state x="1676" y="180" key="Vcs.Push.Dialog.v2/0.0.1366.728/1366.0.1366.728@1366.0.1366.728" timestamp="1581617808307" />
+    <state x="1676" y="180" key="Vcs.Push.Dialog.v2/0.0.1366.728/1366.0.1366.728@1366.0.1366.728" timestamp="1584467620862" />
+    <state x="1865" y="143" key="chooseDestDirectoryDialog" timestamp="1582016181384">
+      <screen x="1366" y="0" width="1366" height="728" />
+    </state>
+    <state x="1865" y="143" key="chooseDestDirectoryDialog/0.0.1366.728/1366.0.1366.728@1366.0.1366.728" timestamp="1582016181384" />
     <state x="391" y="193" key="com.intellij.ide.util.TipDialog" timestamp="1580319890584">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -575,26 +660,35 @@
       <screen x="1366" y="0" width="1366" height="728" />
     </state>
     <state x="1610" y="101" width="877" height="602" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2/0.0.1366.728/1366.0.1366.728@1366.0.1366.728" timestamp="1581534177202" />
-    <state x="1639" y="55" width="1000" height="493" key="dock-window-1" timestamp="1580581590704">
-      <screen x="1366" y="0" width="1366" height="728" />
-    </state>
-    <state x="1639" y="55" width="1000" height="493" key="dock-window-1/0.0.1366.728/1366.0.1366.728@1366.0.1366.728" timestamp="1580581590704" />
-    <state x="42" y="0" width="788" height="713" key="dock-window-2" timestamp="1580588007429">
+    <state x="9" y="0" width="1015" height="506" key="dock-window-1" timestamp="1584463815147">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="42" y="0" width="788" height="713" key="dock-window-2/0.0.1366.728/1366.0.1366.728@1366.0.1366.728" timestamp="1580588007429" />
-    <state x="0" y="0" width="1339" height="713" maximized="true" key="dock-window-3" timestamp="1580594293081">
+    <state x="9" y="0" width="1015" height="506" key="dock-window-1/0.0.1366.728/1366.0.1366.728@1366.0.1366.728" timestamp="1584463815147" />
+    <state x="125" y="10" width="1015" height="506" maximized="true" key="dock-window-2" timestamp="1584463815147">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="0" y="0" width="1339" height="713" maximized="true" key="dock-window-3/0.0.1366.728/1366.0.1366.728@1366.0.1366.728" timestamp="1580594293081" />
+    <state x="125" y="10" width="1015" height="506" maximized="true" key="dock-window-2/0.0.1366.728/1366.0.1366.728@1366.0.1366.728" timestamp="1584463815147" />
+    <state x="0" y="0" width="1011" height="567" key="dock-window-3" timestamp="1584466366484">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="0" y="0" width="1011" height="567" key="dock-window-3/0.0.1366.728/1366.0.1366.728@1366.0.1366.728" timestamp="1584466366484" />
+    <state x="114" y="0" width="1011" height="567" key="dock-window-4" timestamp="1584621459571">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="114" y="0" width="1011" height="567" key="dock-window-4/0.0.1366.728/1366.0.1366.728@1366.0.1366.728" timestamp="1584621459571" />
     <state x="1366" y="0" width="737" height="728" key="find.popup" timestamp="1581070918693">
       <screen x="1366" y="0" width="1366" height="728" />
     </state>
     <state x="1366" y="0" width="737" height="728" key="find.popup/0.0.1366.728/1366.0.1366.728@1366.0.1366.728" timestamp="1581070918693" />
-    <state x="1444" y="0" key="new project wizard" timestamp="1581531064629">
+    <state x="1497" y="0" key="new project wizard" timestamp="1584400704115">
       <screen x="1366" y="0" width="1366" height="728" />
     </state>
-    <state x="1444" y="0" key="new project wizard/0.0.1366.728/1366.0.1366.728@1366.0.1366.728" timestamp="1581531064629" />
+    <state x="1497" y="0" key="new project wizard/0.0.1366.728/1366.0.1366.728@0.0.1366.728" timestamp="1581936964732" />
+    <state x="1497" y="0" key="new project wizard/0.0.1366.728/1366.0.1366.728@1366.0.1366.728" timestamp="1584400704115" />
+    <state x="1737" y="211" width="707" height="305" key="org.intellij.images.editor.actions.BackgroundImageDialog" timestamp="1582024354785">
+      <screen x="1366" y="0" width="1366" height="728" />
+    </state>
+    <state x="1737" y="211" width="707" height="305" key="org.intellij.images.editor.actions.BackgroundImageDialog/0.0.1366.728/1366.0.1366.728@1366.0.1366.728" timestamp="1582024354785" />
     <state x="1791" y="0" key="refactoring.ChangeSignatureDialog" timestamp="1580239351136">
       <screen x="1366" y="0" width="1366" height="728" />
     </state>
@@ -607,6 +701,27 @@
       <screen x="1366" y="0" width="1366" height="728" />
     </state>
     <state x="1712" y="49" width="672" height="678" key="search.everywhere.popup/0.0.1366.728/1366.0.1366.728@1366.0.1366.728" timestamp="1581627083065" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/kodilla-good-patterns/src/main/java/com/kodilla/good/patterns/challenges/first/Main.java</url>
+          <line>8</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/kodilla-good-patterns/src/main/java/com/kodilla/good/patterns/challenges/first/Main.java</url>
+          <line>9</line>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/kodilla-good-patterns/src/main/java/com/kodilla/good/patterns/challenges/first/Main.java</url>
+          <line>10</line>
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/kodilla_course$ArrayOperationsTestSuite_testGetAverage.ic" NAME="ArrayOperationsTestSuite.testGetAverage Coverage Results" MODIFIED="1581037268270" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
