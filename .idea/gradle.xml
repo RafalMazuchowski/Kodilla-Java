@@ -22,6 +22,17 @@
         </option>
         <option name="useQualifiedModuleNames" value="true" />
       </GradleProjectSettings>
+      <GradleProjectSettings>
+        <option name="distributionType" value="DEFAULT_WRAPPED" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$/kodilla-spring-web" />
+        <option name="gradleHome" value="C:/gradle-6.1" />
+        <option name="modules">
+          <set>
+            <option value="$PROJECT_DIR$/kodilla-spring-web" />
+          </set>
+        </option>
+        <option name="useQualifiedModuleNames" value="true" />
+      </GradleProjectSettings>
     </option>
   </component>
 </project>
