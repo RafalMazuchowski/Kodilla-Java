@@ -7,24 +7,18 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a245913f-c98d-4a5c-80fb-23f011574553" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/kodilla-patterns/src/main/java/com/kodilla/patterns/strategy/business/BuyPredictor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kodilla-patterns/src/main/java/com/kodilla/patterns/strategy/business/CorporateCustomer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kodilla-patterns/src/main/java/com/kodilla/patterns/strategy/business/Customer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kodilla-patterns/src/main/java/com/kodilla/patterns/strategy/business/IndividualCustomer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kodilla-patterns/src/main/java/com/kodilla/patterns/strategy/business/IndividualYoungCustomer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kodilla-patterns/src/main/java/com/kodilla/patterns/strategy/business/predictors/AggressivePredictor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kodilla-patterns/src/main/java/com/kodilla/patterns/strategy/business/predictors/BalancedPredictor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kodilla-patterns/src/main/java/com/kodilla/patterns/strategy/business/predictors/ConservativePredictor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kodilla-patterns/src/main/java/com/kodilla/patterns/strategy/social/Millenials.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kodilla-patterns/src/main/java/com/kodilla/patterns/strategy/social/SocialPublisher.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kodilla-patterns/src/main/java/com/kodilla/patterns/strategy/social/User.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kodilla-patterns/src/main/java/com/kodilla/patterns/strategy/social/YGeneration.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kodilla-patterns/src/main/java/com/kodilla/patterns/strategy/social/ZGeneration.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kodilla-patterns/src/main/java/com/kodilla/patterns/strategy/social/media/FacebookPublisher.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kodilla-patterns/src/main/java/com/kodilla/patterns/strategy/social/media/InstagramPublisher.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kodilla-patterns/src/main/java/com/kodilla/patterns/strategy/social/media/SnapchatPublisher.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kodilla-patterns/src/test/java/com/kodilla/patterns/strategy/business/CustomerTestSuite.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kodilla-patterns/src/test/java/com/kodilla/patterns/strategy/social/UserTestSuite.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kodilla-patterns/src/main/java/com/kodilla/patterns/factory/shapes/Circle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kodilla-patterns/src/main/java/com/kodilla/patterns/factory/shapes/Rectangle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kodilla-patterns/src/main/java/com/kodilla/patterns/factory/shapes/Shape.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kodilla-patterns/src/main/java/com/kodilla/patterns/factory/shapes/ShapeFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kodilla-patterns/src/main/java/com/kodilla/patterns/factory/shapes/Square.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kodilla-patterns/src/main/java/com/kodilla/patterns/factory/tasks/DrivingTask.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kodilla-patterns/src/main/java/com/kodilla/patterns/factory/tasks/PaintingTask.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kodilla-patterns/src/main/java/com/kodilla/patterns/factory/tasks/ShoppingTask.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kodilla-patterns/src/main/java/com/kodilla/patterns/factory/tasks/Task.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kodilla-patterns/src/main/java/com/kodilla/patterns/factory/tasks/TaskFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kodilla-patterns/src/test/java/com/kodilla/patterns/factory/shapes/ShapeFactoryTestSuite.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kodilla-patterns/src/test/java/com/kodilla/patterns/factory/tasks/TaskFactoryTestSuite.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/6.0.1/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.0.1/executionHistory/executionHistory.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/6.0.1/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.0.1/executionHistory/executionHistory.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/6.0.1/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.0.1/fileHashes/fileHashes.bin" afterDir="false" />
@@ -36,11 +30,6 @@
       <change beforePath="$PROJECT_DIR$/.gradle/6.0.1/javaCompile/taskHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.0.1/javaCompile/taskHistory.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/kodilla-patterns/src/main/java/com/kodilla/patterns/prototype/Board.java" beforeDir="false" afterPath="$PROJECT_DIR$/kodilla-patterns/src/main/java/com/kodilla/patterns/prototype/tasks/Board.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/kodilla-patterns/src/main/java/com/kodilla/patterns/prototype/Prototype.java" beforeDir="false" afterPath="$PROJECT_DIR$/kodilla-patterns/src/main/java/com/kodilla/patterns/prototype/tasks/Prototype.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/kodilla-patterns/src/main/java/com/kodilla/patterns/prototype/Task.java" beforeDir="false" afterPath="$PROJECT_DIR$/kodilla-patterns/src/main/java/com/kodilla/patterns/prototype/tasks/Task.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/kodilla-patterns/src/main/java/com/kodilla/patterns/prototype/TasksList.java" beforeDir="false" afterPath="$PROJECT_DIR$/kodilla-patterns/src/main/java/com/kodilla/patterns/prototype/tasks/TasksList.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/kodilla-patterns/src/test/java/com/kodilla/patterns/prototype/BoardTestSuite.java" beforeDir="false" afterPath="$PROJECT_DIR$/kodilla-patterns/src/test/java/com/kodilla/patterns/prototype/tasks/BoardTestSuite.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -132,27 +121,7 @@
       </set>
     </option>
   </component>
-  <component name="RunManager" selected="Gradle.UserTestSuite">
-    <configuration name="BoardTestSuite" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="--tests &quot;com.kodilla.patterns.prototype.BoardTestSuite&quot;" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value=":kodilla-patterns:cleanTest" />
-            <option value=":kodilla-patterns:test" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
-      <method v="2" />
-    </configuration>
+  <component name="RunManager" selected="Gradle.TaskFactoryTestSuite">
     <configuration name="CustomerTestSuite.testDefaultInvestingStrategies" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -173,12 +142,12 @@
       <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="LibraryTestSuite" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="ShapeFactoryTestSuite" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
         <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="--tests &quot;com.kodilla.patterns.prototype.library.LibraryTestSuite&quot;" />
+        <option name="scriptParameters" value="--tests &quot;com.kodilla.patterns.factory.shapes.ShapeFactoryTestSuite&quot;" />
         <option name="taskDescriptions">
           <list />
         </option>
@@ -193,12 +162,32 @@
       <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="LoggerTestSuite.getLastLog" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="TaskFactoryTestSuite" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
         <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="--tests &quot;com.kodilla.patterns.singleton.LoggerTestSuite.getLastLog&quot;" />
+        <option name="scriptParameters" value="--tests &quot;com.kodilla.patterns.factory.tasks.TaskFactoryTestSuite&quot;" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":kodilla-patterns:cleanTest" />
+            <option value=":kodilla-patterns:test" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="TaskFactoryTestSuite.testFactoryPaintingTask" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="--tests &quot;com.kodilla.patterns.factory.tasks.TaskFactoryTestSuite.testFactoryPaintingTask&quot;" />
         <option name="taskDescriptions">
           <list />
         </option>
@@ -263,23 +252,23 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Gradle.LoggerTestSuite.getLastLog" />
-      <item itemvalue="Gradle.BoardTestSuite" />
+      <item itemvalue="Gradle.CustomerTestSuite.testDefaultInvestingStrategies" />
+      <item itemvalue="Gradle.UserTestSuite" />
+      <item itemvalue="Gradle.ShapeFactoryTestSuite" />
       <item itemvalue="JAR Application.GameJar" />
       <item itemvalue="Spring Boot.KodillaCourseApplication" />
       <item itemvalue="Spring Boot.SpringRunner" />
       <item itemvalue="Spring Boot.KodillaSpringWebApplication" />
-      <item itemvalue="Gradle.LibraryTestSuite" />
-      <item itemvalue="Gradle.CustomerTestSuite.testDefaultInvestingStrategies" />
-      <item itemvalue="Gradle.UserTestSuite" />
+      <item itemvalue="Gradle.TaskFactoryTestSuite.testFactoryPaintingTask" />
+      <item itemvalue="Gradle.TaskFactoryTestSuite" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Gradle.TaskFactoryTestSuite" />
+        <item itemvalue="Gradle.TaskFactoryTestSuite.testFactoryPaintingTask" />
+        <item itemvalue="Gradle.ShapeFactoryTestSuite" />
         <item itemvalue="Gradle.UserTestSuite" />
         <item itemvalue="Gradle.CustomerTestSuite.testDefaultInvestingStrategies" />
-        <item itemvalue="Gradle.LibraryTestSuite" />
-        <item itemvalue="Gradle.BoardTestSuite" />
-        <item itemvalue="Gradle.LoggerTestSuite.getLastLog" />
       </list>
     </recent_temporary>
   </component>
@@ -358,7 +347,8 @@
       <workItem from="1584695489545" duration="20017000" />
       <workItem from="1584784735595" duration="7219000" />
       <workItem from="1584881123101" duration="4035000" />
-      <workItem from="1584965700241" duration="15755000" />
+      <workItem from="1584965700241" duration="18722000" />
+      <workItem from="1585054826685" duration="1438000" />
     </task>
     <task id="LOCAL-00001" summary="6.1. Utworzenie modułu kodilla-testing">
       <created>1579565349217</created>
@@ -598,7 +588,14 @@
       <option name="project" value="LOCAL" />
       <updated>1584992793946</updated>
     </task>
-    <option name="localTasksCounter" value="35" />
+    <task id="LOCAL-00035" summary="Users' social media (15.3)">
+      <created>1585009893248</created>
+      <option name="number" value="00035" />
+      <option name="presentableId" value="LOCAL-00035" />
+      <option name="project" value="LOCAL" />
+      <updated>1585009893248</updated>
+    </task>
+    <option name="localTasksCounter" value="36" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -606,7 +603,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="Try! catch! finally! (8.2)" />
     <MESSAGE value="An exception handling (8.3)" />
     <MESSAGE value="Exception knowledge (8.4)" />
     <MESSAGE value="Calculate the number of people in the world (7.4)" />
@@ -631,7 +627,8 @@
     <MESSAGE value="All in one (14.4)" />
     <MESSAGE value="Singleton used to save logs of performed operations (15.10" />
     <MESSAGE value="Cloning the library (15.2)" />
-    <option name="LAST_COMMIT_MESSAGE" value="Cloning the library (15.2)" />
+    <MESSAGE value="Users' social media (15.3)" />
+    <option name="LAST_COMMIT_MESSAGE" value="Users' social media (15.3)" />
   </component>
   <component name="WindowStateProjectService">
     <state x="1829" y="170" key="#BuildArtifactsBeforeRunChooser" timestamp="1581627322321">
@@ -670,10 +667,10 @@
       <screen x="1366" y="0" width="1366" height="728" />
     </state>
     <state x="1828" y="69" key="#com.intellij.ide.macro.MacrosDialog/0.0.1366.728/1366.0.1366.728@1366.0.1366.728" timestamp="1581627306433" />
-    <state x="1474" y="77" key="#com.intellij.ide.util.MemberChooser" timestamp="1585007648785">
+    <state x="1474" y="77" key="#com.intellij.ide.util.MemberChooser" timestamp="1585011732897">
       <screen x="1366" y="0" width="1366" height="728" />
     </state>
-    <state x="1474" y="77" key="#com.intellij.ide.util.MemberChooser/0.0.1366.728/1366.0.1366.728@1366.0.1366.728" timestamp="1585007648785" />
+    <state x="1474" y="77" key="#com.intellij.ide.util.MemberChooser/0.0.1366.728/1366.0.1366.728@1366.0.1366.728" timestamp="1585011732897" />
     <state x="1800" y="149" key="#com.intellij.ide.util.TreeClassChooserDialog" timestamp="1581628463697">
       <screen x="1366" y="0" width="1366" height="728" />
     </state>
@@ -694,10 +691,10 @@
       <screen x="1366" y="0" width="1366" height="728" />
     </state>
     <state x="1779" y="112" key="#com.intellij.refactoring.typeMigration.ui.FailedConversionsDialog/0.0.1366.728/1366.0.1366.728@1366.0.1366.728" timestamp="1584657092952" />
-    <state x="1648" y="0" key="CommitChangelistDialog2" timestamp="1584992784845">
+    <state x="1648" y="0" key="CommitChangelistDialog2" timestamp="1585009885920">
       <screen x="1366" y="0" width="1366" height="728" />
     </state>
-    <state x="1648" y="0" key="CommitChangelistDialog2/0.0.1366.728/1366.0.1366.728@1366.0.1366.728" timestamp="1584992784845" />
+    <state x="1648" y="0" key="CommitChangelistDialog2/0.0.1366.728/1366.0.1366.728@1366.0.1366.728" timestamp="1585009885920" />
     <state x="1458" y="92" width="1182" height="544" key="DiffContextDialog" timestamp="1580727889518">
       <screen x="1366" y="0" width="1366" height="728" />
     </state>
@@ -707,26 +704,26 @@
     </state>
     <state x="461" y="120" key="FileChooserDialogImpl/0.0.1366.728/1366.0.1366.728@0.0.1366.728" timestamp="1581926144401" />
     <state x="2155" y="135" key="FileChooserDialogImpl/0.0.1366.728/1366.0.1366.728@1366.0.1366.728" timestamp="1584653512066" />
-    <state width="1323" height="151" key="GridCell.Tab.0.bottom" timestamp="1585009810520">
+    <state width="1323" height="151" key="GridCell.Tab.0.bottom" timestamp="1585060090600">
       <screen x="1366" y="0" width="1366" height="728" />
     </state>
     <state width="1286" height="163" key="GridCell.Tab.0.bottom/0.0.1366.728/1366.0.1366.728@0.0.1366.728" timestamp="1580320401625" />
-    <state width="1323" height="151" key="GridCell.Tab.0.bottom/0.0.1366.728/1366.0.1366.728@1366.0.1366.728" timestamp="1585009810520" />
-    <state width="1323" height="151" key="GridCell.Tab.0.center" timestamp="1585009810520">
+    <state width="1323" height="151" key="GridCell.Tab.0.bottom/0.0.1366.728/1366.0.1366.728@1366.0.1366.728" timestamp="1585060090600" />
+    <state width="1323" height="151" key="GridCell.Tab.0.center" timestamp="1585060090600">
       <screen x="1366" y="0" width="1366" height="728" />
     </state>
     <state width="1286" height="163" key="GridCell.Tab.0.center/0.0.1366.728/1366.0.1366.728@0.0.1366.728" timestamp="1580320401625" />
-    <state width="1323" height="151" key="GridCell.Tab.0.center/0.0.1366.728/1366.0.1366.728@1366.0.1366.728" timestamp="1585009810520" />
-    <state width="1323" height="151" key="GridCell.Tab.0.left" timestamp="1585009810520">
+    <state width="1323" height="151" key="GridCell.Tab.0.center/0.0.1366.728/1366.0.1366.728@1366.0.1366.728" timestamp="1585060090600" />
+    <state width="1323" height="151" key="GridCell.Tab.0.left" timestamp="1585060090600">
       <screen x="1366" y="0" width="1366" height="728" />
     </state>
     <state width="1286" height="163" key="GridCell.Tab.0.left/0.0.1366.728/1366.0.1366.728@0.0.1366.728" timestamp="1580320401624" />
-    <state width="1323" height="151" key="GridCell.Tab.0.left/0.0.1366.728/1366.0.1366.728@1366.0.1366.728" timestamp="1585009810520" />
-    <state width="1323" height="151" key="GridCell.Tab.0.right" timestamp="1585009810520">
+    <state width="1323" height="151" key="GridCell.Tab.0.left/0.0.1366.728/1366.0.1366.728@1366.0.1366.728" timestamp="1585060090600" />
+    <state width="1323" height="151" key="GridCell.Tab.0.right" timestamp="1585060090600">
       <screen x="1366" y="0" width="1366" height="728" />
     </state>
     <state width="1286" height="163" key="GridCell.Tab.0.right/0.0.1366.728/1366.0.1366.728@0.0.1366.728" timestamp="1580320401625" />
-    <state width="1323" height="151" key="GridCell.Tab.0.right/0.0.1366.728/1366.0.1366.728@1366.0.1366.728" timestamp="1585009810520" />
+    <state width="1323" height="151" key="GridCell.Tab.0.right/0.0.1366.728/1366.0.1366.728@1366.0.1366.728" timestamp="1585060090600" />
     <state width="1010" height="179" key="GridCell.Tab.1.bottom" timestamp="1584749354746">
       <screen x="1366" y="0" width="1366" height="728" />
     </state>
@@ -760,10 +757,10 @@
     </state>
     <state x="184" y="7" key="SettingsEditor/0.0.1366.728/1366.0.1366.728@0.0.1366.728" timestamp="1580320249562" />
     <state x="1526" y="0" key="SettingsEditor/0.0.1366.728/1366.0.1366.728@1366.0.1366.728" timestamp="1581628511733" />
-    <state x="1723" y="67" key="Vcs.Push.Dialog.v2" timestamp="1584992797111">
+    <state x="1723" y="67" key="Vcs.Push.Dialog.v2" timestamp="1585010169838">
       <screen x="1366" y="0" width="1366" height="728" />
     </state>
-    <state x="1723" y="67" key="Vcs.Push.Dialog.v2/0.0.1366.728/1366.0.1366.728@1366.0.1366.728" timestamp="1584992797111" />
+    <state x="1723" y="67" key="Vcs.Push.Dialog.v2/0.0.1366.728/1366.0.1366.728@1366.0.1366.728" timestamp="1585010169838" />
     <state x="1865" y="143" key="chooseDestDirectoryDialog" timestamp="1584719016294">
       <screen x="1366" y="0" width="1366" height="728" />
     </state>
@@ -796,10 +793,14 @@
       <screen x="1366" y="0" width="1366" height="728" />
     </state>
     <state x="1414" y="116" width="1301" height="534" key="dock-window-3/0.0.1366.728/1366.0.1366.728@1366.0.1366.728" timestamp="1585009836349" />
-    <state x="114" y="0" width="1011" height="567" key="dock-window-4" timestamp="1584621459571">
+    <state x="77" y="51" width="1070" height="534" maximized="true" key="dock-window-4" timestamp="1585059315890">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="114" y="0" width="1011" height="567" key="dock-window-4/0.0.1366.728/1366.0.1366.728@1366.0.1366.728" timestamp="1584621459571" />
+    <state x="77" y="51" width="1070" height="534" maximized="true" key="dock-window-4/0.0.1366.728/1366.0.1366.728@1366.0.1366.728" timestamp="1585059315890" />
+    <state x="51" y="75" width="1070" height="534" key="dock-window-5" timestamp="1585011356726">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="51" y="75" width="1070" height="534" key="dock-window-5/0.0.1366.728/1366.0.1366.728@1366.0.1366.728" timestamp="1585011356726" />
     <state x="1366" y="0" width="737" height="728" key="find.popup" timestamp="1581070918693">
       <screen x="1366" y="0" width="1366" height="728" />
     </state>
