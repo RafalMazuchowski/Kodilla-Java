@@ -5,6 +5,12 @@ import javax.validation.constraints.NotNull;
 import java.util.ArrayList;
 import java.util.List;
 
+@NamedNativeQuery(
+        name = "Company.retrieveByThreeSigns",
+        query = "SELECT * FROM kodilla_course.companies WHERE company_name LIKE :SIGNS",
+        resultClass = Company.class
+)
+//SELECT * FROM kodilla_course.companies WHERE company_name LIKE 'Sof%';
 @Entity
 @Table(name = "COMPANIES")
 public class Company {
@@ -13,7 +19,6 @@ public class Company {
     private List<Employee> employees = new ArrayList<>();
 
     public Company() {
-
     }
 
     public Company(String name) {
