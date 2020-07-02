@@ -14,11 +14,11 @@ public class Application {
         flightFinderService.findFrom(WROCLAW)
         .forEach(System.out::println);
 
-        System.out.println("Flights to Katowice");
+        System.out.println("\nFlights to Katowice");
         flightFinderService.findTo(KATOWICE)
         .forEach(System.out::println);
 
-        System.out.println("Indirect flights from Wroclaw to Katowice");
+        System.out.println("\nIndirect flights from Wroclaw to Katowice");
         flightFinderService.findIndirect(WROCLAW, KATOWICE)
         .forEach(System.out::println);
     }

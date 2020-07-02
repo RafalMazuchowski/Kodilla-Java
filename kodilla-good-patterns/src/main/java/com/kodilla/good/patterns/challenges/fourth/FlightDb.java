@@ -17,7 +17,7 @@ public class FlightDb {
         this.flights.add(new Flight(WROCLAW, POZNAN));
         this.flights.add(new Flight(WROCLAW, WARSZAWA));
         this.flights.add(new Flight(KRAKOW, KATOWICE));
-        this.flights.add(new Flight(POZNAN, KATOWICE));
+        this.flights.add(new Flight(POZNAN, WROCLAW));
         this.flights.add(new Flight(WARSZAWA, KATOWICE));
     }
 

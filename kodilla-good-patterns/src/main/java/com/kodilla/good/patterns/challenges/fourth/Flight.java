@@ -3,8 +3,9 @@ package com.kodilla.good.patterns.challenges.fourth;
 import java.util.Objects;
 
 public class Flight {
-    private String from;
-    private String to;
+    protected String from;
+    protected String to;
+
 
     public Flight(String from, String to) {
         this.from = from;
