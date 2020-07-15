@@ -1,0 +1,186 @@
+Index: kodilla-good-patterns/src/main/java/com/kodilla/good/patterns/challenges/fourth/FlightsFinder.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- kodilla-good-patterns/src/main/java/com/kodilla/good/patterns/challenges/fourth/FlightsFinder.java	(date 1593166934904)
++++ kodilla-good-patterns/src/main/java/com/kodilla/good/patterns/challenges/fourth/FlightsFinder.java	(date 1593166934904)
+@@ -0,0 +1,43 @@
++package com.kodilla.good.patterns.challenges.fourth;
++
++import java.util.ArrayList;
++import java.util.List;
++import java.util.stream.Collectors;
++
++public class FlightsFinder implements FlightFinderService {
++    private FlightDb flightDb;
++
++    public FlightsFinder(FlightDb flightDb) {
++        this.flightDb = flightDb;
++    }
++
++    @Override
++    public List<Flight> findFrom(String from) {
++        return flightDb.getFlights().stream()
++                .filter(flight -> flight.getFrom().equals(from))
++                .collect(Collectors.toList());
++    }
++
++    @Override
++    public List<Flight> findTo(String to) {
++        return flightDb.getFlights().stream()
++                .filter(flight -> flight.getTo().equals(to))
++                .collect(Collectors.toList());
++    }
++
++    @Override
++    public List<Flight> findIndirect(String from, String to) {
++        List<Flight> result = new ArrayList<>();
++        flightDb.getFlights().stream()
++                .filter(flight -> flight.getFrom().equals(from))
++                .forEach(flight -> {
++                    flightDb.getFlights().stream()
++                            .filter(flightTo -> flightTo.getFrom().equals(flight.getFrom()) && flightTo.getTo().equals(to))
++                            .forEach(flight1 -> {
++                                System.out.println(flight);
++                                System.out.println(flight1);
++                            });
++                });
++        return result;
++    }
++}
+Index: kodilla-good-patterns/src/main/java/com/kodilla/good/patterns/challenges/fourth/FlightFinderService.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- kodilla-good-patterns/src/main/java/com/kodilla/good/patterns/challenges/fourth/FlightFinderService.java	(date 1593164002317)
++++ kodilla-good-patterns/src/main/java/com/kodilla/good/patterns/challenges/fourth/FlightFinderService.java	(date 1593164002317)
+@@ -0,0 +1,9 @@
++package com.kodilla.good.patterns.challenges.fourth;
++
++import java.util.List;
++
++public interface FlightFinderService {
++    List<Flight> findFrom (String from);
++    List<Flight> findTo(String to);
++    List<Flight> findIndirect(String from, String to);
++}
+Index: kodilla-good-patterns/src/main/java/com/kodilla/good/patterns/challenges/fourth/FlightDb.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- kodilla-good-patterns/src/main/java/com/kodilla/good/patterns/challenges/fourth/FlightDb.java	(date 1593164914884)
++++ kodilla-good-patterns/src/main/java/com/kodilla/good/patterns/challenges/fourth/FlightDb.java	(date 1593164914884)
+@@ -0,0 +1,27 @@
++package com.kodilla.good.patterns.challenges.fourth;
++
++import java.util.ArrayList;
++import java.util.List;
++
++public class FlightDb {
++    public final static String WROCLAW = "Wroclaw";
++    public final static String KRAKOW = "Krakow";
++    public final static String WARSZAWA = "Warszawa";
++    public final static String POZNAN = "Poznan";
++    public final static String KATOWICE = "Katowice";
++    private List<Flight> flights;
++
++    public FlightDb() {
++        this.flights = new ArrayList<>();
++        this.flights.add(new Flight(WROCLAW, KRAKOW));
++        this.flights.add(new Flight(WROCLAW, POZNAN));
++        this.flights.add(new Flight(WROCLAW, WARSZAWA));
++        this.flights.add(new Flight(KRAKOW, KATOWICE));
++        this.flights.add(new Flight(POZNAN, KATOWICE));
++        this.flights.add(new Flight(WARSZAWA, KATOWICE));
++    }
++
++    public List<Flight> getFlights() {
++        return this.flights;
++    }
++}
+Index: kodilla-good-patterns/src/main/java/com/kodilla/good/patterns/challenges/fourth/Application.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- kodilla-good-patterns/src/main/java/com/kodilla/good/patterns/challenges/fourth/Application.java	(revision 8200c4af2feefb57bd401ef4467c5a434262a4e1)
++++ kodilla-good-patterns/src/main/java/com/kodilla/good/patterns/challenges/fourth/Application.java	(date 1593165427910)
+@@ -1,4 +1,25 @@
+ package com.kodilla.good.patterns.challenges.fourth;
+ 
++import static com.kodilla.good.patterns.challenges.fourth.FlightDb.KATOWICE;
++import static com.kodilla.good.patterns.challenges.fourth.FlightDb.WROCLAW;
++
++
+ public class Application {
++    public static void main(String[] args) {
++        FlightDb flightDb = new FlightDb();
++
++        FlightFinderService flightFinderService = new FlightsFinder(flightDb);
++
++        System.out.println("Flights from Wroclaw");
++        flightFinderService.findFrom(WROCLAW)
++        .forEach(System.out::println);
++
++        System.out.println("Flights to Katowice");
++        flightFinderService.findTo(KATOWICE)
++        .forEach(System.out::println);
++
++        System.out.println("Indirect flights from Wroclaw to Katowice");
++        flightFinderService.findIndirect(WROCLAW, KATOWICE)
++        .forEach(System.out::println);
++    }
+ }
+Index: kodilla-good-patterns/src/main/java/com/kodilla/good/patterns/challenges/fourth/Flight.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- kodilla-good-patterns/src/main/java/com/kodilla/good/patterns/challenges/fourth/Flight.java	(date 1593165689491)
++++ kodilla-good-patterns/src/main/java/com/kodilla/good/patterns/challenges/fourth/Flight.java	(date 1593165689491)
+@@ -0,0 +1,42 @@
++package com.kodilla.good.patterns.challenges.fourth;
++
++import java.util.Objects;
++
++public class Flight {
++    private String from;
++    private String to;
++
++    public Flight(String from, String to) {
++        this.from = from;
++        this.to = to;
++    }
++
++    public String getFrom() {
++        return from;
++    }
++
++    public String getTo() {
++        return to;
++    }
++
++    @Override
++    public String toString() {
++        return "Flight{" +
++                "from='" + from + '\'' +
++                ", to='" + to + '\'' +
++                '}';
++    }
++
++    @Override
++    public boolean equals(Object o) {
++        if (this == o) return true;
++        if (o == null || getClass() != o.getClass()) return false;
++        Flight flight = (Flight) o;
++        return getFrom().equals(flight.getFrom()) && getTo().equals(flight.getTo());
++    }
++
++    @Override
++    public int hashCode() {
++        return Objects.hash(from, to);
++    }
++}

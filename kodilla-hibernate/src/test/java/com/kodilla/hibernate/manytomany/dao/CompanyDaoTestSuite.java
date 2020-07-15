@@ -15,9 +15,9 @@ import java.util.List;
 @SpringBootTest
 public class CompanyDaoTestSuite {
     @Autowired
-    private CompanyDao companyDao;
+    CompanyDao companyDao;
     @Autowired
-    private EmployeeDao employeeDao;
+    EmployeeDao employeeDao;
 
     @Test
     public void testSaveManyToMany() {
@@ -66,7 +66,7 @@ public class CompanyDaoTestSuite {
     }
 
     @Test
-    public void testSearchEmployeeByLastName(){
+    public void testNamedQueries() {
         //Given
         Employee johnSmith = new Employee("John", "Smith");
         Employee stephanieClarckson = new Employee("Stephanie", "Clarckson");
@@ -87,72 +87,19 @@ public class CompanyDaoTestSuite {
         stephanieClarckson.getCompanies().add(dataMaesters);
         lindaKovalsky.getCompanies().add(dataMaesters);
         lindaKovalsky.getCompanies().add(greyMatter);
-
         companyDao.save(softwareMachine);
-        int softwareMachineId = softwareMachine.getId();
         companyDao.save(dataMaesters);
-        int dataMaestersId = dataMaesters.getId();
         companyDao.save(greyMatter);
-        int greyMatterId = greyMatter.getId();
-        //When
-        List<Employee> searchByLastname = employeeDao.retrieveByLastname("Clarckson");
-
-        //Then
-        Assert.assertEquals(1, searchByLastname.size());
-
-        //CleanUp
-        try {
-            companyDao.deleteById(softwareMachineId);
-            companyDao.deleteById(dataMaestersId);
-            companyDao.deleteById(greyMatterId);
-        } catch (Exception e) {
-            //do nothing
-        }
-    }
-
-    @Test
-    public void testSearchCompanyByThreeSigns() {
-        //Given
-        Employee johnSmith = new Employee("John", "Smith");
-        Employee stephanieClarckson = new Employee("Stephanie", "Clarckson");
-        Employee lindaKovalsky = new Employee("Linda", "Kovalsky");
-
-        Company softwareMachine = new Company("Software Machine");
-        Company dataMaesters = new Company("Data Maesters");
-        Company greyMatter = new Company("Grey Matter");
-
-        softwareMachine.getEmployees().add(johnSmith);
-        dataMaesters.getEmployees().add(stephanieClarckson);
-        dataMaesters.getEmployees().add(lindaKovalsky);
-        greyMatter.getEmployees().add(johnSmith);
-        greyMatter.getEmployees().add(lindaKovalsky);
-
-        johnSmith.getCompanies().add(softwareMachine);
-        johnSmith.getCompanies().add(greyMatter);
-        stephanieClarckson.getCompanies().add(dataMaesters);
-        lindaKovalsky.getCompanies().add(dataMaesters);
-        lindaKovalsky.getCompanies().add(greyMatter);
-
-        companyDao.save(softwareMachine);
-        int softwareMachineId = softwareMachine.getId();
-        companyDao.save(dataMaesters);
-        int dataMaestersId = dataMaesters.getId();
-        companyDao.save(greyMatter);
-        int greyMatterId = greyMatter.getId();
 
         //When
-        List<Company> searchByThreeSigns = companyDao.retrieveByThreeSigns("Sof%");
+        List<Employee> searchByName = employeeDao.retrieveLastName("Smith");
+        List<Company> firstCompanyLetters = companyDao.searchCompanyByThreeFirstChars("Sof");
 
         //Then
-        Assert.assertEquals(1, searchByThreeSigns.size());
+        Assert.assertEquals(1, searchByName.size());
+        Assert.assertEquals(1, firstCompanyLetters.size());
 
-        //CleanUp
-        try {
-            companyDao.deleteById(softwareMachineId);
-            companyDao.deleteById(dataMaestersId);
-            companyDao.deleteById(greyMatterId);
-        } catch (Exception e) {
-            //do nothing
-        }
+        companyDao.deleteAll();
+        employeeDao.deleteAll();
     }
 }

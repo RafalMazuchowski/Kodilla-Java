@@ -5,12 +5,20 @@ import javax.validation.constraints.NotNull;
 import java.util.ArrayList;
 import java.util.List;
 
-@NamedNativeQuery(
-        name = "Company.retrieveByThreeSigns",
-        query = "SELECT * FROM kodilla_course.companies WHERE company_name LIKE :SIGNS",
-        resultClass = Company.class
-)
-//SELECT * FROM kodilla_course.companies WHERE company_name LIKE 'Sof%';
+
+@NamedNativeQueries({
+        @NamedNativeQuery(
+                name = "Company.searchCompanyByThreeFirstChars",
+                query = "SELECT * FROM COMPANIES WHERE SUBSTRING(COMPANY_NAME, 1, 3) = :COMPANYNAME",
+                resultClass = Company.class
+        ),
+        @NamedNativeQuery(
+                name = "Company.searchCompanyByPartname",
+                query = "SELECT * FROM companies WHERE COMPANY_NAME LIKE :PARTNAME",
+                resultClass = Company.class
+        )
+})
+
 @Entity
 @Table(name = "COMPANIES")
 public class Company {
