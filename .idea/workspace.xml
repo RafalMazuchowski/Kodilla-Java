@@ -7,42 +7,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a245913f-c98d-4a5c-80fb-23f011574553" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/kodilla-patterns2/src/main/java/com/kodilla/patterns2/decorator/pizzaportal/AbstractPizzaOrderDecorator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kodilla-patterns2/src/main/java/com/kodilla/patterns2/decorator/pizzaportal/BasicPizzaOrder.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kodilla-patterns2/src/main/java/com/kodilla/patterns2/decorator/pizzaportal/PizzaOrder.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kodilla-patterns2/src/main/java/com/kodilla/patterns2/decorator/pizzaportal/decorators/ingredients/Cheese.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kodilla-patterns2/src/main/java/com/kodilla/patterns2/decorator/pizzaportal/decorators/ingredients/Chicken.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kodilla-patterns2/src/main/java/com/kodilla/patterns2/decorator/pizzaportal/decorators/ingredients/Ham.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kodilla-patterns2/src/main/java/com/kodilla/patterns2/decorator/pizzaportal/decorators/ingredients/Olives.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kodilla-patterns2/src/main/java/com/kodilla/patterns2/decorator/pizzaportal/decorators/ingredients/Paprika.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kodilla-patterns2/src/main/java/com/kodilla/patterns2/decorator/pizzaportal/decorators/ingredients/Tomatoe.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kodilla-patterns2/src/main/java/com/kodilla/patterns2/decorator/pizzaportal/decorators/restaurant/AtMommys.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kodilla-patterns2/src/main/java/com/kodilla/patterns2/decorator/pizzaportal/decorators/restaurant/GreenPizza.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kodilla-patterns2/src/main/java/com/kodilla/patterns2/decorator/pizzaportal/decorators/restaurant/PizzaHut.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kodilla-patterns2/src/main/java/com/kodilla/patterns2/decorator/pizzaportal/decorators/size/Big.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kodilla-patterns2/src/main/java/com/kodilla/patterns2/decorator/pizzaportal/decorators/size/Medium.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kodilla-patterns2/src/main/java/com/kodilla/patterns2/decorator/pizzaportal/decorators/size/Small.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kodilla-patterns2/src/main/java/com/kodilla/patterns2/decorator/taxiportal/AbstractTaxiOrderDecorator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kodilla-patterns2/src/main/java/com/kodilla/patterns2/decorator/taxiportal/BasicTaxiOrder.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kodilla-patterns2/src/main/java/com/kodilla/patterns2/decorator/taxiportal/ChildSeatDecorator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kodilla-patterns2/src/main/java/com/kodilla/patterns2/decorator/taxiportal/ExpressDecorator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kodilla-patterns2/src/main/java/com/kodilla/patterns2/decorator/taxiportal/MyTaxiNetworkOrderDecorator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kodilla-patterns2/src/main/java/com/kodilla/patterns2/decorator/taxiportal/TaxiNetworkOrderDecorator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kodilla-patterns2/src/main/java/com/kodilla/patterns2/decorator/taxiportal/TaxiOrder.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kodilla-patterns2/src/main/java/com/kodilla/patterns2/decorator/taxiportal/UberNetworkOrderDecorator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kodilla-patterns2/src/main/java/com/kodilla/patterns2/decorator/taxiportal/VipDecorator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kodilla-patterns2/src/test/java/com/kodilla/patterns2/decorator/pizzaportal/PizzaOrderTestSuite.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kodilla-patterns2/src/test/java/com/kodilla/patterns2/decorator/taxiportal/TaxiOrderTestSuite.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/untitled/build.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kodilla-patterns2/src/main/java/com/kodilla/patterns2/aop/calculator/Calculator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kodilla-patterns2/src/main/java/com/kodilla/patterns2/aop/calculator/Watcher.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kodilla-patterns2/src/main/java/com/kodilla/patterns2/aop/facade/OrderFacadeWatcher.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kodilla-patterns2/src/test/java/com/kodilla/patterns2/aop/calculator/CalculatorTestSuite.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/checksums/checksums.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/checksums/checksums.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/checksums/md5-checksums.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/checksums/md5-checksums.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/checksums/sha1-checksums.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/checksums/sha1-checksums.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/kodilla-patterns2/src/test/java/com/kodilla/patterns2/facade/ShopServiceTestSuite.java" beforeDir="false" afterPath="$PROJECT_DIR$/kodilla-patterns2/src/test/java/com/kodilla/patterns2/facade/ShopServiceTestSuite.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/settings.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/settings.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/kodilla-patterns2/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/kodilla-patterns2/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/kodilla-patterns2/src/main/java/com/kodilla/patterns2/facade/api/OrderFacade.java" beforeDir="false" afterPath="$PROJECT_DIR$/kodilla-patterns2/src/main/java/com/kodilla/patterns2/facade/api/OrderFacade.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -100,8 +72,8 @@
         <option value="FxmlFile" />
         <option value="Enum" />
         <option value="Interface" />
-        <option value="Class" />
         <option value="JUnit5 Test Class" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -133,13 +105,8 @@
     <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.javacompiler" />
   </component>
   <component name="RecentsManager">
-    <key name="CreateClassDialog.RecentsKey">
-      <recent name="com.kodilla.good.patterns.challenges.second" />
-      <recent name="com.kodilla.good.patterns.exercises.rent" />
-      <recent name="com.kodilla.good.patterns.exercises" />
-      <recent name="com.kodilla" />
-    </key>
     <key name="CreateTestDialog.RecentsKey">
+      <recent name="com.kodilla.patterns2.aop.calculator" />
       <recent name="com.kodilla.patterns2.decorator.pizzaportal" />
       <recent name="com.kodilla.patterns2.decorator.taxiportal" />
       <recent name="com.kodilla.patterns2" />
@@ -149,6 +116,12 @@
     </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="com" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Java\kodilla-course\kodilla-projekt\src\main" />
+      <recent name="C:\Java\kodilla-course\kodilla-projekt" />
+      <recent name="C:\Users\Programista\IdeaProjects\kodilla-course\kodilla-projekt\src\main\resources\images" />
+      <recent name="C:\Users\Programista\IdeaProjects\kodilla-course\kodilla-exception\src\main\resources\file" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Java\kodilla-course\kodilla-good-patterns\src\main\java\com\kodilla\good\patterns\challenges\third" />
@@ -161,11 +134,11 @@
       <recent name="com.kodilla.good.patterns.challenges.third" />
       <recent name="com.kodilla.good.patterns.challenges.second" />
     </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Java\kodilla-course\kodilla-projekt\src\main" />
-      <recent name="C:\Java\kodilla-course\kodilla-projekt" />
-      <recent name="C:\Users\Programista\IdeaProjects\kodilla-course\kodilla-projekt\src\main\resources\images" />
-      <recent name="C:\Users\Programista\IdeaProjects\kodilla-course\kodilla-exception\src\main\resources\file" />
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="com.kodilla.good.patterns.challenges.second" />
+      <recent name="com.kodilla.good.patterns.exercises.rent" />
+      <recent name="com.kodilla.good.patterns.exercises" />
+      <recent name="com.kodilla" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -175,13 +148,13 @@
       </set>
     </option>
   </component>
-  <component name="RunManager" selected="Gradle.PizzaOrderTestSuite">
-    <configuration name="PizzaOrderTestSuite" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+  <component name="RunManager" selected="Gradle.ShopServiceTestSuite">
+    <configuration name="CalculatorTestSuite" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
         <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="--tests &quot;com.kodilla.patterns2.decorator.pizzaportal.PizzaOrderTestSuite&quot;" />
+        <option name="scriptParameters" value="--tests &quot;com.kodilla.patterns2.aop.calculator.CalculatorTestSuite&quot;" />
         <option name="taskDescriptions">
           <list />
         </option>
@@ -196,12 +169,12 @@
       <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="PizzaOrderTestSuite.getDescription" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="PizzaOrderTestSuite" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
         <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="--tests &quot;com.kodilla.patterns2.decorator.pizzaportal.PizzaOrderTestSuite.getDescription&quot;" />
+        <option name="scriptParameters" value="--tests &quot;com.kodilla.patterns2.decorator.pizzaportal.PizzaOrderTestSuite&quot;" />
         <option name="taskDescriptions">
           <list />
         </option>
@@ -256,12 +229,12 @@
       <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="PizzaOrderTestSuite.getPizzaHutDescription" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="ShopServiceTestSuite" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
         <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="--tests &quot;com.kodilla.patterns2.decorator.pizzaportal.PizzaOrderTestSuite.getPizzaHutDescription&quot;" />
+        <option name="scriptParameters" value="--tests &quot;com.kodilla.patterns2.facade.ShopServiceTestSuite&quot;" />
         <option name="taskDescriptions">
           <list />
         </option>
@@ -320,25 +293,25 @@
       </method>
     </configuration>
     <list>
+      <item itemvalue="Gradle.PizzaOrderTestSuite" />
+      <item itemvalue="Gradle.PizzaOrderTestSuite.getGreenPizzaBigCost" />
+      <item itemvalue="Gradle.PizzaOrderTestSuite.getGreenPizzaMediumWithIngredientsCost" />
       <item itemvalue="JAR Application.GameJar" />
       <item itemvalue="Spring Boot.KodillaCourseApplication" />
       <item itemvalue="Spring Boot.SpringRunner" />
       <item itemvalue="Spring Boot.KodillaSpringWebApplication" />
       <item itemvalue="Spring Boot.KodillaHibernateApplication" />
       <item itemvalue="Spring Boot.KodillaPatterns2Application" />
-      <item itemvalue="Gradle.PizzaOrderTestSuite" />
-      <item itemvalue="Gradle.PizzaOrderTestSuite.getDescription" />
-      <item itemvalue="Gradle.PizzaOrderTestSuite.getPizzaHutDescription" />
-      <item itemvalue="Gradle.PizzaOrderTestSuite.getGreenPizzaBigCost" />
-      <item itemvalue="Gradle.PizzaOrderTestSuite.getGreenPizzaMediumWithIngredientsCost" />
+      <item itemvalue="Gradle.CalculatorTestSuite" />
+      <item itemvalue="Gradle.ShopServiceTestSuite" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Gradle.ShopServiceTestSuite" />
+        <item itemvalue="Gradle.CalculatorTestSuite" />
         <item itemvalue="Gradle.PizzaOrderTestSuite" />
         <item itemvalue="Gradle.PizzaOrderTestSuite.getGreenPizzaMediumWithIngredientsCost" />
         <item itemvalue="Gradle.PizzaOrderTestSuite.getGreenPizzaBigCost" />
-        <item itemvalue="Gradle.PizzaOrderTestSuite.getPizzaHutDescription" />
-        <item itemvalue="Gradle.PizzaOrderTestSuite.getDescription" />
       </list>
     </recent_temporary>
   </component>
@@ -447,6 +420,7 @@
       <workItem from="1593705074734" duration="598000" />
       <workItem from="1594740916559" duration="9399000" />
       <workItem from="1594906488916" duration="9644000" />
+      <workItem from="1594961256633" duration="1515000" />
     </task>
     <task id="LOCAL-00001" summary="6.1. Utworzenie modułu kodilla-testing">
       <created>1579565349217</created>
@@ -860,35 +834,35 @@
       <screen x="1366" y="0" width="1360" height="728" />
     </state>
     <state x="1756" y="224" width="608" height="288" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.0.1366.728/1366.0.1360.728@1366.0.1360.728" timestamp="1594910382561" />
-    <state x="1647" y="0" key="CommitChangelistDialog2" timestamp="1594924528724">
+    <state x="1647" y="0" key="CommitChangelistDialog2" timestamp="1595000045445">
       <screen x="1366" y="0" width="1360" height="728" />
     </state>
     <state x="282" y="0" key="CommitChangelistDialog2/0.0.1366.728/1366.0.1360.728@0.0.1366.728" timestamp="1593167084887" />
-    <state x="1647" y="0" key="CommitChangelistDialog2/0.0.1366.728/1366.0.1360.728@1366.0.1360.728" timestamp="1594924528724" />
+    <state x="1647" y="0" key="CommitChangelistDialog2/0.0.1366.728/1366.0.1360.728@1366.0.1360.728" timestamp="1595000045445" />
     <state x="2152" y="135" key="FileChooserDialogImpl" timestamp="1594740992132">
       <screen x="1366" y="0" width="1360" height="728" />
     </state>
     <state x="2152" y="135" key="FileChooserDialogImpl/0.0.1366.728/1366.0.1360.728@1366.0.1360.728" timestamp="1594740992132" />
-    <state width="1317" height="194" key="GridCell.Tab.0.bottom" timestamp="1594924190533">
+    <state width="1317" height="277" key="GridCell.Tab.0.bottom" timestamp="1594999903860">
       <screen x="1366" y="0" width="1360" height="728" />
     </state>
     <state width="1323" height="185" key="GridCell.Tab.0.bottom/0.0.1366.728/1366.0.1360.728@0.0.1366.728" timestamp="1593217012873" />
-    <state width="1317" height="194" key="GridCell.Tab.0.bottom/0.0.1366.728/1366.0.1360.728@1366.0.1360.728" timestamp="1594924190533" />
-    <state width="1317" height="194" key="GridCell.Tab.0.center" timestamp="1594924190533">
+    <state width="1317" height="277" key="GridCell.Tab.0.bottom/0.0.1366.728/1366.0.1360.728@1366.0.1360.728" timestamp="1594999903860" />
+    <state width="1317" height="277" key="GridCell.Tab.0.center" timestamp="1594999903860">
       <screen x="1366" y="0" width="1360" height="728" />
     </state>
     <state width="1323" height="185" key="GridCell.Tab.0.center/0.0.1366.728/1366.0.1360.728@0.0.1366.728" timestamp="1593217012873" />
-    <state width="1317" height="194" key="GridCell.Tab.0.center/0.0.1366.728/1366.0.1360.728@1366.0.1360.728" timestamp="1594924190533" />
-    <state width="1317" height="194" key="GridCell.Tab.0.left" timestamp="1594924190532">
+    <state width="1317" height="277" key="GridCell.Tab.0.center/0.0.1366.728/1366.0.1360.728@1366.0.1360.728" timestamp="1594999903860" />
+    <state width="1317" height="277" key="GridCell.Tab.0.left" timestamp="1594999903860">
       <screen x="1366" y="0" width="1360" height="728" />
     </state>
     <state width="1323" height="185" key="GridCell.Tab.0.left/0.0.1366.728/1366.0.1360.728@0.0.1366.728" timestamp="1593217012873" />
-    <state width="1317" height="194" key="GridCell.Tab.0.left/0.0.1366.728/1366.0.1360.728@1366.0.1360.728" timestamp="1594924190532" />
-    <state width="1317" height="194" key="GridCell.Tab.0.right" timestamp="1594924190533">
+    <state width="1317" height="277" key="GridCell.Tab.0.left/0.0.1366.728/1366.0.1360.728@1366.0.1360.728" timestamp="1594999903860" />
+    <state width="1317" height="277" key="GridCell.Tab.0.right" timestamp="1594999903860">
       <screen x="1366" y="0" width="1360" height="728" />
     </state>
     <state width="1323" height="185" key="GridCell.Tab.0.right/0.0.1366.728/1366.0.1360.728@0.0.1366.728" timestamp="1593217012873" />
-    <state width="1317" height="194" key="GridCell.Tab.0.right/0.0.1366.728/1366.0.1360.728@1366.0.1360.728" timestamp="1594924190533" />
+    <state width="1317" height="277" key="GridCell.Tab.0.right/0.0.1366.728/1366.0.1360.728@1366.0.1360.728" timestamp="1594999903860" />
     <state width="1317" height="140" key="GridCell.Tab.1.bottom" timestamp="1593689957620">
       <screen x="1366" y="0" width="1360" height="728" />
     </state>
@@ -905,19 +879,19 @@
       <screen x="1366" y="0" width="1360" height="728" />
     </state>
     <state width="1317" height="140" key="GridCell.Tab.1.right/0.0.1366.728/1366.0.1360.728@1366.0.1360.728" timestamp="1593689957620" />
-    <state x="1721" y="67" key="Vcs.Push.Dialog.v2" timestamp="1594831400434">
+    <state x="1721" y="67" key="Vcs.Push.Dialog.v2" timestamp="1594924562964">
       <screen x="1366" y="0" width="1360" height="728" />
     </state>
     <state x="357" y="67" key="Vcs.Push.Dialog.v2/0.0.1366.728/1366.0.1360.728@0.0.1366.728" timestamp="1593167091059" />
-    <state x="1721" y="67" key="Vcs.Push.Dialog.v2/0.0.1366.728/1366.0.1360.728@1366.0.1360.728" timestamp="1594831400434" />
+    <state x="1721" y="67" key="Vcs.Push.Dialog.v2/0.0.1366.728/1366.0.1360.728@1366.0.1360.728" timestamp="1594924562964" />
     <state x="1862" y="143" key="chooseDestDirectoryDialog" timestamp="1594920986527">
       <screen x="1366" y="0" width="1360" height="728" />
     </state>
     <state x="1862" y="143" key="chooseDestDirectoryDialog/0.0.1366.728/1366.0.1360.728@1366.0.1360.728" timestamp="1594920986527" />
-    <state x="1877" y="124" key="com.intellij.testIntegration.createTest.CreateTestDialog" timestamp="1594921913415">
+    <state x="1877" y="124" key="com.intellij.testIntegration.createTest.CreateTestDialog" timestamp="1594999435060">
       <screen x="1366" y="0" width="1360" height="728" />
     </state>
-    <state x="1877" y="124" key="com.intellij.testIntegration.createTest.CreateTestDialog/0.0.1366.728/1366.0.1360.728@1366.0.1360.728" timestamp="1594921913415" />
+    <state x="1877" y="124" key="com.intellij.testIntegration.createTest.CreateTestDialog/0.0.1366.728/1366.0.1360.728@1366.0.1360.728" timestamp="1594999435060" />
     <state x="329" y="-12" width="762" height="713" maximized="true" key="dock-window-1" timestamp="1588784262766">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
