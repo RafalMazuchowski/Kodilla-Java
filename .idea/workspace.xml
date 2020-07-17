@@ -6,20 +6,25 @@
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a245913f-c98d-4a5c-80fb-23f011574553" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/kodilla-patterns2/src/main/java/com/kodilla/patterns2/observer/course/Mentor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kodilla-patterns2/src/main/java/com/kodilla/patterns2/observer/course/MentorObserver.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kodilla-patterns2/src/main/java/com/kodilla/patterns2/observer/course/QueueObservable.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kodilla-patterns2/src/main/java/com/kodilla/patterns2/observer/course/Student.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kodilla-patterns2/src/main/java/com/kodilla/patterns2/observer/course/StudentTasks.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kodilla-patterns2/src/main/java/com/kodilla/patterns2/observer/forum/ForumTopic.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kodilla-patterns2/src/main/java/com/kodilla/patterns2/observer/forum/ForumUser.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kodilla-patterns2/src/main/java/com/kodilla/patterns2/observer/forum/JavaHelpForumTopic.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kodilla-patterns2/src/main/java/com/kodilla/patterns2/observer/forum/JavaToolsForumTopic.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kodilla-patterns2/src/main/java/com/kodilla/patterns2/observer/forum/Observable.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kodilla-patterns2/src/main/java/com/kodilla/patterns2/observer/forum/Observer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kodilla-patterns2/src/test/java/com/kodilla/patterns2/observer/course/TaskTestSuite.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kodilla-patterns2/src/test/java/com/kodilla/patterns2/observer/forum/ForumUserTestSuite.java" afterDir="false" />
+    <list default="true" id="a245913f-c98d-4a5c-80fb-23f011574553" name="Default Changelist" comment="Queues with tasks to be checked (24.4)">
+      <change afterPath="$PROJECT_DIR$/kodilla-patterns2/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kodilla-patterns2/src/main/java/com/kodilla/patterns2/adapter/bookclassifier/MedianAdaptee.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kodilla-patterns2/src/main/java/com/kodilla/patterns2/adapter/bookclassifier/MedianAdapter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kodilla-patterns2/src/main/java/com/kodilla/patterns2/adapter/bookclassifier/librarya/Book.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kodilla-patterns2/src/main/java/com/kodilla/patterns2/adapter/bookclassifier/librarya/Classifier.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kodilla-patterns2/src/main/java/com/kodilla/patterns2/adapter/bookclassifier/libraryb/Book.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kodilla-patterns2/src/main/java/com/kodilla/patterns2/adapter/bookclassifier/libraryb/BookSignature.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kodilla-patterns2/src/main/java/com/kodilla/patterns2/adapter/bookclassifier/libraryb/BookStatistics.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kodilla-patterns2/src/main/java/com/kodilla/patterns2/adapter/bookclassifier/libraryb/Statistics.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kodilla-patterns2/src/main/java/com/kodilla/patterns2/adapter/company/SalaryAdaptee.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kodilla-patterns2/src/main/java/com/kodilla/patterns2/adapter/company/SalaryAdapter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kodilla-patterns2/src/main/java/com/kodilla/patterns2/adapter/company/newhrsystem/CompanySalaryProcessor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kodilla-patterns2/src/main/java/com/kodilla/patterns2/adapter/company/newhrsystem/Employee.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kodilla-patterns2/src/main/java/com/kodilla/patterns2/adapter/company/newhrsystem/SalaryProcessor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kodilla-patterns2/src/main/java/com/kodilla/patterns2/adapter/company/oldhrsystem/SalaryCalculator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kodilla-patterns2/src/main/java/com/kodilla/patterns2/adapter/company/oldhrsystem/Workers.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kodilla-patterns2/src/test/java/com/kodilla/patterns2/adapter/bookclassifier/MedianAdapterTestSuite.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kodilla-patterns2/src/test/java/com/kodilla/patterns2/adapter/company/SalaryAdapterTestSuite.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
@@ -105,7 +110,7 @@
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit5" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="" />
     <property name="last_directory_selection" value="$PROJECT_DIR$/kodilla-patterns2/src/main/java/com/kodilla/patterns2/decorator" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/kodilla-patterns2" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -132,6 +137,7 @@
       <recent name="C:\Users\Programista\IdeaProjects\kodilla-course\kodilla-exception\src\main\resources\file" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Java\kodilla-course\kodilla-patterns2" />
       <recent name="C:\Java\kodilla-course\kodilla-good-patterns\src\main\java\com\kodilla\good\patterns\challenges\third" />
       <recent name="C:\Users\Programista\IdeaProjects\kodilla-course\kodilla-testing\src\main\java\com\kodilla\testing\weather\mock" />
     </key>
@@ -156,13 +162,13 @@
       </set>
     </option>
   </component>
-  <component name="RunManager" selected="Gradle.TaskTestSuite.notifyAboutNewTask">
-    <configuration name="CalculatorTestSuite" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+  <component name="RunManager" selected="Gradle.MedianAdapterTestSuite">
+    <configuration name="MedianAdapterTestSuite" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
         <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="--tests &quot;com.kodilla.patterns2.aop.calculator.CalculatorTestSuite&quot;" />
+        <option name="scriptParameters" value="--tests &quot;com.kodilla.patterns2.adapter.bookclassifier.MedianAdapterTestSuite&quot;" />
         <option name="taskDescriptions">
           <list />
         </option>
@@ -177,12 +183,12 @@
       <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="ForumUserTestSuite.update" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="MedianAdapterTestSuite.publicationYearMedianTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
         <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="--tests &quot;com.kodilla.patterns2.observer.forum.ForumUserTestSuite.update&quot;" />
+        <option name="scriptParameters" value="--tests &quot;com.kodilla.patterns2.adapter.bookclassifier.MedianAdapterTestSuite.publicationYearMedianTest&quot;" />
         <option name="taskDescriptions">
           <list />
         </option>
@@ -197,12 +203,12 @@
       <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="PizzaOrderTestSuite" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="SalaryAdapterTestSuite" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
         <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="--tests &quot;com.kodilla.patterns2.decorator.pizzaportal.PizzaOrderTestSuite&quot;" />
+        <option name="scriptParameters" value="--tests &quot;com.kodilla.patterns2.adapter.company.SalaryAdapterTestSuite&quot;" />
         <option name="taskDescriptions">
           <list />
         </option>
@@ -217,12 +223,12 @@
       <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="ShopServiceTestSuite" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="SalaryAdapterTestSuite.testTotalSalary" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
         <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="--tests &quot;com.kodilla.patterns2.facade.ShopServiceTestSuite&quot;" />
+        <option name="scriptParameters" value="--tests &quot;com.kodilla.patterns2.adapter.company.SalaryAdapterTestSuite.testTotalSalary&quot;" />
         <option name="taskDescriptions">
           <list />
         </option>
@@ -301,25 +307,25 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Gradle.PizzaOrderTestSuite" />
       <item itemvalue="JAR Application.GameJar" />
       <item itemvalue="Spring Boot.KodillaCourseApplication" />
       <item itemvalue="Spring Boot.SpringRunner" />
       <item itemvalue="Spring Boot.KodillaSpringWebApplication" />
       <item itemvalue="Spring Boot.KodillaHibernateApplication" />
       <item itemvalue="Spring Boot.KodillaPatterns2Application" />
-      <item itemvalue="Gradle.CalculatorTestSuite" />
-      <item itemvalue="Gradle.ShopServiceTestSuite" />
-      <item itemvalue="Gradle.ForumUserTestSuite.update" />
       <item itemvalue="Gradle.TaskTestSuite.notifyAboutNewTask" />
+      <item itemvalue="Gradle.SalaryAdapterTestSuite.testTotalSalary" />
+      <item itemvalue="Gradle.SalaryAdapterTestSuite" />
+      <item itemvalue="Gradle.MedianAdapterTestSuite.publicationYearMedianTest" />
+      <item itemvalue="Gradle.MedianAdapterTestSuite" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Gradle.MedianAdapterTestSuite" />
+        <item itemvalue="Gradle.MedianAdapterTestSuite.publicationYearMedianTest" />
+        <item itemvalue="Gradle.SalaryAdapterTestSuite" />
+        <item itemvalue="Gradle.SalaryAdapterTestSuite.testTotalSalary" />
         <item itemvalue="Gradle.TaskTestSuite.notifyAboutNewTask" />
-        <item itemvalue="Gradle.ForumUserTestSuite.update" />
-        <item itemvalue="Gradle.ShopServiceTestSuite" />
-        <item itemvalue="Gradle.CalculatorTestSuite" />
-        <item itemvalue="Gradle.PizzaOrderTestSuite" />
       </list>
     </recent_temporary>
   </component>
@@ -428,14 +434,7 @@
       <workItem from="1593705074734" duration="598000" />
       <workItem from="1594740916559" duration="9399000" />
       <workItem from="1594906488916" duration="9644000" />
-      <workItem from="1594961256633" duration="5762000" />
-    </task>
-    <task id="LOCAL-00002" summary="first unit test">
-      <created>1579712014012</created>
-      <option name="number" value="00002" />
-      <option name="presentableId" value="LOCAL-00002" />
-      <option name="project" value="LOCAL" />
-      <updated>1579712014012</updated>
+      <workItem from="1594961256633" duration="10377000" />
     </task>
     <task id="LOCAL-00003" summary="Test of a class choosing even numbers from the collection (6.3)">
       <created>1579816265403</created>
@@ -773,7 +772,14 @@
       <option name="project" value="LOCAL" />
       <updated>1595000055332</updated>
     </task>
-    <option name="localTasksCounter" value="51" />
+    <task id="LOCAL-00051" summary="Queues with tasks to be checked (24.4)">
+      <created>1595005393278</created>
+      <option name="number" value="00051" />
+      <option name="presentableId" value="LOCAL-00051" />
+      <option name="project" value="LOCAL" />
+      <updated>1595005393278</updated>
+    </task>
+    <option name="localTasksCounter" value="52" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -781,7 +787,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="SOLID + DRY (13.2)" />
     <MESSAGE value="Food2Door (13.4)" />
     <MESSAGE value="Flights (13.5)" />
     <MESSAGE value="Bean ForumUser (14.1)" />
@@ -806,7 +811,8 @@
     <MESSAGE value="Building a facade for reading and writing task lists 2(24.1)" />
     <MESSAGE value="Decorates the pizza (24.2)" />
     <MESSAGE value="Adding request logging to the facade (24.3)" />
-    <option name="LAST_COMMIT_MESSAGE" value="Adding request logging to the facade (24.3)" />
+    <MESSAGE value="Queues with tasks to be checked (24.4)" />
+    <option name="LAST_COMMIT_MESSAGE" value="Queues with tasks to be checked (24.4)" />
   </component>
   <component name="WindowStateProjectService">
     <state x="1638" y="23" key="#Assign_Data_Sources" timestamp="1587930998199">
@@ -834,19 +840,19 @@
     </state>
     <state x="108" y="77" key="#com.intellij.ide.util.MemberChooser/0.0.1366.728/1366.0.1360.728@0.0.1366.728" timestamp="1593165312231" />
     <state x="1474" y="77" key="#com.intellij.ide.util.MemberChooser/0.0.1366.728/1366.0.1360.728@1366.0.1360.728" timestamp="1594921670389" />
-    <state x="1680" y="290" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog" timestamp="1587929932860">
+    <state x="1680" y="290" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog" timestamp="1595011209250">
       <screen x="1366" y="0" width="1360" height="728" />
     </state>
-    <state x="1680" y="290" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog/0.0.1366.728/1366.0.1360.728@1366.0.1360.728" timestamp="1587929932860" />
+    <state x="1680" y="290" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog/0.0.1366.728/1366.0.1360.728@1366.0.1360.728" timestamp="1595011209250" />
     <state x="1756" y="224" width="608" height="288" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes" timestamp="1594910382561">
       <screen x="1366" y="0" width="1360" height="728" />
     </state>
     <state x="1756" y="224" width="608" height="288" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.0.1366.728/1366.0.1360.728@1366.0.1360.728" timestamp="1594910382561" />
-    <state x="1647" y="0" key="CommitChangelistDialog2" timestamp="1595000045445">
+    <state x="1647" y="0" key="CommitChangelistDialog2" timestamp="1595012692482">
       <screen x="1366" y="0" width="1360" height="728" />
     </state>
     <state x="282" y="0" key="CommitChangelistDialog2/0.0.1366.728/1366.0.1360.728@0.0.1366.728" timestamp="1593167084887" />
-    <state x="1647" y="0" key="CommitChangelistDialog2/0.0.1366.728/1366.0.1360.728@1366.0.1360.728" timestamp="1595000045445" />
+    <state x="1647" y="0" key="CommitChangelistDialog2/0.0.1366.728/1366.0.1360.728@1366.0.1360.728" timestamp="1595012692482" />
     <state x="1575" y="30" key="DiffContextDialog" timestamp="1595000082088">
       <screen x="1366" y="0" width="1360" height="728" />
     </state>
@@ -855,26 +861,26 @@
       <screen x="1366" y="0" width="1360" height="728" />
     </state>
     <state x="2152" y="135" key="FileChooserDialogImpl/0.0.1366.728/1366.0.1360.728@1366.0.1360.728" timestamp="1594740992132" />
-    <state width="1317" height="122" key="GridCell.Tab.0.bottom" timestamp="1595005079276">
+    <state width="1317" height="247" key="GridCell.Tab.0.bottom" timestamp="1595012524475">
       <screen x="1366" y="0" width="1360" height="728" />
     </state>
     <state width="1323" height="185" key="GridCell.Tab.0.bottom/0.0.1366.728/1366.0.1360.728@0.0.1366.728" timestamp="1593217012873" />
-    <state width="1317" height="122" key="GridCell.Tab.0.bottom/0.0.1366.728/1366.0.1360.728@1366.0.1360.728" timestamp="1595005079276" />
-    <state width="1317" height="122" key="GridCell.Tab.0.center" timestamp="1595005079276">
+    <state width="1317" height="247" key="GridCell.Tab.0.bottom/0.0.1366.728/1366.0.1360.728@1366.0.1360.728" timestamp="1595012524475" />
+    <state width="1317" height="247" key="GridCell.Tab.0.center" timestamp="1595012524475">
       <screen x="1366" y="0" width="1360" height="728" />
     </state>
     <state width="1323" height="185" key="GridCell.Tab.0.center/0.0.1366.728/1366.0.1360.728@0.0.1366.728" timestamp="1593217012873" />
-    <state width="1317" height="122" key="GridCell.Tab.0.center/0.0.1366.728/1366.0.1360.728@1366.0.1360.728" timestamp="1595005079276" />
-    <state width="1317" height="122" key="GridCell.Tab.0.left" timestamp="1595005079275">
+    <state width="1317" height="247" key="GridCell.Tab.0.center/0.0.1366.728/1366.0.1360.728@1366.0.1360.728" timestamp="1595012524475" />
+    <state width="1317" height="247" key="GridCell.Tab.0.left" timestamp="1595012524475">
       <screen x="1366" y="0" width="1360" height="728" />
     </state>
     <state width="1323" height="185" key="GridCell.Tab.0.left/0.0.1366.728/1366.0.1360.728@0.0.1366.728" timestamp="1593217012873" />
-    <state width="1317" height="122" key="GridCell.Tab.0.left/0.0.1366.728/1366.0.1360.728@1366.0.1360.728" timestamp="1595005079275" />
-    <state width="1317" height="122" key="GridCell.Tab.0.right" timestamp="1595005079276">
+    <state width="1317" height="247" key="GridCell.Tab.0.left/0.0.1366.728/1366.0.1360.728@1366.0.1360.728" timestamp="1595012524475" />
+    <state width="1317" height="247" key="GridCell.Tab.0.right" timestamp="1595012524475">
       <screen x="1366" y="0" width="1360" height="728" />
     </state>
     <state width="1323" height="185" key="GridCell.Tab.0.right/0.0.1366.728/1366.0.1360.728@0.0.1366.728" timestamp="1593217012873" />
-    <state width="1317" height="122" key="GridCell.Tab.0.right/0.0.1366.728/1366.0.1360.728@1366.0.1360.728" timestamp="1595005079276" />
+    <state width="1317" height="247" key="GridCell.Tab.0.right/0.0.1366.728/1366.0.1360.728@1366.0.1360.728" timestamp="1595012524475" />
     <state width="1317" height="140" key="GridCell.Tab.1.bottom" timestamp="1593689957620">
       <screen x="1366" y="0" width="1360" height="728" />
     </state>
@@ -891,15 +897,19 @@
       <screen x="1366" y="0" width="1360" height="728" />
     </state>
     <state width="1317" height="140" key="GridCell.Tab.1.right/0.0.1366.728/1366.0.1360.728@1366.0.1360.728" timestamp="1593689957620" />
-    <state x="1721" y="67" key="Vcs.Push.Dialog.v2" timestamp="1595000088697">
+    <state x="1721" y="67" key="Vcs.Push.Dialog.v2" timestamp="1595005399841">
       <screen x="1366" y="0" width="1360" height="728" />
     </state>
     <state x="357" y="67" key="Vcs.Push.Dialog.v2/0.0.1366.728/1366.0.1360.728@0.0.1366.728" timestamp="1593167091059" />
-    <state x="1721" y="67" key="Vcs.Push.Dialog.v2/0.0.1366.728/1366.0.1360.728@1366.0.1360.728" timestamp="1595000088697" />
+    <state x="1721" y="67" key="Vcs.Push.Dialog.v2/0.0.1366.728/1366.0.1360.728@1366.0.1360.728" timestamp="1595005399841" />
     <state x="1862" y="143" key="chooseDestDirectoryDialog" timestamp="1594920986527">
       <screen x="1366" y="0" width="1360" height="728" />
     </state>
     <state x="1862" y="143" key="chooseDestDirectoryDialog/0.0.1366.728/1366.0.1360.728@1366.0.1360.728" timestamp="1594920986527" />
+    <state x="1855" y="282" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1595011310453">
+      <screen x="1366" y="0" width="1360" height="728" />
+    </state>
+    <state x="1855" y="282" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1366.728/1366.0.1360.728@1366.0.1360.728" timestamp="1595011310453" />
     <state x="1877" y="124" key="com.intellij.testIntegration.createTest.CreateTestDialog" timestamp="1595000514887">
       <screen x="1366" y="0" width="1360" height="728" />
     </state>
