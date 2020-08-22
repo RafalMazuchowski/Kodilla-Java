@@ -7,7 +7,11 @@ public class SudokuApp {
         while (!gameFinished) {
             SudokuGame theGame = new SudokuGame();
             theGame.valueReader();
-            gameFinished = theGame.resolveSudoku();
+            try {
+                gameFinished = theGame.resolveSudoku();
+            } catch (Exception e) {
+                e.printStackTrace();
+            }
         }
     }
 }

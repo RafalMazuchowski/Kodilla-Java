@@ -5,6 +5,13 @@ import java.util.ArrayList;
 public class SudokuRow {
     ArrayList<SudokuElement> sudokuElements;
 
+    public SudokuRow(int[] elements) {
+        this.sudokuElements = new ArrayList<>();
+        for (int i = 0; i < 9; i++) {
+            this.sudokuElements.add(new SudokuElement(elements[i]));
+        }
+    }
+
     public SudokuRow() {
         this.sudokuElements = new ArrayList<>();
         for (int i = 0; i < 9; i++) {
