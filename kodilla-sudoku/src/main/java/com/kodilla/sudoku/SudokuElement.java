@@ -1,6 +1,8 @@
 package com.kodilla.sudoku;
 
-public class SudokuElement {
+import java.util.Arrays;
+
+public class SudokuElement implements Cloneable{
     public static int EMPTY = -1;
     int value;
     int[] possibleValues;
@@ -15,30 +17,44 @@ public class SudokuElement {
         this.possibleValues = new int[]{1, 2, 3, 4, 5, 6, 7, 8, 9};
     }
 
+    @Override
+    public SudokuElement clone() throws CloneNotSupportedException {
+        SudokuElement clonedElement = (SudokuElement) super.clone();
+        clonedElement.value = value;
+        clonedElement.possibleValues = Arrays.copyOf(possibleValues, 9);
+        return clonedElement;
+    }
+
+    public void removePossibleValue(int valueToRemove) {
+        for (int value : possibleValues) {
+            if (value == valueToRemove) value = 0;
+        }
+    }
+
     public void setValue(int value) {
         this.value = value;
     }
 
-    public boolean hasChosenOne () {
+    public boolean hasChosenOne() {
         int count = 0;
-        for (int value:possibleValues) {
-            if (value!=0) count++;
+        for (int value : possibleValues) {
+            if (value != 0) count++;
         }
-        return count==1;
+        return count == 1;
     }
 
-    public int chosenOne () {
-        for (int value:possibleValues) {
-            if (value!=0){
+    public int chosenOne() {
+        for (int value : possibleValues) {
+            if (value != 0) {
                 return value;
             }
         }
         return 0;
     }
 
-    public boolean containsPossible (int value) {
-        for (int possibleValue:possibleValues) {
-            if (possibleValue==value){
+    public boolean containsPossible(int value) {
+        for (int possibleValue : possibleValues) {
+            if (possibleValue == value) {
                 return true;
             }
         }
@@ -47,6 +63,6 @@ public class SudokuElement {
 
     @Override
     public String toString() {
-        return value==EMPTY?" ":Integer.toString(value);
+        return value == EMPTY ? " " : Integer.toString(value);
     }
 }

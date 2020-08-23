@@ -2,8 +2,18 @@ package com.kodilla.sudoku;
 
 import java.util.ArrayList;
 
-public class SudokuRow {
+public class SudokuRow implements Cloneable{
     ArrayList<SudokuElement> sudokuElements;
+
+    @Override
+    public SudokuRow clone() throws CloneNotSupportedException {
+        SudokuRow clonedRow = (SudokuRow)super.clone();
+        clonedRow.sudokuElements = new ArrayList<>();
+        for (SudokuElement sudokuElement: sudokuElements){
+            clonedRow.sudokuElements.add(sudokuElement.clone());
+        }
+        return clonedRow;
+    }
 
     public SudokuRow(int[] elements) {
         this.sudokuElements = new ArrayList<>();

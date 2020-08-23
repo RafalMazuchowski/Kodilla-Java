@@ -9,7 +9,7 @@ public class SudokuApp {
             theGame.valueReader();
             try {
                 gameFinished = theGame.resolveSudoku();
-            } catch (Exception e) {
+            } catch (CloneNotSupportedException e) {
                 e.printStackTrace();
             }
         }
