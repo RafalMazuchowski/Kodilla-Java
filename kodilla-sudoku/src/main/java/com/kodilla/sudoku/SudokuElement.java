@@ -26,8 +26,8 @@ public class SudokuElement implements Cloneable{
     }
 
     public void removePossibleValue(int valueToRemove) {
-        for (int value : possibleValues) {
-            if (value == valueToRemove) value = 0;
+        for (int i = 0; i < 9; i++) {
+            if (possibleValues[i] == valueToRemove) possibleValues[i] = EMPTY;
         }
     }
 
@@ -35,21 +35,18 @@ public class SudokuElement implements Cloneable{
         this.value = value;
     }
 
-    public boolean hasChosenOne() {
-        int count = 0;
-        for (int value : possibleValues) {
-            if (value != 0) count++;
-        }
-        return count == 1;
-    }
-
     public int chosenOne() {
+        int chosenOne = EMPTY;
         for (int value : possibleValues) {
-            if (value != 0) {
-                return value;
+            if (value != EMPTY) {
+                if (chosenOne == EMPTY) {
+                    chosenOne = value;
+                } else {
+                    return EMPTY;
+                }
             }
         }
-        return 0;
+        return chosenOne;
     }
 
     public boolean containsPossible(int value) {

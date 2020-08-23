@@ -67,7 +67,7 @@ public class SudokuGame {
                 {2, 6, 5, 8, 1, 4, 9, 3, 7},
                 {3, -1, -1, 9, 5, 7, -1, 6, 2}
         };*/
-        this.sudokuBoard = new SudokuBoard(board);
+        this.sudokuBoard = new SudokuBoard();
         backTracks = new ArrayList<>();
         System.out.println(sudokuBoard.toString());
     }
@@ -109,11 +109,12 @@ public class SudokuGame {
             if (sudokuElement.value == SudokuElement.EMPTY) {
                 for (int i = 0; i < 9; i++) {
                     int possibleValue = sudokuElement.possibleValues[i];
-                    if (possibleValue != 0) {
+                    if (possibleValue != SudokuElement.EMPTY) {
                         if (alreadyTaken(possibleValue, sudokuElements)) {
-                            sudokuElement.possibleValues[i] = 0;
+                            sudokuElement.possibleValues[i] = SudokuElement.EMPTY;
                             actionPerformed = true;
-                            if (sudokuElement.hasChosenOne() && tryInsert(sudokuElement.chosenOne(), sudokuElement, sudokuElements)) {
+                            int chosenOne = sudokuElement.chosenOne();
+                            if (chosenOne != SudokuElement.EMPTY && tryInsert(chosenOne, sudokuElement, sudokuElements)) {
                                 break;
                             }
                         } else {
@@ -166,10 +167,53 @@ public class SudokuGame {
         return actionPerformed;
     }
 
+    private boolean isSectionValid(ArrayList<SudokuElement> sudokuElements) {
+        for(int i = 0; i < 9; i++) {
+            for(int j = 0; j < 9; j++) {
+                if (i != j && sudokuElements.get(i).value == sudokuElements.get(j).value) {
+                    return false;
+                }
+            }
+        }
+        return true;
+    }
+
+    private boolean isValid() {
+        //horizontal
+        for (SudokuRow sudokuRow : this.sudokuBoard.sudokuRows) {
+            if (!isSectionValid(sudokuRow.sudokuElements)) {
+                return false;
+            }
+        }
+
+        //vertical
+        for (int i = 0; i < 9; i++) {
+            ArrayList<SudokuElement> sudokuElements = new ArrayList<>();
+            for (SudokuRow sudokuRow : this.sudokuBoard.sudokuRows) {
+                sudokuElements.add(sudokuRow.sudokuElements.get(i));
+            }
+            if (!isSectionValid(sudokuElements)) {
+                return false;
+            }
+        }
+
+        //squares
+        for (int[][] section : sections) {
+            ArrayList<SudokuElement> sudokuElements = new ArrayList<>();
+            for (int[] cell : section) {
+                sudokuElements.add(this.sudokuBoard.sudokuRows.get(cell[0]).sudokuElements.get(cell[1]));
+            }
+            if (!isSectionValid(sudokuElements)) {
+                return false;
+            }
+        }
+        return true;
+    }
+
     public void valueReader() {
         Pattern pattern = Pattern.compile("([1-9]),([1-9]),([1-9])");
         System.out.println("INSERT INITIAL VALUES...");
-        String input = "S";//scan.nextLine();
+        String input = scan.nextLine();
         while (!input.equals("S")) {
             Matcher matcher = pattern.matcher(input);
             if (matcher.matches()) {
@@ -196,7 +240,7 @@ public class SudokuGame {
                 SudokuElement sudokuElement = sudokuRow.sudokuElements.get(j);
                 if (sudokuElement.value == SudokuElement.EMPTY) {
                     for (int value : sudokuElement.possibleValues) {
-                        if (value != 0) {
+                        if (value != SudokuElement.EMPTY) {
                             backTrack.guessedValue = value;
                             backTrack.guessedRowIndex = i;
                             backTrack.guessedElementIndex = j;
@@ -217,18 +261,20 @@ public class SudokuGame {
             while (actionPerformed) {
                 try {
                     actionPerformed = iterate();
-                } catch (Exception e) {
-                    if (e.getClass() == SudokuUnsolvableException.class) {
-                        BackTrack backTrack = backTracks.get(backTracks.size() - 1);
-                        sudokuBoard = backTrack.sudokuBoard.clone();
-                        sudokuBoard.sudokuRows.get(backTrack.guessedRowIndex)
-                                .sudokuElements.get(backTrack.guessedElementIndex)
-                                .removePossibleValue(backTrack.guessedValue);
-                        backTracks.remove(backTrack);
-                        break;
-                    } else {
-                        System.out.println("Potentially unsolvable");
+                } catch (SudokuUnsolvableException e) {
+                    BackTrack backTrack = backTracks.get(backTracks.size() - 1);
+                    sudokuBoard = backTrack.sudokuBoard.clone();
+                    sudokuBoard.sudokuRows.get(backTrack.guessedRowIndex)
+                            .sudokuElements.get(backTrack.guessedElementIndex)
+                            .removePossibleValue(backTrack.guessedValue);
+                    backTracks.remove(backTrack);
+                    if (backTracks.size() == 0) {
+                        System.out.println("Unsolvable");
+                        finished = true;
                     }
+                    break;
+                } catch (Exception e) {
+                    System.out.println("Potentially unsolvable");
                 }
             }
             System.out.println(sudokuBoard.toString());
