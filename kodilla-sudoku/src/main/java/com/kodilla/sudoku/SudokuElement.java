@@ -7,11 +7,6 @@ public class SudokuElement implements Cloneable{
     int value;
     int[] possibleValues;
 
-    public SudokuElement(int value) {
-        this.value = value;
-        this.possibleValues = new int[]{1, 2, 3, 4, 5, 6, 7, 8, 9};
-    }
-
     public SudokuElement() {
         this.value = EMPTY;
         this.possibleValues = new int[]{1, 2, 3, 4, 5, 6, 7, 8, 9};

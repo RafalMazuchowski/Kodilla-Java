@@ -18,55 +18,11 @@ public class SudokuGame {
             {{3, 6}, {3, 7}, {3, 8}, {4, 6}, {4, 7}, {4, 8}, {5, 6}, {5, 7}, {5, 8}},
             {{6, 0}, {6, 1}, {6, 2}, {7, 0}, {7, 1}, {7, 2}, {8, 0}, {8, 1}, {8, 2}},
             {{6, 3}, {6, 4}, {6, 5}, {7, 3}, {7, 4}, {7, 5}, {8, 3}, {8, 4}, {8, 5}},
-            {{6, 6}, {6, 7}, {6, 8}, {7, 6}, {7, 7}, {7, 8}, {8, 6}, {8, 7}, {8, 8}},
+            {{6, 6}, {6, 7}, {6, 8}, {7, 6}, {7, 7}, {7, 8}, {8, 6}, {8, 7}, {8, 8}}
     };
 
 
     public SudokuGame() {
-     /*   int[][] board = {
-                {-1, 9, -1, -1, 4, -1, 8, -1, -1},
-                {5, -1, 1, 8, -1, -1, -1, -1, -1},
-                {4, -1, -1, -1, -1, -1, 7, -1, -1},
-                {8, 3, 5, -1, 2, -1, -1, -1, -1},
-                {1, -1, 7, -1, 3, -1, -1, -1, -1},
-                {-1, 2, 9, -1, -1, -1, -1, -1, -1},
-                {-1, 8, -1, -1, -1, 9, 2, 3, -1},
-                {-1, -1, -1, 2, -1, -1, -1, -1, -1},
-                {-1, -1, 2, -1, 7, 5, 4, 9, -1},
-        };*/
-        int[][] board = {
-                {-1, 2, -1, 5, -1, 1, -1, 9, -1},
-                {8, -1, -1, 2, -1, 3, -1, -1, 6},
-                {-1, 3, -1, -1, 6, -1, -1, 7, -1},
-                {-1, -1, 1, -1, -1, -1, 6, -1, -1},
-                {5, 4, -1, -1, -1, -1, -1, 1, 9},
-                {-1, -1, 2, -1, -1, -1, 7, -1, -1},
-                {-1, 9, -1, -1, 3, -1, -1, 8, -1},
-                {2, -1, -1, 8, -1, 4, -1, -1, 7},
-                {-1, 1, -1, 9, -1, 7, -1, 6, -1},
-        };
-       /* int[][] board = {
-                {-1, 2, -1, 5, -1, 1, -1, 9, -1},
-                {8, -1, -1, 2, -1, 3, -1, -1, 6},
-                {-1, 3, -1, -1, 6, -1, -1, 7, -1},
-                {-1, -1, 1, 3, 8, -1, 6, -1, -1},
-                {5, 4, -1, -1, 2, -1, -1, 1, 9},
-                {-1, -1, 2, -1, 4, -1, 7, -1, -1},
-                {-1, 9, -1, -1, 3, -1, -1, 8, -1},
-                {2, -1, -1, 8, -1, 4, -1, -1, 7},
-                {-1, 1, -1, 9, -1, 7, -1, 6, -1},
-        };*/
-        /*int[][] board = {
-                {4, 2, 6, 5, 7, 1, 3, 9, 8},
-                {8, 5, 7, 2, 9, 3, 1, 4, 6},
-                {1, 3, 9, 4, 6, 8, 2, 7, 5},
-                {9, 7, 1, 3, 8, 5, 6, 2, 4},
-                {5, 4, 3, 7, 2, 6, 8, 1, 9},
-                {6, 8, 2, 1, 4, 8, 7, 5, 3},
-                {7, 9, 4, 6, 3, 2, 5, 8, 1},
-                {2, 6, 5, 8, 1, 4, 9, 3, 7},
-                {3, -1, -1, 9, 5, 7, -1, 6, 2}
-        };*/
         this.sudokuBoard = new SudokuBoard();
         backTracks = new ArrayList<>();
         System.out.println(sudokuBoard.toString());
@@ -167,54 +123,11 @@ public class SudokuGame {
         return actionPerformed;
     }
 
-    private boolean isSectionValid(ArrayList<SudokuElement> sudokuElements) {
-        for(int i = 0; i < 9; i++) {
-            for(int j = 0; j < 9; j++) {
-                if (i != j && sudokuElements.get(i).value == sudokuElements.get(j).value) {
-                    return false;
-                }
-            }
-        }
-        return true;
-    }
-
-    private boolean isValid() {
-        //horizontal
-        for (SudokuRow sudokuRow : this.sudokuBoard.sudokuRows) {
-            if (!isSectionValid(sudokuRow.sudokuElements)) {
-                return false;
-            }
-        }
-
-        //vertical
-        for (int i = 0; i < 9; i++) {
-            ArrayList<SudokuElement> sudokuElements = new ArrayList<>();
-            for (SudokuRow sudokuRow : this.sudokuBoard.sudokuRows) {
-                sudokuElements.add(sudokuRow.sudokuElements.get(i));
-            }
-            if (!isSectionValid(sudokuElements)) {
-                return false;
-            }
-        }
-
-        //squares
-        for (int[][] section : sections) {
-            ArrayList<SudokuElement> sudokuElements = new ArrayList<>();
-            for (int[] cell : section) {
-                sudokuElements.add(this.sudokuBoard.sudokuRows.get(cell[0]).sudokuElements.get(cell[1]));
-            }
-            if (!isSectionValid(sudokuElements)) {
-                return false;
-            }
-        }
-        return true;
-    }
-
     public void valueReader() {
         Pattern pattern = Pattern.compile("([1-9]),([1-9]),([1-9])");
         System.out.println("INSERT INITIAL VALUES...");
-        String input = scan.nextLine();
-        while (!input.equals("S")) {
+        String input = scan.nextLine().toUpperCase();
+        while (!input.equals("SUDOKU")) {
             Matcher matcher = pattern.matcher(input);
             if (matcher.matches()) {
                 System.out.println("Row: " + matcher.group(1) + ", Element: " + matcher.group(2));

@@ -15,13 +15,6 @@ public class SudokuRow implements Cloneable{
         return clonedRow;
     }
 
-    public SudokuRow(int[] elements) {
-        this.sudokuElements = new ArrayList<>();
-        for (int i = 0; i < 9; i++) {
-            this.sudokuElements.add(new SudokuElement(elements[i]));
-        }
-    }
-
     public SudokuRow() {
         this.sudokuElements = new ArrayList<>();
         for (int i = 0; i < 9; i++) {
