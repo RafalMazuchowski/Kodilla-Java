@@ -204,16 +204,16 @@ public class SudokuGame {
     }
 
     private boolean loadBackTrack() throws CloneNotSupportedException {
+        if (backTracks.size() == 0) {
+            System.out.println("Unsolvable");
+            return false;
+        }
         BackTrack backTrack = backTracks.get(backTracks.size() - 1);
         sudokuBoard = backTrack.sudokuBoard.clone();
         sudokuBoard.sudokuRows.get(backTrack.guessedRowIndex)
                 .sudokuElements.get(backTrack.guessedElementIndex)
                 .removePossibleValue(backTrack.guessedValue);
         backTracks.remove(backTrack);
-        if (backTracks.size() == 0) {
-            System.out.println("Unsolvable");
-            return false;
-        }
         return true;
     }
 }
