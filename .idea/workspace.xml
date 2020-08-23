@@ -6,24 +6,20 @@
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a245913f-c98d-4a5c-80fb-23f011574553" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/kodilla-jdbc/src/test/java/com/kodilla/jdbc/StoredProcTestSuite.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/6.0.1/executionHistory/executionHistory.bin" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/6.0.1/executionHistory/executionHistory.lock" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/6.0.1/fileChanges/last-build.bin" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/6.0.1/fileContent/fileContent.lock" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/6.0.1/fileHashes/fileHashes.bin" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/6.0.1/fileHashes/fileHashes.lock" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/6.0.1/fileHashes/resourceHashesCache.bin" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/6.0.1/gc.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/6.0.1/javaCompile/classAnalysis.bin" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/6.0.1/javaCompile/jarAnalysis.bin" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/6.0.1/javaCompile/javaCompile.lock" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/6.0.1/javaCompile/taskHistory.bin" beforeDir="false" />
+    <list default="true" id="a245913f-c98d-4a5c-80fb-23f011574553" name="Default Changelist" comment="Project portfolio - an application solving Sudoku (16.8) ver. 1">
+      <change afterPath="$PROJECT_DIR$/kodilla-testing/src/test/java/com/kodilla/testing/loop/LoopAndConditionalBreakpoints.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kodilla-testing2/build.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kodilla-testing2/src/main/java/com/kodilla/testing2/config/WebDriverConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kodilla-testing2/src/main/java/com/kodilla/testing2/ebay/EBayTestingApp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kodilla-testing2/src/main/java/com/kodilla/testing2/google/GoogleTestingApp.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/checksums/checksums.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/checksums/checksums.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/checksums/md5-checksums.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/checksums/md5-checksums.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/checksums/sha1-checksums.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/checksums/sha1-checksums.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/untitled/build.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/settings.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/settings.gradle" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -106,6 +102,7 @@
     <property name="aspect.path.notification.shown" value="true" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit5" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="" />
+    <property name="extract.method.default.visibility" value="private" />
     <property name="last_directory_selection" value="$PROJECT_DIR$/kodilla-patterns2/src/main/java/com/kodilla/patterns2/decorator" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Modules" />
@@ -159,20 +156,59 @@
       </set>
     </option>
   </component>
-  <component name="RunManager" selected="Gradle.StoredProcTestSuite.testUpdateVipLevels">
-    <configuration name="MedianAdapterTestSuite" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+  <component name="RunManager" selected="Application.EBayTestingApp">
+    <configuration name="EBayTestingApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.kodilla.testing2.ebay.EBayTestingApp" />
+      <module name="kodilla-course.kodilla-testing2.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.kodilla.testing2.ebay.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="GoogleTestingApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.kodilla.testing2.google.GoogleTestingApp" />
+      <module name="kodilla-course.kodilla-testing2.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.kodilla.testing2.google.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SudokuApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.kodilla.sudoku.SudokuApp" />
+      <module name="kodilla-course.kodilla-sudoku.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.kodilla.sudoku.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SimpleInvoiceTestSuite" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
         <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="--tests &quot;com.kodilla.patterns2.adapter.bookclassifier.MedianAdapterTestSuite&quot;" />
+        <option name="scriptParameters" value="--tests &quot;com.kodilla.stream.invoice.simple.SimpleInvoiceTestSuite&quot;" />
         <option name="taskDescriptions">
           <list />
         </option>
         <option name="taskNames">
           <list>
-            <option value=":kodilla-patterns2:cleanTest" />
-            <option value=":kodilla-patterns2:test" />
+            <option value=":kodilla-stream:cleanTest" />
+            <option value=":kodilla-stream:test" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -180,79 +216,19 @@
       <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="MedianAdapterTestSuite.publicationYearMedianTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="SimpleInvoiceTestSuite.testGetValueToPay" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
         <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="--tests &quot;com.kodilla.patterns2.adapter.bookclassifier.MedianAdapterTestSuite.publicationYearMedianTest&quot;" />
+        <option name="scriptParameters" value="--tests &quot;com.kodilla.stream.invoice.simple.SimpleInvoiceTestSuite.testGetValueToPay&quot;" />
         <option name="taskDescriptions">
           <list />
         </option>
         <option name="taskNames">
           <list>
-            <option value=":kodilla-patterns2:cleanTest" />
-            <option value=":kodilla-patterns2:test" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
-      <method v="2" />
-    </configuration>
-    <configuration name="SalaryAdapterTestSuite" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="--tests &quot;com.kodilla.patterns2.adapter.company.SalaryAdapterTestSuite&quot;" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value=":kodilla-patterns2:cleanTest" />
-            <option value=":kodilla-patterns2:test" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
-      <method v="2" />
-    </configuration>
-    <configuration name="StoredProcTestSuite.testUpdateBestsellers" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="--tests &quot;com.kodilla.jdbc.StoredProcTestSuite.testUpdateBestsellers&quot;" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value=":kodilla-jdbc:cleanTest" />
-            <option value=":kodilla-jdbc:test" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
-      <method v="2" />
-    </configuration>
-    <configuration name="StoredProcTestSuite.testUpdateVipLevels" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="--tests &quot;com.kodilla.jdbc.StoredProcTestSuite.testUpdateVipLevels&quot;" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value=":kodilla-jdbc:cleanTest" />
-            <option value=":kodilla-jdbc:test" />
+            <option value=":kodilla-stream:cleanTest" />
+            <option value=":kodilla-stream:test" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -304,25 +280,25 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Gradle.SalaryAdapterTestSuite" />
-      <item itemvalue="Gradle.MedianAdapterTestSuite.publicationYearMedianTest" />
-      <item itemvalue="Gradle.MedianAdapterTestSuite" />
+      <item itemvalue="Application.GoogleTestingApp" />
+      <item itemvalue="Application.SudokuApp" />
+      <item itemvalue="Gradle.SimpleInvoiceTestSuite.testGetValueToPay" />
+      <item itemvalue="Gradle.SimpleInvoiceTestSuite" />
       <item itemvalue="JAR Application.GameJar" />
       <item itemvalue="Spring Boot.KodillaCourseApplication" />
       <item itemvalue="Spring Boot.SpringRunner" />
       <item itemvalue="Spring Boot.KodillaSpringWebApplication" />
       <item itemvalue="Spring Boot.KodillaHibernateApplication" />
       <item itemvalue="Spring Boot.KodillaPatterns2Application" />
-      <item itemvalue="Gradle.StoredProcTestSuite.testUpdateVipLevels" />
-      <item itemvalue="Gradle.StoredProcTestSuite.testUpdateBestsellers" />
+      <item itemvalue="Application.EBayTestingApp" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Gradle.StoredProcTestSuite.testUpdateVipLevels" />
-        <item itemvalue="Gradle.StoredProcTestSuite.testUpdateBestsellers" />
-        <item itemvalue="Gradle.MedianAdapterTestSuite" />
-        <item itemvalue="Gradle.MedianAdapterTestSuite.publicationYearMedianTest" />
-        <item itemvalue="Gradle.SalaryAdapterTestSuite" />
+        <item itemvalue="Application.EBayTestingApp" />
+        <item itemvalue="Application.SudokuApp" />
+        <item itemvalue="Application.GoogleTestingApp" />
+        <item itemvalue="Gradle.SimpleInvoiceTestSuite.testGetValueToPay" />
+        <item itemvalue="Gradle.SimpleInvoiceTestSuite" />
       </list>
     </recent_temporary>
   </component>
@@ -433,28 +409,20 @@
       <workItem from="1594906488916" duration="9644000" />
       <workItem from="1594961256633" duration="10483000" />
       <workItem from="1595083866464" duration="607000" />
-      <workItem from="1597299464544" duration="3909000" />
-    </task>
-    <task id="LOCAL-00004" summary="We collect figures (and test it!) (6.4)">
-      <created>1579994934802</created>
-      <option name="number" value="00004" />
-      <option name="presentableId" value="LOCAL-00004" />
-      <option name="project" value="LOCAL" />
-      <updated>1579994934802</updated>
-    </task>
-    <task id="LOCAL-00005" summary="Text enhancer (7.1)">
-      <created>1580068678933</created>
-      <option name="number" value="00005" />
-      <option name="presentableId" value="LOCAL-00005" />
-      <option name="project" value="LOCAL" />
-      <updated>1580068678934</updated>
-    </task>
-    <task id="LOCAL-00006" summary="An indispensable forum user (7.2)">
-      <created>1580084265814</created>
-      <option name="number" value="00006" />
-      <option name="presentableId" value="LOCAL-00006" />
-      <option name="project" value="LOCAL" />
-      <updated>1580084265814</updated>
+      <workItem from="1597299464544" duration="7467000" />
+      <workItem from="1597665697994" duration="581000" />
+      <workItem from="1597670389478" duration="259000" />
+      <workItem from="1597760224794" duration="1485000" />
+      <workItem from="1597936498692" duration="2990000" />
+      <workItem from="1597947927024" duration="282000" />
+      <workItem from="1597948833304" duration="1201000" />
+      <workItem from="1597950128926" duration="61000" />
+      <workItem from="1598014474745" duration="5411000" />
+      <workItem from="1598034603955" duration="1398000" />
+      <workItem from="1598109752699" duration="8047000" />
+      <workItem from="1598120188892" duration="11736000" />
+      <workItem from="1598132271017" duration="82000" />
+      <workItem from="1598132899047" duration="6562000" />
     </task>
     <task id="LOCAL-00007" summary="The functional walk through the forum users list (7.3)">
       <created>1580241446758</created>
@@ -778,7 +746,28 @@
       <option name="project" value="LOCAL" />
       <updated>1595012756875</updated>
     </task>
-    <option name="localTasksCounter" value="53" />
+    <task id="LOCAL-00053" summary="UpdateBestsellers procedure call from Java (30.3)">
+      <created>1597580350439</created>
+      <option name="number" value="00053" />
+      <option name="presentableId" value="LOCAL-00053" />
+      <option name="project" value="LOCAL" />
+      <updated>1597580350440</updated>
+    </task>
+    <task id="LOCAL-00054" summary="Project portfolio - an application solving Sudoku (16.8) ver. 1">
+      <created>1598122491416</created>
+      <option name="number" value="00054" />
+      <option name="presentableId" value="LOCAL-00054" />
+      <option name="project" value="LOCAL" />
+      <updated>1598122491417</updated>
+    </task>
+    <task id="LOCAL-00055" summary="Project portfolio - an application solving Sudoku (16.8) ver. 2">
+      <created>1598135183234</created>
+      <option name="number" value="00055" />
+      <option name="presentableId" value="LOCAL-00055" />
+      <option name="project" value="LOCAL" />
+      <updated>1598135183234</updated>
+    </task>
+    <option name="localTasksCounter" value="56" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -786,9 +775,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="Flights (13.5)" />
-    <MESSAGE value="Bean ForumUser (14.1)" />
-    <MESSAGE value="Calculator with display (14.2)" />
     <MESSAGE value="A list with task lists (14.3)" />
     <MESSAGE value="All in one (14.4)" />
     <MESSAGE value="Singleton used to save logs of performed operations (15.10" />
@@ -811,26 +797,29 @@
     <MESSAGE value="Adding request logging to the facade (24.3)" />
     <MESSAGE value="Queues with tasks to be checked (24.4)" />
     <MESSAGE value="Statistical classifier books (24.5)" />
-    <option name="LAST_COMMIT_MESSAGE" value="Statistical classifier books (24.5)" />
+    <MESSAGE value="UpdateBestsellers procedure call from Java (30.3)" />
+    <MESSAGE value="Project portfolio - an application solving Sudoku (16.8) ver. 1" />
+    <MESSAGE value="Project portfolio - an application solving Sudoku (16.8) ver. 2" />
+    <option name="LAST_COMMIT_MESSAGE" value="Project portfolio - an application solving Sudoku (16.8) ver. 2" />
   </component>
   <component name="WindowStateProjectService">
     <state x="1638" y="23" key="#Notifications" timestamp="1594831088554">
       <screen x="1366" y="0" width="1360" height="728" />
     </state>
     <state x="1638" y="23" key="#Notifications/0.0.1366.728/1366.0.1360.728@1366.0.1360.728" timestamp="1594831088554" />
-    <state x="1638" y="23" key="#Project_Structure" timestamp="1594828447457">
+    <state x="1638" y="23" key="#Project_Structure" timestamp="1598028015361">
       <screen x="1366" y="0" width="1360" height="728" />
     </state>
-    <state x="1638" y="23" key="#Project_Structure/0.0.1366.728/1366.0.1360.728@1366.0.1360.728" timestamp="1594828447457" />
+    <state x="1638" y="23" key="#Project_Structure/0.0.1366.728/1366.0.1360.728@1366.0.1360.728" timestamp="1598028015361" />
     <state x="1638" y="23" key="#SQL_Dialects" timestamp="1597578852664">
       <screen x="1366" y="0" width="1360" height="728" />
     </state>
     <state x="1638" y="23" key="#SQL_Dialects/0.0.1366.728/1366.0.1360.728@1366.0.1360.728" timestamp="1597578852664" />
-    <state x="1474" y="77" key="#com.intellij.ide.util.MemberChooser" timestamp="1594921670389">
+    <state x="1474" y="77" key="#com.intellij.ide.util.MemberChooser" timestamp="1598131204591">
       <screen x="1366" y="0" width="1360" height="728" />
     </state>
     <state x="108" y="77" key="#com.intellij.ide.util.MemberChooser/0.0.1366.728/1366.0.1360.728@0.0.1366.728" timestamp="1593165312231" />
-    <state x="1474" y="77" key="#com.intellij.ide.util.MemberChooser/0.0.1366.728/1366.0.1360.728@1366.0.1360.728" timestamp="1594921670389" />
+    <state x="1474" y="77" key="#com.intellij.ide.util.MemberChooser/0.0.1366.728/1366.0.1360.728@1366.0.1360.728" timestamp="1598131204591" />
     <state x="1680" y="290" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog" timestamp="1595011209250">
       <screen x="1366" y="0" width="1360" height="728" />
     </state>
@@ -839,11 +828,19 @@
       <screen x="1366" y="0" width="1360" height="728" />
     </state>
     <state x="1756" y="224" width="608" height="288" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.0.1366.728/1366.0.1360.728@1366.0.1360.728" timestamp="1594910382561" />
-    <state x="1647" y="0" key="CommitChangelistDialog2" timestamp="1595012746692">
+    <state x="1833" y="195" key="#com.intellij.refactoring.move.moveInstanceMethod.MoveInstanceMethodDialog" timestamp="1598130112324">
+      <screen x="1366" y="0" width="1360" height="728" />
+    </state>
+    <state x="1833" y="195" key="#com.intellij.refactoring.move.moveInstanceMethod.MoveInstanceMethodDialog/0.0.1366.728/1366.0.1360.728@1366.0.1360.728" timestamp="1598130112324" />
+    <state x="1647" y="0" key="CommitChangelistDialog2" timestamp="1598147194897">
       <screen x="1366" y="0" width="1360" height="728" />
     </state>
     <state x="282" y="0" key="CommitChangelistDialog2/0.0.1366.728/1366.0.1360.728@0.0.1366.728" timestamp="1593167084887" />
-    <state x="1647" y="0" key="CommitChangelistDialog2/0.0.1366.728/1366.0.1360.728@1366.0.1360.728" timestamp="1595012746692" />
+    <state x="1647" y="0" key="CommitChangelistDialog2/0.0.1366.728/1366.0.1360.728@1366.0.1360.728" timestamp="1598147194897" />
+    <state width="535" height="438" key="DebuggerActiveHint" timestamp="1598134462647">
+      <screen x="1366" y="0" width="1360" height="728" />
+    </state>
+    <state width="535" height="438" key="DebuggerActiveHint/0.0.1366.728/1366.0.1360.728@1366.0.1360.728" timestamp="1598134462647" />
     <state x="1575" y="30" key="DiffContextDialog" timestamp="1595000082088">
       <screen x="1366" y="0" width="1360" height="728" />
     </state>
@@ -852,47 +849,51 @@
       <screen x="1366" y="0" width="1360" height="728" />
     </state>
     <state x="2152" y="135" key="FileChooserDialogImpl/0.0.1366.728/1366.0.1360.728@1366.0.1360.728" timestamp="1595117864998" />
-    <state width="1317" height="247" key="GridCell.Tab.0.bottom" timestamp="1597579974018">
+    <state width="1317" height="212" key="GridCell.Tab.0.bottom" timestamp="1598147098813">
       <screen x="1366" y="0" width="1360" height="728" />
     </state>
     <state width="1323" height="185" key="GridCell.Tab.0.bottom/0.0.1366.728/1366.0.1360.728@0.0.1366.728" timestamp="1593217012873" />
-    <state width="1317" height="247" key="GridCell.Tab.0.bottom/0.0.1366.728/1366.0.1360.728@1366.0.1360.728" timestamp="1597579974018" />
-    <state width="1317" height="247" key="GridCell.Tab.0.center" timestamp="1597579974018">
+    <state width="1317" height="212" key="GridCell.Tab.0.bottom/0.0.1366.728/1366.0.1360.728@1366.0.1360.728" timestamp="1598147098813" />
+    <state width="1317" height="212" key="GridCell.Tab.0.center" timestamp="1598147098812">
       <screen x="1366" y="0" width="1360" height="728" />
     </state>
     <state width="1323" height="185" key="GridCell.Tab.0.center/0.0.1366.728/1366.0.1360.728@0.0.1366.728" timestamp="1593217012873" />
-    <state width="1317" height="247" key="GridCell.Tab.0.center/0.0.1366.728/1366.0.1360.728@1366.0.1360.728" timestamp="1597579974018" />
-    <state width="1317" height="247" key="GridCell.Tab.0.left" timestamp="1597579974017">
+    <state width="1317" height="212" key="GridCell.Tab.0.center/0.0.1366.728/1366.0.1360.728@1366.0.1360.728" timestamp="1598147098812" />
+    <state width="1317" height="212" key="GridCell.Tab.0.left" timestamp="1598147098812">
       <screen x="1366" y="0" width="1360" height="728" />
     </state>
     <state width="1323" height="185" key="GridCell.Tab.0.left/0.0.1366.728/1366.0.1360.728@0.0.1366.728" timestamp="1593217012873" />
-    <state width="1317" height="247" key="GridCell.Tab.0.left/0.0.1366.728/1366.0.1360.728@1366.0.1360.728" timestamp="1597579974017" />
-    <state width="1317" height="247" key="GridCell.Tab.0.right" timestamp="1597579974018">
+    <state width="1317" height="212" key="GridCell.Tab.0.left/0.0.1366.728/1366.0.1360.728@1366.0.1360.728" timestamp="1598147098812" />
+    <state width="1317" height="212" key="GridCell.Tab.0.right" timestamp="1598147098812">
       <screen x="1366" y="0" width="1360" height="728" />
     </state>
     <state width="1323" height="185" key="GridCell.Tab.0.right/0.0.1366.728/1366.0.1360.728@0.0.1366.728" timestamp="1593217012873" />
-    <state width="1317" height="247" key="GridCell.Tab.0.right/0.0.1366.728/1366.0.1360.728@1366.0.1360.728" timestamp="1597579974018" />
-    <state width="1317" height="140" key="GridCell.Tab.1.bottom" timestamp="1593689957620">
+    <state width="1317" height="212" key="GridCell.Tab.0.right/0.0.1366.728/1366.0.1360.728@1366.0.1360.728" timestamp="1598147098812" />
+    <state width="1317" height="220" key="GridCell.Tab.1.bottom" timestamp="1598145326733">
       <screen x="1366" y="0" width="1360" height="728" />
     </state>
-    <state width="1317" height="140" key="GridCell.Tab.1.bottom/0.0.1366.728/1366.0.1360.728@1366.0.1360.728" timestamp="1593689957620" />
-    <state width="1317" height="140" key="GridCell.Tab.1.center" timestamp="1593689957620">
+    <state width="1317" height="220" key="GridCell.Tab.1.bottom/0.0.1366.728/1366.0.1360.728@1366.0.1360.728" timestamp="1598145326733" />
+    <state width="1317" height="220" key="GridCell.Tab.1.center" timestamp="1598145326733">
       <screen x="1366" y="0" width="1360" height="728" />
     </state>
-    <state width="1317" height="140" key="GridCell.Tab.1.center/0.0.1366.728/1366.0.1360.728@1366.0.1360.728" timestamp="1593689957620" />
-    <state width="1317" height="140" key="GridCell.Tab.1.left" timestamp="1593689957620">
+    <state width="1317" height="220" key="GridCell.Tab.1.center/0.0.1366.728/1366.0.1360.728@1366.0.1360.728" timestamp="1598145326733" />
+    <state width="1317" height="220" key="GridCell.Tab.1.left" timestamp="1598145326733">
       <screen x="1366" y="0" width="1360" height="728" />
     </state>
-    <state width="1317" height="140" key="GridCell.Tab.1.left/0.0.1366.728/1366.0.1360.728@1366.0.1360.728" timestamp="1593689957620" />
-    <state width="1317" height="140" key="GridCell.Tab.1.right" timestamp="1593689957620">
+    <state width="1317" height="220" key="GridCell.Tab.1.left/0.0.1366.728/1366.0.1360.728@1366.0.1360.728" timestamp="1598145326733" />
+    <state width="1317" height="220" key="GridCell.Tab.1.right" timestamp="1598145326733">
       <screen x="1366" y="0" width="1360" height="728" />
     </state>
-    <state width="1317" height="140" key="GridCell.Tab.1.right/0.0.1366.728/1366.0.1360.728@1366.0.1360.728" timestamp="1593689957620" />
-    <state x="1721" y="67" key="Vcs.Push.Dialog.v2" timestamp="1595012759208">
+    <state width="1317" height="220" key="GridCell.Tab.1.right/0.0.1366.728/1366.0.1360.728@1366.0.1360.728" timestamp="1598145326733" />
+    <state x="1547" y="7" key="SettingsEditor" timestamp="1598033627629">
+      <screen x="1366" y="0" width="1360" height="728" />
+    </state>
+    <state x="1547" y="7" key="SettingsEditor/0.0.1366.728/1366.0.1360.728@1366.0.1360.728" timestamp="1598033627629" />
+    <state x="1721" y="67" key="Vcs.Push.Dialog.v2" timestamp="1597580357098">
       <screen x="1366" y="0" width="1360" height="728" />
     </state>
     <state x="357" y="67" key="Vcs.Push.Dialog.v2/0.0.1366.728/1366.0.1360.728@0.0.1366.728" timestamp="1593167091059" />
-    <state x="1721" y="67" key="Vcs.Push.Dialog.v2/0.0.1366.728/1366.0.1360.728@1366.0.1360.728" timestamp="1595012759208" />
+    <state x="1721" y="67" key="Vcs.Push.Dialog.v2/0.0.1366.728/1366.0.1360.728@1366.0.1360.728" timestamp="1597580357098" />
     <state x="1862" y="143" key="chooseDestDirectoryDialog" timestamp="1594920986527">
       <screen x="1366" y="0" width="1360" height="728" />
     </state>
@@ -905,10 +906,18 @@
       <screen x="1366" y="0" width="1360" height="728" />
     </state>
     <state x="1877" y="124" key="com.intellij.testIntegration.createTest.CreateTestDialog/0.0.1366.728/1366.0.1360.728@1366.0.1360.728" timestamp="1595000514887" />
-    <state x="1394" y="0" key="new project wizard" timestamp="1594909958424">
+    <state x="1578" y="99" width="940" height="629" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2" timestamp="1598134541311">
       <screen x="1366" y="0" width="1360" height="728" />
     </state>
-    <state x="1394" y="0" key="new project wizard/0.0.1366.728/1366.0.1360.728@1366.0.1360.728" timestamp="1594909958424" />
+    <state x="1578" y="99" width="940" height="629" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2/0.0.1366.728/1366.0.1360.728@1366.0.1360.728" timestamp="1598134541311" />
+    <state x="1776" y="134" key="extract.method.dialog" timestamp="1598130187638">
+      <screen x="1366" y="0" width="1360" height="728" />
+    </state>
+    <state x="1776" y="134" key="extract.method.dialog/0.0.1366.728/1366.0.1360.728@1366.0.1360.728" timestamp="1598130187638" />
+    <state x="1394" y="0" key="new project wizard" timestamp="1598112494738">
+      <screen x="1366" y="0" width="1360" height="728" />
+    </state>
+    <state x="1394" y="0" key="new project wizard/0.0.1366.728/1366.0.1360.728@1366.0.1360.728" timestamp="1598112494738" />
     <state x="339" y="162" key="run.anything.popup" timestamp="1593158907586">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -917,16 +926,49 @@
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
+        <line-breakpoint type="java-line">
           <url>file://$PROJECT_DIR$/kodilla-spring/src/test/java/com/kodilla/spring/calculator/CalculatorTestSuite.java</url>
           <line>10</line>
           <option name="timeStamp" value="5" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>file://$PROJECT_DIR$/kodilla-patterns/src/main/java/com/kodilla/patterns/builder/checkers/Checkers.java</url>
+          <line>41</line>
+          <option name="timeStamp" value="6" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <condition expression="n == 950" language="JAVA" />
+          <url>file://$PROJECT_DIR$/kodilla-testing/src/test/java/com/kodilla/testing/loop/LoopAndConditionalBreakpoints.java</url>
+          <line>13</line>
+          <option name="timeStamp" value="7" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <condition expression="product.getProductName().equals(&quot;Product 2&quot;)" language="JAVA" />
+          <url>file://$PROJECT_DIR$/kodilla-stream/src/main/java/com/kodilla/stream/invoice/simple/SimpleItem.java</url>
+          <line>20</line>
+          <option name="timeStamp" value="18" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/kodilla-sudoku/src/main/java/com/kodilla/sudoku/SudokuGame.java</url>
+          <line>48</line>
+          <option name="timeStamp" value="31" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/kodilla-sudoku/src/main/java/com/kodilla/sudoku/SudokuGame.java</url>
+          <line>39</line>
+          <option name="timeStamp" value="32" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/kodilla-sudoku/src/main/java/com/kodilla/sudoku/SudokuGame.java</url>
+          <line>96</line>
+          <option name="timeStamp" value="33" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
     <watches-manager>
       <configuration name="Remote">
         <watch expression="f" />
+        <watch expression="((CheckersBuilder)this).playerTwo" custom="com.kodilla.patterns.builder.checkers.Checkers.CheckersBuilder" />
       </configuration>
     </watches-manager>
   </component>

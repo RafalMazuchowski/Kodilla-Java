@@ -14,4 +14,6 @@ include 'kodilla-course'
 include 'kodilla-hibernate'
 include 'kodilla-patterns2'
 include 'untitled'
+include 'kodilla-testing2'
+include 'kodilla-sudoku'
 
