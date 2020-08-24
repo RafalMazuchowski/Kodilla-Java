@@ -6,11 +6,9 @@
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a245913f-c98d-4a5c-80fb-23f011574553" name="Default Changelist" comment="Project portfolio - an application solving Sudoku (16.8) ver. 4">
-      <change afterPath="$PROJECT_DIR$/kodilla-testing2/src/main/java/com/kodilla/testing2/crudapp/CrudAppTestingApp.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kodilla-testing2/src/main/java/com/kodilla/testing2/facebook/FacebookTestingApp.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
+    <list default="true" id="a245913f-c98d-4a5c-80fb-23f011574553" name="Default Changelist" comment="Assume an account on Facebook (31.3) New version">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/kodilla-testing2/src/main/java/com/kodilla/testing2/facebook/FacebookTestingApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/kodilla-testing2/src/main/java/com/kodilla/testing2/facebook/FacebookTestingApp.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -260,14 +258,14 @@
       <item itemvalue="Application.GoogleTestingApp" />
       <item itemvalue="Application.SudokuApp" />
       <item itemvalue="Application.EBayTestingApp" />
+      <item itemvalue="Application.CrudAppTestingApp" />
+      <item itemvalue="Application.FacebookTestingApp" />
       <item itemvalue="JAR Application.GameJar" />
       <item itemvalue="Spring Boot.KodillaCourseApplication" />
       <item itemvalue="Spring Boot.SpringRunner" />
       <item itemvalue="Spring Boot.KodillaSpringWebApplication" />
       <item itemvalue="Spring Boot.KodillaHibernateApplication" />
       <item itemvalue="Spring Boot.KodillaPatterns2Application" />
-      <item itemvalue="Application.CrudAppTestingApp" />
-      <item itemvalue="Application.FacebookTestingApp" />
     </list>
     <recent_temporary>
       <list>
@@ -400,14 +398,8 @@
       <workItem from="1598120188892" duration="11736000" />
       <workItem from="1598132271017" duration="82000" />
       <workItem from="1598132899047" duration="8428000" />
-      <workItem from="1598178270666" duration="32796000" />
-    </task>
-    <task id="LOCAL-00012" summary="Calculate the number of people in the world (7.4)">
-      <created>1580592918139</created>
-      <option name="number" value="00012" />
-      <option name="presentableId" value="LOCAL-00012" />
-      <option name="project" value="LOCAL" />
-      <updated>1580592918139</updated>
+      <workItem from="1598178270666" duration="33530000" />
+      <workItem from="1598302925850" duration="7362000" />
     </task>
     <task id="LOCAL-00013" summary="Calculate the number of people in the world (7.4) - add flatMap">
       <created>1580599920680</created>
@@ -745,7 +737,14 @@
       <option name="project" value="LOCAL" />
       <updated>1598210979233</updated>
     </task>
-    <option name="localTasksCounter" value="61" />
+    <task id="LOCAL-00061" summary="Assume an account on Facebook (31.3)">
+      <created>1598229335255</created>
+      <option name="number" value="00061" />
+      <option name="presentableId" value="LOCAL-00061" />
+      <option name="project" value="LOCAL" />
+      <updated>1598229335270</updated>
+    </task>
+    <option name="localTasksCounter" value="62" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -766,8 +765,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="Composing own Big Mac (15.5)" />
-    <MESSAGE value="Active users (16.6)" />
     <MESSAGE value="Attach the Hibernate framework (17.1)" />
     <MESSAGE value="Create the task list entity (17.2)" />
     <MESSAGE value="Headlines invoices and their positions (17.3)" />
@@ -791,7 +788,9 @@
     <MESSAGE value="Project portfolio - an application solving Sudoku (16.8) ver. 4" />
     <MESSAGE value="Project portfolio - an application solving Sudoku (16.8) alternative" />
     <MESSAGE value="Project portfolio - an application solving Sudoku (16.8) ver. 5" />
-    <option name="LAST_COMMIT_MESSAGE" value="Project portfolio - an application solving Sudoku (16.8) ver. 5" />
+    <MESSAGE value="Assume an account on Facebook (31.3)" />
+    <MESSAGE value="Assume an account on Facebook (31.3) New version" />
+    <option name="LAST_COMMIT_MESSAGE" value="Assume an account on Facebook (31.3) New version" />
   </component>
   <component name="WindowStateProjectService">
     <state x="1638" y="23" key="#Notifications" timestamp="1594831088554">
@@ -835,11 +834,11 @@
       <screen x="1366" y="0" width="1360" height="728" />
     </state>
     <state x="1801" y="68" key="#xdebugger.evaluate/0.0.1366.728/1366.0.1360.728@1366.0.1360.728" timestamp="1598196176494" />
-    <state x="484" y="0" key="CommitChangelistDialog2" timestamp="1598229293635">
+    <state x="484" y="0" key="CommitChangelistDialog2" timestamp="1598311786161">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="282" y="0" key="CommitChangelistDialog2/0.0.1366.728/1366.0.1360.728@0.0.1366.728" timestamp="1593167084887" />
-    <state x="484" y="0" key="CommitChangelistDialog2/0.0.1366.728/1366.0.1360.728@1366.0.1360.728" timestamp="1598229293635" />
+    <state x="484" y="0" key="CommitChangelistDialog2/0.0.1366.728/1366.0.1360.728@1366.0.1360.728" timestamp="1598311786161" />
     <state width="535" height="438" key="DebuggerActiveHint" timestamp="1598207465679">
       <screen x="1366" y="0" width="1360" height="728" />
     </state>
@@ -856,42 +855,42 @@
       <screen x="1366" y="0" width="1360" height="728" />
     </state>
     <state x="1876" y="266" key="GitRewordDialog/0.0.1366.728/1366.0.1360.728@1366.0.1360.728" timestamp="1598147674965" />
-    <state width="1317" height="138" key="GridCell.Tab.0.bottom" timestamp="1598229233565">
+    <state width="1317" height="122" key="GridCell.Tab.0.bottom" timestamp="1598310701784">
       <screen x="1366" y="0" width="1360" height="728" />
     </state>
     <state width="1323" height="138" key="GridCell.Tab.0.bottom/0.0.1366.728/1366.0.1360.728@0.0.1366.728" timestamp="1598222517547" />
-    <state width="1317" height="138" key="GridCell.Tab.0.bottom/0.0.1366.728/1366.0.1360.728@1366.0.1360.728" timestamp="1598229233565" />
-    <state width="1317" height="138" key="GridCell.Tab.0.center" timestamp="1598229233565">
+    <state width="1317" height="122" key="GridCell.Tab.0.bottom/0.0.1366.728/1366.0.1360.728@1366.0.1360.728" timestamp="1598310701784" />
+    <state width="1317" height="122" key="GridCell.Tab.0.center" timestamp="1598310701784">
       <screen x="1366" y="0" width="1360" height="728" />
     </state>
     <state width="1323" height="138" key="GridCell.Tab.0.center/0.0.1366.728/1366.0.1360.728@0.0.1366.728" timestamp="1598222517547" />
-    <state width="1317" height="138" key="GridCell.Tab.0.center/0.0.1366.728/1366.0.1360.728@1366.0.1360.728" timestamp="1598229233565" />
-    <state width="1317" height="138" key="GridCell.Tab.0.left" timestamp="1598229233565">
+    <state width="1317" height="122" key="GridCell.Tab.0.center/0.0.1366.728/1366.0.1360.728@1366.0.1360.728" timestamp="1598310701784" />
+    <state width="1317" height="122" key="GridCell.Tab.0.left" timestamp="1598310701784">
       <screen x="1366" y="0" width="1360" height="728" />
     </state>
     <state width="1323" height="138" key="GridCell.Tab.0.left/0.0.1366.728/1366.0.1360.728@0.0.1366.728" timestamp="1598222517547" />
-    <state width="1317" height="138" key="GridCell.Tab.0.left/0.0.1366.728/1366.0.1360.728@1366.0.1360.728" timestamp="1598229233565" />
-    <state width="1317" height="138" key="GridCell.Tab.0.right" timestamp="1598229233565">
+    <state width="1317" height="122" key="GridCell.Tab.0.left/0.0.1366.728/1366.0.1360.728@1366.0.1360.728" timestamp="1598310701784" />
+    <state width="1317" height="122" key="GridCell.Tab.0.right" timestamp="1598310701784">
       <screen x="1366" y="0" width="1360" height="728" />
     </state>
     <state width="1323" height="138" key="GridCell.Tab.0.right/0.0.1366.728/1366.0.1360.728@0.0.1366.728" timestamp="1598222517547" />
-    <state width="1317" height="138" key="GridCell.Tab.0.right/0.0.1366.728/1366.0.1360.728@1366.0.1360.728" timestamp="1598229233565" />
-    <state width="1317" height="248" key="GridCell.Tab.1.bottom" timestamp="1598207637325">
+    <state width="1317" height="122" key="GridCell.Tab.0.right/0.0.1366.728/1366.0.1360.728@1366.0.1360.728" timestamp="1598310701784" />
+    <state width="1317" height="248" key="GridCell.Tab.1.bottom" timestamp="1598231386522">
       <screen x="1366" y="0" width="1360" height="728" />
     </state>
-    <state width="1317" height="248" key="GridCell.Tab.1.bottom/0.0.1366.728/1366.0.1360.728@1366.0.1360.728" timestamp="1598207637325" />
-    <state width="1317" height="248" key="GridCell.Tab.1.center" timestamp="1598207637325">
+    <state width="1317" height="248" key="GridCell.Tab.1.bottom/0.0.1366.728/1366.0.1360.728@1366.0.1360.728" timestamp="1598231386522" />
+    <state width="1317" height="248" key="GridCell.Tab.1.center" timestamp="1598231386522">
       <screen x="1366" y="0" width="1360" height="728" />
     </state>
-    <state width="1317" height="248" key="GridCell.Tab.1.center/0.0.1366.728/1366.0.1360.728@1366.0.1360.728" timestamp="1598207637325" />
-    <state width="1317" height="248" key="GridCell.Tab.1.left" timestamp="1598207637325">
+    <state width="1317" height="248" key="GridCell.Tab.1.center/0.0.1366.728/1366.0.1360.728@1366.0.1360.728" timestamp="1598231386522" />
+    <state width="1317" height="248" key="GridCell.Tab.1.left" timestamp="1598231386522">
       <screen x="1366" y="0" width="1360" height="728" />
     </state>
-    <state width="1317" height="248" key="GridCell.Tab.1.left/0.0.1366.728/1366.0.1360.728@1366.0.1360.728" timestamp="1598207637325" />
-    <state width="1317" height="248" key="GridCell.Tab.1.right" timestamp="1598207637325">
+    <state width="1317" height="248" key="GridCell.Tab.1.left/0.0.1366.728/1366.0.1360.728@1366.0.1360.728" timestamp="1598231386522" />
+    <state width="1317" height="248" key="GridCell.Tab.1.right" timestamp="1598231386522">
       <screen x="1366" y="0" width="1360" height="728" />
     </state>
-    <state width="1317" height="248" key="GridCell.Tab.1.right/0.0.1366.728/1366.0.1360.728@1366.0.1360.728" timestamp="1598207637325" />
+    <state width="1317" height="248" key="GridCell.Tab.1.right/0.0.1366.728/1366.0.1360.728@1366.0.1360.728" timestamp="1598231386522" />
     <state x="1547" y="7" key="SettingsEditor" timestamp="1598033627629">
       <screen x="1366" y="0" width="1360" height="728" />
     </state>
