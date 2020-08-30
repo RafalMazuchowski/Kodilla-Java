@@ -144,7 +144,7 @@ public class SudokuGame {
         }
     }
 
-    public BackTrack guess() throws CloneNotSupportedException {
+    public BackTrack guess() throws CloneNotSupportedException, SudokuUnsolvableException {
         BackTrack backTrack = new BackTrack();
         backTrack.sudokuBoard = sudokuBoard.clone();
         for (int i = 0; i < 9; i++) {
@@ -152,6 +152,10 @@ public class SudokuGame {
             for (int j = 0; j < 9; j++) {
                 SudokuElement sudokuElement = sudokuRow.sudokuElements.get(j);
                 if (sudokuElement.value == SudokuElement.EMPTY) {
+                    if (!sudokuElement.hasAnyPossibleValue()) {
+                        System.out.println("Throwing Guess");
+                        throw new SudokuUnsolvableException();
+                    }
                     for (int value : sudokuElement.possibleValues) {
                         if (value != SudokuElement.EMPTY) {
                             backTrack.guessedValue = value;
@@ -175,16 +179,7 @@ public class SudokuGame {
                 try {
                     actionPerformed = iterate();
                 } catch (SudokuUnsolvableException e) {
-                    BackTrack backTrack = backTracks.get(backTracks.size() - 1);
-                    sudokuBoard = backTrack.sudokuBoard.clone();
-                    sudokuBoard.sudokuRows.get(backTrack.guessedRowIndex)
-                            .sudokuElements.get(backTrack.guessedElementIndex)
-                            .removePossibleValue(backTrack.guessedValue);
-                    backTracks.remove(backTrack);
-                    if (backTracks.size() == 0) {
-                        System.out.println("Unsolvable");
-                        finished = true;
-                    }
+                    finished = !loadBackTrack();
                     break;
                 } catch (Exception e) {
                     System.out.println("Potentially unsolvable");
@@ -196,12 +191,30 @@ public class SudokuGame {
                 finished = true;
             } else {
                 System.out.println("Guessing...");
-                backTracks.add(guess());
+                try {
+                    backTracks.add(guess());
+                } catch (SudokuUnsolvableException e) {
+                    finished = !loadBackTrack();
+                }
             }
         }
         System.out.println("PLAY AGAIN? (Y/N)");
         String input = scan.nextLine();
         return !input.equals("y") && !input.equals("Y");
+    }
+
+    private boolean loadBackTrack() throws CloneNotSupportedException {
+        BackTrack backTrack = backTracks.get(backTracks.size() - 1);
+        sudokuBoard = backTrack.sudokuBoard.clone();
+        sudokuBoard.sudokuRows.get(backTrack.guessedRowIndex)
+                .sudokuElements.get(backTrack.guessedElementIndex)
+                .removePossibleValue(backTrack.guessedValue);
+        backTracks.remove(backTrack);
+        if (backTracks.size() == 0) {
+            System.out.println("Unsolvable");
+            return false;
+        }
+        return true;
     }
 }
 

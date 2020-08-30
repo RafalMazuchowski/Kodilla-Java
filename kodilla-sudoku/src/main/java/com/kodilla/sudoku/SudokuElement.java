@@ -53,6 +53,15 @@ public class SudokuElement implements Cloneable{
         return false;
     }
 
+    public boolean hasAnyPossibleValue () {
+        for (int possibleValue : possibleValues) {
+            if (possibleValue != EMPTY) {
+                return true;
+            }
+        }
+        return false;
+    }
+
     @Override
     public String toString() {
         return value == EMPTY ? " " : Integer.toString(value);
